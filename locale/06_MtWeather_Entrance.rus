@@ -1,0 +1,17 @@
+[GameComputerSecurity0]
+Views[0]="(titleString="Пост",CameraTag=BlockPostCamera,Turrettag=BlockPostTurret)"
+
+[SpecialEvent0]
+Message="Запуск был прерван"
+
+[GameComputerSecurity2]
+specialOptions[0]="(Text="Начать подготовку к запуску",TriggerText="Идет подготовка к запуску",TriggerEvent=ProcessLaunch,bTriggerOnceOnly=True)"
+
+[DeusExLevelInfo0]
+MissionLocation="Mt. Weather - Поверхность"
+startupMessage[0]="Западная Вирджиния, США"
+startupMessage[1]="Mt. Weather"
+
+[NanoKey1]
+Description="Лифт в бункер Mt. Weather"
+

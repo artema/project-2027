@@ -1,0 +1,6 @@
+<P>Исходная программа, которую ты принес мне вчера, работала неправильно. Вот как должен выглядеть рабочий вариант:
+<P>
+<P>pficsFunc pFunc = (pficsFunc)GetProcAddress
+<P>hLibHandle,"CallFunction2")
+<P>if ( pFunc )
+<P>(*pFunc)(Edit1->Text.c_str())

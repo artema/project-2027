@@ -1,0 +1,28 @@
+[DeusExLevelInfo0]
+MissionLocation="Paris - Old Quarter"
+startupMessage[0]="Paris - Old Quarter"
+startupMessage[1]=" "
+
+[GameComputerSecurity0]
+Views[0]="(titleString="Cellar",CameraTag=Camera1,Turrettag=Turret1)"
+Views[1]="(titleString="Storage",CameraTag=Camera2,Turrettag=Turret2)"
+Views[2]="(titleString="Prison",CameraTag=Camera3,Turrettag=Turret3)"
+
+[SpecialEvent2]
+Message="Power is on"
+
+[SpecialEvent1]
+Message="Power is off"
+
+[SpecialEvent0]
+Message="No power"
+
+[Arman0]
+UnfamiliarName="Arman"
+
+[GenericMale0]
+FamiliarName="Albert"
+UnfamiliarName="Young Man"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=BiotechAgents,KeyID=key_OldQuarterExit,Description="Old Quarter Gates")"

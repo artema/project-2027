@@ -1,0 +1,14 @@
+[MiddleClass1]
+FamiliarName="Андре"
+UnfamiliarName="Мужчина"
+
+[GenericMale0]
+FamiliarName="Пьер"
+UnfamiliarName="Футбольный болельщик"
+
+[Male0]
+FamiliarName="Репортер"
+UnfamiliarName="Репортер"
+
+[DeusExLevelInfo0]
+MissionLocation="Париж - Бар"

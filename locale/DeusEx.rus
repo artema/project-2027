@@ -1,0 +1,2097 @@
+[DataLinkPlay]
+infoLinkNames[0]="(BindName="Titan",displayName="Титан")"
+infoLinkNames[1]="(BindName="TitanBot",displayName="Титан")"
+infoLinkNames[2]="(BindName="Xander",displayName="Ксандер")"
+infoLinkNames[3]="(BindName="VladimirGrigoryev",displayName="Владимир Григорьев")"
+infoLinkNames[4]="(BindName="MagnusAthers",displayName="Магнус")"
+infoLinkNames[5]="(BindName="Thanatos",displayName="Танатос")"
+infoLinkNames[6]="(BindName="Cyclope",displayName="Циклоп")"
+infoLinkNames[7]="(BindName="OmarPrisoner",displayName="Омар")"
+infoLinkNames[8]="(BindName="Majestic",displayName="Majestic")"
+EndTransmission="КОНЕЦ СООБЩЕНИЯ..."
+
+[SkillAwardTrigger]
+awardMessage=""
+msgExplorationBonus="Бонус за исследование"
+msgAreaLocationBonus="Бонус за нахождение локации"
+msgBonusForCreativity="Бонус за изобретательность"
+msgPrimaryGoalComplete="Бонус за выполнение основной цели"
+msgSecondaryGoalComplete="Бонус за выполнение дополнительной цели"
+
+[PersonaScreenAugmentations]
+AugmentationsTitleText="Приращения"
+UpgradeButtonLabel="|&Улучшить"
+ActivateButtonLabel="Вклю|&чить"
+DeactivateButtonLabel="От|&ключить"
+UseCellButtonLabel="Исп. |&батарею"
+AugCanUseText="Чтобы улучшить приращение, щелкните на нужном приращении, затем на кнопку 'Улучшить'"
+BioCellUseText="Для восстановления биоэнергии, нажмите кнопку 'Исп батарею'"
+AugLocationDefault="Встроенные"
+AugLocationCranial="Мозг"
+AugLocationEyes="Глаза"
+AugLocationArms="Руки"
+AugLocationLegs="Ноги"
+AugLocationTorso="Торс"
+AugLocationSubdermal="Кожа"
+AugLocationDesc[0]="Приращения последнего поколения могут взаимодействовать с центральной нервной системой напрямую, расширяя когнитивные возможности и предоставляя доступ к внешним вычислительно-аналитическим мощностям."
+AugLocationDesc[1]="Замена глазных яблок на более совершенные искуственные позволяет видеть в более широком спектре и использовать визуальные системы дополненной реальности."
+AugLocationDesc[2]="Большинство человеческих органов уже сегодня имеет более совершенные искуственные аналоги."
+AugLocationDesc[3]="Роботизированные руки значительно повышают физическую силу и позволяют выполнять действия, невозможные для обычного человека."
+AugLocationDesc[4]="Искуственные ноги могут быть полезны не только для гражданских, но и способны кардинально повысить мобильность и эффективность в боевой обстановке."
+AugLocationDesc[5]="Доступные современные модификации кожного покрова предоставляют широкий спектр возможностей: от защиты до маскировки."
+
+[AugVision]
+AugmentationName="Цифровое зрение"
+Description="Поликарбонатные глазные яблоки со встроенным модулем цифровой обработки сигнала позволяют не только видеть в условиях практически нулевой освещенности, но и получать дополнительную визуальную информацию на основе различных типов излучений вне видимого спектра.|n|nСТАНДАРТНЫЙ РЕЖИМ: Ночное зрение с использованием тепловизора. При использовании следует избегать ярких источников света во избежании повреждения детектора.|n|nФОРСИРОВАННЫЙ РЕЖИМ: Активное сонарное зрение с детектором электромагнитного излучения, позволяющее видеть живые организмы и электронные приборы через стены и другие препятствия."
+NotWithGoggles="Нельзя использовать с тех. очками"
+
+[AugSpeed]
+AugmentationName="Механические ноги"
+Description="Титановые протезы ног с роботизированным управлением кардинально повышают максимальную скорость бега и снижают уязвимость к огнестрельным и другим видам ранений.|n<NOTE AUG-352>Использование приращения в активном режиме во время проведения скрытных операций следует свести к минимуму.|n|nСТАНДАРТНЫЙ РЕЖИМ: Заметное ускорение скорости бега.|n|nФОРСИРОВАННЫЙ РЕЖИМ: Максимальное ускорение бега, а также многократное увеличение высоты прыжков и адаптивная защита от повреждений при падениях."
+
+[AugTime]
+AugmentationName="Ускорение реакции"
+Description="Мозговой сопроцессор и дублирующая система нервных датчиков с беспроводной передачей данных позволяют на короткое время повысить скорость передачи нервных импульсов, тем самым создавая ощущение 'замедления времени' и позволяя быстрее принимать решения в экстренных ситуациях.|n|nСТАНДАРТНЫЙ РЕЖИМ: Небольшое ускорение реакции.|n|nФОРСИРОВАННЫЙ РЕЖИМ: Двойное ускорение реакции."
+
+[AugEnviro]
+AugmentationName="Замкнутый ребризер"
+Description="Дублирующая дыхательная система закрытого типа позволяет проводить длительные подводные операции, а также эффективно защищает владельца от токсинов.|n|nНЕ УЛУЧШАЕТСЯ"
+
+[AugDatalink]
+AugmentationName="Инфолинк"
+Description="Односторонний микро-приемник позволяет агенту в боевых условиях получать сообщения, накапливать и в дальнейшем использовать относящиеся к делу карты, записи разговоров и заметки."
+
+[AugBallistic]
+AugmentationName="Механическая защита"
+Description="Активный подкожный слой из пара-арамидных волокон и металло-керамические пластины способны значительно понизить урон от различных видов механических воздействий, в том числе от огнестрельных ранений.|n|nСТАНДАРТНЫЙ РЕЖИМ: Частичная защита от огнестрельного оружия.|n|nФОРСИРОВАННЫЙ РЕЖИМ: Усиленная защита от огнестрельного оружия, а также высоких температур и взрывов."
+
+[AugHealing]
+AugmentationName="Амрита"
+Description="Новейшее изобретение на основе нанотехнологий с пока не до конца известным принципом работы, позволяющее со временем восстанавливать поврежденные участки организма."
+
+[AugHeartLung]
+AugmentationName="Форсаж"
+Description="Вспомогательный центральный энергоблок, позволяющий на небольшой промежуток времени использовать имеющиеся приращения в форсированном режиме.|n|nНЕ УЛУЧШАЕТСЯ"
+
+[AugPower]
+AugmentationName="Энергооптимизатор"
+Description="Экспертная система для оптимизации использования энергии приращениями. Позволяет заметно понизить общее энергопотребление.|n|nАКТИВИРУЕТСЯ АВТОМАТИЧЕСКИ|n|nНЕ УЛУЧШАЕТСЯ"
+
+[AugCloak]
+AugmentationName="Термокамуфляж"
+Description="Синтетическая кожа с вплетениями из оптоволокна, поглащающая свет и маскирующая тепло тела, способна сделать своего владельца невидимым для невооруженного взгляда и термодетекторов.|n|nСТАНДАРТНЫЙ РЕЖИМ: Невидимость для обычного зрения. |n|nФОРСИРОВАННЫЙ РЕЖИМ: Невидимость для обычного зрения и тепловизоров, используемых в камерах наблюдения и сенсорных системах ботов современного образца."
+
+[AugMuscle]
+AugmentationName="Роботизированные руки"
+Description="Титановые вставки и интеллектуальная система сервомоторов позволяют владельцу без труда поднимать тяжелые предметы и дают серьезное преимущество в рукопашном бою.|n|nСТАНДАРТНЫЙ РЕЖИМ: Помощь в поднятии тяжелых предметов.|n|nФОРСИРОВАННЫЙ РЕЖИМ: Увеличение эффективности в рукопашном бою и способность поднимать еще более тяжелые предметы."
+
+[AugLight]
+AugmentationName="Освещение"
+Description="Светодиодное освещение поля зрения агента.|n|nСТАНДАРТНЫЙ РЕЖИМ: Освещение местности обычным светом.|n|nФОРСИРОВАННЫЙ РЕЖИМ: Освещение местности в инфракрасном спектре, незаметном для окружающих."
+
+[AugEMPShield]
+EnergyRateLabel="Потребление энергии: 20 единиц в минуту (25 в режиме форсажа) плюс количество потраченной на атаку энергии."
+AugActivated="EMP поле включено"
+AugDeactivated="EMP поле отключено"
+AugmentationName="EMP поле"
+Description="Система из электромагнитного детектора и направленного EMP излучателя позволяют временно выводить из строя всю электронику в радиусе нескольких метров.|n|nСТАНДАРТНЫЙ РЕЖИМ: Воздействие на электронные системы в радиусе 10 метров.|n|nФОРСИРОВАННЫЙ РЕЖИМ: Усиленное воздействие на электронные системы в радиусе 20 метров плюс автоматическая система для нейтрализации ракет и других снарядов с компьютерным управлением."
+
+
+
+
+
+
+[WeaponModAccuracy]
+ItemName="Модификатор (Точность)"
+Description="При установке на ствол оружия, модификатор балансирует вертикальное движение при выстреле, тем самым повышая точность.|n|n<NOTE WPN-192> Практически любое оружие, чей выстрел сопровождается вибрацией, может быть улучшено с помощью этого модификатора."
+beltDescription="Мод"
+
+[WeaponModRecoil]
+ItemName="Модификатор (Отдача)"
+Description="Конструкция, состоящая из особого материала, сильно поглощает отдачу при выстреле."
+beltDescription="Мод"
+
+[WeaponModReload]
+ItemName="Модификатор (Перезарядка)"
+Description="Приспособление, сильно облегчающее замену обоймы, позволяет уменьшить время перезарядки оружия."
+beltDescription="Мод"
+
+[WeaponModClip]
+ItemName="Модификатор (Магазин)"
+Description="Дополнительная ячейка магазина с регулируемым размером полости позволяет увеличивать размер магазина у практически любого огнестрельного оружия."
+beltDescription="Мод"
+
+[WeaponModRange]
+ItemName="Модификатор (Дальность)"
+Description="Смазывание ствола специальной жидкостью уменьшает трение при выстреле, в результате чего повышается прицельная дальность оружия.|n|n<NOTE WPN-836> Смазывание главной поршневой системы огнемета с последующим перезапуском механизма подачи также увеличивает дальность."
+beltDescription="Мод"
+
+
+
+[PerkBotsammo]
+PerkName="Боезапас ботов"
+Description="Опытный агент хорошо знает техническое устройство современных ботов. Изучив это умение, агент сможет уничтожать боевых роботов таким образом, чтобы их боезапас оставался нетронутым, что позволит использовать его в дальнейшем."
+
+[PerkFire]
+PerkName="Основы выживания"
+Description="Каждый агент должен владеть рядом умений, позволяющих снизить ущерб для здоровья от воздействия агрессивных сред. Освоив этот базовый курс, агент сможет без помощи дополнительных технических и медицинских средств снижать вред от ядов и токсинов, радиации, а также научится правильному поведению при возгорании и контузии от взрывов. Эти знания могут спасти ему жизнь."
+
+[PerkMarksman]
+PerkName="Устойчивость к ранениям"
+Description="Агенты боевого профиля должны уметь действовать эффективно независимо от физического состояния. Освоив это умение, агент сможет вести прицельную стрельбу даже при серьезных ранениях рук."
+
+[PerkDoubleMods]
+PerkName="Оружейный мастер"
+Description="Технически подкованный специалист способен значительно улучшить характеристики оружия. Агент, освоивший это умение, может устанавливать до двух модулей улучшения одного типа."
+
+[PerkEnergy]
+PerkName="Восстановление энергии"
+Description="Агент, знающий устройство работы его механических имплантантов, может применять ряд методик, позволяющих восстановить часть энергии, не прибегая к подзарядке."
+
+[PerkBotexplode]
+PerkName="Детонация дронов"
+Description="Агент может детонировать дронов-шпионов, поражая живую силу и технику противника в радиусе нескольких метров."
+
+[PerkAugs]
+PerkName="Технический эксперт"
+Description="Хороший технический специалист умеет обслуживать механические имплантанты и устройства любой сложности. Изучив все тонкости этого дела, агент сможет более эффективно использовать батареи подзарядки."
+
+[PerkStealth]
+PerkName="Бесшумное передвижение"
+Description="Агенты с механическими имплантантами могут забыть все, чему их учили на курсах по проведению скрытных операций. Освоить навык бесшумного передвижения им придется заново, уже с учетом их новой анатомии. Изучив это умение, агент сможет избегать лишнего шума при беге и ходьбе. Однако нужно понимать, что никакие тренировки не позволят скрыть звук работающих в активном режиме имплантантов рук и ног."
+
+
+
+
+[SkillWeaponHeavy]
+SkillName="Тяжелое оружие"
+Description="Использование тяжелого вооружения, включая огнеметы, LAW, экспериментальные GEP пушки, а также взрывчатку. Опытный агент может более эффективно обезвреживать вражеские мины-ловушки.|n|nНОВИЧОК: Агент может использовать тяжелое вооружение, но его точность невелика, а передвижение затруднено. Обезвреживание мин-ловушек не представляется возможным.|n|nСТАЖЕР: Точность и ущерб незначительно повышаются, перезарядка и передвижение становятся несколько быстрее.|n|nОПЫТНЫЙ: Точность и ущерб серьезно повышаются, перезарядка и передвижение становятся еще быстрее. Мины-ловушки могут быть легко обезврежены.|n|nМАСТЕР: Агент - ходячий танк с тяжелым оружием в руках."
+
+[SkillMedicine]
+SkillName="Медицина"
+Description="Практическое знание человеческой физиологии применяется агентами для более эффективного использования аптечек и контроля за состоянием организма, а также для получения преимущества при использовании холодного оружия.|n|nНОВИЧОК: Агент может использовать аптечки, а также холодное оружие.|n|nСТАЖЕР: Агент может вылечить немного больше повреждений и снизить время заражения токсинами.|n|nОПЫТНЫЙ: Агент может вылечить значительные повреждения и еще более снизить время заражения токсинами. Холодное оружие используется эффективно против любого противника.|n|nМАСТЕР: Агент сможет выполнить шунтирование сердца подручными материалами."
+
+[SkillElectronics]
+SkillName="Электроника"
+Description="Тайное управление компьютерами, взлом систем безопасности и использование сложных электронных устройств.|n|nНОВИЧОК: Агент может использовать терминалы для чтения объявлений и пользоваться инструментами для взлома систем безопасности, однако недостаточно эффективно.|n|nСТАЖЕР: Агент может взламывать банкоматы и компьютеры, а также обходить системы безопасности начального уровня.|n|nОПЫТНЫЙ: Агент может более эффективно обнаруживать счетчики отсчета времени, увеличивая время скрытного доступа к системе. Большинство систем безопасности могут быть взломаны с минимальными затратами.|n|nМАСТЕР: Агент становится элитным хакером."
+
+[SkillPower]
+SkillName="Боевая подготовка"
+Description="Агент должен постоянно тренироваться чтобы быть в форме. Многие задания требуют от агента физической силы и выносливости, а также навыков использования различных видов экипировки.|n|nНОВИЧОК: Агент физически тренирован и может использовать экипировку любого типа.|n|nСТАЖЕР: Агент может поднимать тяжелые предметы. Скорость плавания и объем легких - выше среднего.|n|nОПЫТНЫЙ: Агент очень хорошо тренирован. Он с легкостью поднимает даже очень тяжелые предметы и может проводить длительные подводные операции. Эффективность использования экипировки велика.|n|nМАСТЕР: Агенту не нужны механические имплантанты."
+
+[SkillTechnics]
+SkillName="Механика"
+Description="Взлом механических замков, использование и обслуживание сложных механических устройств, в том числе переносных ботов.|n|nНОВИЧОК: Агент может взламывать замки, а также использовать и обслуживать переносных ботов, однако их эффективность низка.|n|nСТАЖЕР: Эффективность взлома замков незначительно повышается. Боты расходуют энергию более экономично.|n|nОПЫТНЫЙ: Эффективность взлома замков заметно повышается. Переносные боты становятся эффективными помощниками агента.|n|nМАСТЕР: Агент может одолеть практически любой механический замок."
+
+[SkillWeaponPistol]
+SkillName="Пистолеты"
+Description="Использование одноручного оружия, включая различные виды пистолетов, мини-арбалет, а также пистолеты-пулеметы.|n|nНОВИЧОК: Агент может пользоваться пистолетами.|n|nСТАЖЕР: Точность и наносимые повреждения повышаются незначительно, перезарядка убыстряется.|n|nОПЫТНЫЙ: Точность и повреждения заметно повышаются, перезарядка становится еще быстрее.|n|nМАСТЕР: Пистолет в руках агента становится смертельно опасным оружием."
+
+[SkillWeaponRifle]
+SkillName="Винтовки"
+Description="Использование винтовок, включая штурмовые, снайперские винтовки и ружья.|n|nНОВИЧОК: Агент может использовать винтовки.|n|nСТАЖЕР: Точность и наносимые повреждения повышаются незначительно, перезарядка ускоряется.|n|nОПЫТНЫЙ: Точность и повреждения заметно повышаются, перезарядка становится еще быстрее.|n|nМАСТЕР: Агент может поразить цель на расстоянии в километр одним выстрелом."
+
+
+
+
+[RAmmoRocket]
+ItemName="Ракеты"
+Description="Гироскопически стабилизированные ракеты с ограниченно системой бортовой коррекции полета. Сконструированны для использования в системе GEP."
+beltDescription="Ракеты"
+
+[RAmmoDart]
+ItemName="Дротики"
+Description="Дротики для мини-арбалета являются идеальным оружием для многих 'мокрых' операций. Однако бесшумные действия требуют от агента высоких навыков."
+beltDescription="Болт"
+
+[RAmmoDartPoison]
+ItemName="Усыпляющие дротики"
+Description="Дротики для мини-арбалета, смазанные специальной расслаюляющей мышцы жидкостью, эффективны для бесшумной нейтрализации цели без летального исхода."
+beltDescription="Яд"
+
+[RAmmoDartFlare]
+ItemName="Сигнальные дротики"
+Description="Сигнальные дротики используют медленно сгорающее устройство, которое активируется при выстреле и может работать даже под водой."
+beltDescription="Свет"
+
+[RAmmo10mm]
+ItemName="Патроны 9mm Ball"
+ItemNameBullet="Патрон 9mm Ball"
+Description="Стандартные патроны 9x19mm Parabellum, еще до Второй Мировой ставшие эталоном для большей части т.н. 'цивилизованного мира'. 'Золотая середина' между мощностью, весом и отдачей."
+beltDescription="Ball"
+
+[RAmmo10mmJHP]
+ItemName="Патроны 9mm JHP"
+ItemNameBullet="Патроны 9mm JHP"
+Description="Специальные патроны 9x19mm с экспансивной выемкой. Активно используются полицией и охотниками, так как исключают рикошеты и наносят небронированным целям значительно больше ущерба. Из-за сильного изменения баллистики патроны JHP сильно снижают эффективность глушителей дефлекторного типа."
+beltDescription="JHP"
+
+[RAmmo3006]
+ItemName="Патроны 7.62mm Match"
+ItemNameBullet="Патрон 7.62mm Match"
+Description="'Целевая' версия стандартных винтовочных патронов блока NATO. Прецизионная обработка пуль и тщательно выверенная навеска пороха позволяет достичь высокой точности выстрела - пусть и ценой значительного подорожания патрона. Используются в основном спортсменами и профессионалами-снайперами."
+beltDescription="Match"
+
+[RAmmo3006Ultra]
+ItemName="Патроны 7.62mm AP"
+ItemNameBullet="Патрон 7.62mm AP"
+Description="Специальная военная модификация патрона 7.62mm Match с вольфрамовым сердечником - дорогой, но надежный способ уничтожить бронированную цель на большом удалении."
+beltDescription="AP"
+
+[RAmmo556mm]
+ItemName="Патроны 4.7mm Ball"
+ItemNameBullet="Патрон 4.7mm"
+Description="Легкий и точный патрон под оружие класса PDW. Удачно дебютировал в конце 1990-х вместе с пистолетом-пулеметом MP7 PDW, благодаря чему стал новым стандартом NATO для пистолетов-пулеметов."
+beltDescription="Ball"
+
+[RAmmo556mmJHP]
+ItemName="Патроны 4.7mm Action"
+ItemNameBullet="Патрон 4.7mm Action"
+Description="Экспансивные (так же известны как 'разрывные') патроны для пистолетов-пулеметов. Обеспечивают высокую эффективность при борьбе с небронированными целями, за что снискали любовь полиции и спецслужб."
+beltDescription="Action"
+
+[RAmmo762mm]
+ItemName="Патроны 5.56mm Ball"
+ItemNameBullet="Патрон 5.56mm Ball"
+Description="Основные патроны для штурмовых винтовок, стандарт NATO. С начала XXI века не утихают требования о замене их на более крупнокалиберные и эффективные 6.5mm, однако 'воз и ныне там'. Впрочем, 5.56mm - довольно неплохой патрон."
+beltDescription="Ball"
+
+[RAmmo762mmB]
+ItemName="Патроны 5.56mm HP"
+ItemNameBullet="Патрон 5.56mm HP"
+Description="Попытка догнать по мощности стародревний, еще советский, 7.62мм. Догнать не получилось, однако родился в целом неплохой патрон, значительно превосходящий по убойной силе стандартный 5.56mm Ball."
+beltDescription="HP"
+
+[RAmmoSabot]
+ItemName="Подкалиберная пуля"
+ItemNameBullet="Подкалиберная пуля"
+Description="Гладкоствольные патроны 12-го калибра, специально разработанные для борьбы с бронированными целями (вплоть до легких БМП). Однако малый калибр поражающего элемента (вольфрамовая оперенная стрела) значительно снижает эффективность патрона в борьбе с небронированными целями"
+beltDescription="AP"
+
+[RAmmoShell]
+ItemName="Дробь '00'"
+ItemNameBullet="Дробь '00'"
+Description="Наиболее распространенные патроны 12-го калибра - крупная свинцовая дробь, отлично зарекомендовавшая себя при уничтожении небронированных противников на близких дистанциях. Увы, на дальних дистанциях эффективность дроби резко снижается."
+beltDescription="Дробь"
+
+[RAmmoRocketWP]
+ItemName="Ракеты WP"
+Description="Ракета с белым фосфором (White-phosphorus или просто WP) была разработанна для расширения профиля действия системы GEP. В то время как она наносит минимальные повреждения при детонации, взрыв распыляет облако белого фосфора, который при контакте с воздухом немедленно воспламеняется."
+beltDescription="Фосфор"
+
+[RAmmoPepper]
+ItemName="Перцовый картридж"
+Description="Перцовый спрей вызывает сильное раздражение слизистых, что позволяет на некоторое обездвижить противника."
+beltDescription="Перец"
+
+[RAmmoNapalmGrenade]
+beltDescription="Напалм"
+
+[RAmmoGas]
+ItemName="Газовый баллон"
+Description="Канистра сжатого газа, используемого в огнеметах."
+beltDescription="Газ"
+
+[RAmmoBattery]
+ItemName="Батарея"
+Description="Портативное зарядное устройство для электрошока."
+beltDescription="Батарея"
+
+
+
+[Candybar]
+ItemName="Шоколад"
+M_Activated=""
+Description="'ШОКОЛАДНАЯ МЕЧТА. ЭТО ШОКОЛАД! ЭТО ЛЮДИ! ЭТО ВСЕ!(tm)|n|n(85% материала переработано повторно).'"
+beltDescription="Плитка"
+ItemArticle=""
+
+[CandybarDark]
+ItemName="Российский шоколад"
+M_Activated=""
+Description="'ШОКОЛАДНАЯ МЕЧТА. ЭТО ШОКОЛАД! ЭТО ЛЮДИ! ЭТО ВСЕ!(tm)|n|n(85% материала переработано повторно).'"
+beltDescription="Шоколад"
+ItemArticle=""
+
+[Chips]
+ItemName="Чипсы"
+M_Activated=""
+Description="Картофельные чипсы."
+beltDescription="Чипсы"
+ItemArticle=""
+
+[Sodacan]
+ItemName="Газировка"
+M_Activated=""
+Description="На банке ничего нет кроме фразы 'СВОБОДА СРЕДИ ЗВЕЗД!'. Неясно название это или приглашение."
+beltDescription="Кола"
+ItemArticle=""
+
+[SodacanB]
+ItemName="Газировка"
+M_Activated=""
+beltDescription="Газировка"
+ItemArticle=""
+
+[SodacanBlast]
+ItemName="Газировка"
+M_Activated=""
+beltDescription="Газировка"
+ItemArticle=""
+
+[SodacanOrange]
+ItemName="Газировка"
+M_Activated=""
+beltDescription="Газировка"
+ItemArticle=""
+
+[SodacanZap]
+ItemName="Газировка"
+M_Activated=""
+beltDescription="Газировка"
+ItemArticle=""
+
+[SoyFood]
+ItemName="Соевая еда"
+M_Activated=""
+Description="Выращенный механо-химическими наногенераторами, этот ТСП (текстурированый соевый протеин) не только вкусный, но еще и подогревается сам, когда вскрывается его упаковка."
+beltDescription="Соя"
+ItemArticle=""
+
+[Vodka]
+ItemName="Ликер"
+M_Activated=""
+Description="Этикетка оторвана, но выглядит неплохо"
+beltDescription="Ликер"
+ItemArticle=""
+
+[WineBottle]
+ItemName="Вино"
+M_Activated=""
+Description="Вино урожая 2011 года."
+beltDescription="Вино"
+ItemArticle=""
+
+[Beer]
+ItemName="Форти"
+M_Activated=""
+Description="'ХОЛОДОК - сорок унций солодового ликера. Никому не давайте попробовать свой ХОЛОДОК'"
+beltDescription="Форти"
+ItemArticle=""
+
+[DeusExPlayer]
+InventoryFull="Недостаточно места в инвентаре чтобы взять %s"
+TooMuchAmmo="У вас уже достаточно этих боеприпасов"
+TooHeavyToLift="Слишком тяжело"
+CannotLift="Вы не можете поднять это"
+NoRoomToLift="Нет места чтобы поднять это"
+CanCarryOnlyOne="Вы можете нести только один %s"
+CannotDropHere="Нельзя выбросить это здесь"
+HandsFull="Руки заняты"
+NoteAdded="Получена новая заметка - сверьтесь с базой данных"
+GoalAdded="Получена новая цель - сверьтесь с базой данных"
+PrimaryGoalCompleted="Основная цель выполнена"
+SecondaryGoalCompleted="Дополнительная цель выполнена"
+GoalFailedMsg="Задание провалено"
+EnergyDepleted="Закончилась энергия"
+AddedNanoKey="'%s' добавлен в список ключей"
+HealedPointsLabel="Вылечено %d единиц"
+HealedPointLabel="Вылечена %d единица"
+SkillPointsAward="Получено %d единиц опыта"
+QuickSaveGameTitle="Быстрое сохранение"
+HeadString="Голова"
+TorsoString="Торс"
+LegsString="Ноги"
+NoneString="-"
+msgHeroLevelAward="Достигнут %d уровень развития!"
+
+[Skill]
+skillLevelStrings[0]="Новичок"
+skillLevelStrings[1]="Стажер"
+skillLevelStrings[2]="Опытный"
+skillLevelStrings[3]="Мастер"
+SkillAtMaximum="Навык на максимальном уровне"
+
+[AugmentationManager]
+AugLocationFull="Вы не можете больше добавлять приращения в эту локацию!"
+NoAugInSlot="В этой части нет приращения"
+msgLowPower="Недостаточно энергии чтобы обеспечить работу %d"
+
+[Augmentation]
+EnergyRateLabel="Расход: %d Единиц"
+OccupiesSlotLabel="Занимает слот: %s"
+AugLocsText[0]="Череп"
+AugLocsText[1]="Глаза"
+AugLocsText[2]="Торс"
+AugLocsText[3]="Руки"
+AugLocsText[4]="Ноги"
+AugLocsText[5]="Кожа"
+AugLocsText[6]="Встроенные"
+AugActivated="%s активирован"
+AugDeactivated="%s деактивирован"
+AugAlreadyHave="%s уже не улучшить"
+AugNowHave="%s форсирован"
+AugNowHaveAtLevel="%s на уровне %d"
+AlwaysActiveLabel="[Всегда включен]"
+CanUpgradeLabel="(Можно улучшить)"
+CurrentLevelLabel="Режим: %d"
+MaximumLabel="(Форсаж невозможен)"
+LevelLabelNormal="Обычный"
+LevelLabelTurbo="Форсаж"
+
+[DeusExRootWindow]
+QuickLoadTitle="Быстрая загрузка?"
+QuickLoadMessage="Текущая игра будет потеряна. Вы уверены что хотите выполнить быструю загрузку?"
+
+[DeusExWeapon]
+msgCannotBeReloaded="Это оружие не перезаряжается"
+msgOutOf="Закончились %s"
+msgNowHas="%s зарядил %s"
+msgAlreadyHas="%s уже заряжен %s"
+msgNone="НЕТ"
+msgLockInvalid="---"
+msgLockRange="Дальность"
+msgLockAcquire="Наводка"
+msgLockLocked="Захват"
+msgRangeUnit="м"
+msgTimeUnit="с"
+msgMassUnit="кг"
+msgNotWorking="Это оружие не работает под водой"
+msgInfoAmmoLoaded="Заряжено:"
+msgInfoAmmo="Боеприпасы:"
+msgInfoDamage="Повреждение:"
+msgInfoClip="Магазин:"
+msgInfoROF="Скорость:"
+msgInfoReload="Перезарядка:"
+msgInfoRecoil="Отдача:"
+msgInfoAccuracy="Меткость:"
+msgInfoAccRange="Прицельная дальность:"
+msgInfoMaxRange="Максимальная дальность:"
+msgInfoMass="Вес:"
+msgInfoLaser="Лазер:"
+msgInfoScope="Оптика:"
+msgInfoSilencer="Глушитель:"
+msgInfoNA="Н/Д"
+msgInfoYes="Есть"
+msgInfoNo="Нет"
+msgInfoAuto="Авто"
+msgInfoSingle="Полу-авто"
+msgInfoRounds="Патр"
+msgInfoRoundsPerSec="патр/с"
+msgInfoSkill="Навык:"
+msgInfoWeaponStats="Характеристики:"
+PickupMessage="Вы нашли"
+ItemArticle=""
+
+[DeusExCarcass]
+msgHasKnife="Боевой нож был выброшен (У вас уже есть холодное оружие)"
+msgHasCrowbar="Лом был выброшен (У вас уже есть холодное оружие)"
+msgHasBaton="Полицейская дубинка была выброшена (У вас уже есть холодное оружие)"
+msgSearching="Вы нашли:"
+msgEmpty="Вы ничего не нашли"
+msgNotDead="Без сознания"
+msgAnimalCarcass="Труп животного"
+msgCannotPickup="Вы не можете взять %s"
+ItemName="Мертвое тело"
+
+[MenuUIChoice]
+actionText="Выбор"
+FalseTrue[0]="False"
+FalseTrue[1]="True"
+OnlyThatRendering="только в"
+
+[DeusExPickup]
+CountLabel="Количество: "
+msgTooMany="Вы не можете нести больше"
+PickupMessage="Вы нашли"
+ItemArticle=""
+M_Activated=" активирован"
+M_Deactivated=" деактивирован"
+
+[DeusExAmmo]
+PickupMessage="Вы нашли"
+ItemArticle=""
+
+[PersonaInventoryItemButton]
+CountLabel="x %d"
+RoundLabel="x %d"
+RoundsLabel="x %d"
+
+[DeusExMover]
+msgKeyLocked="Ваш нано-ключ закрыл это"
+msgKeyUnlocked="Ваш нано-ключ открыл это"
+msgLockpickSuccess="Вы вскрыли замок"
+msgOneWayFail="С этой стороны не откроется"
+msgLocked="Заперто"
+msgPicking="Вскрываем замок..."
+msgAlreadyUnlocked="Уже открыто"
+msgNoNanoKey="У вас нет необходимого нано-ключа"
+
+[Computers]
+msgLockedOut="Терминал заблокирован еще %d секунд"
+CompInUseMsg=""
+
+[ComputerSecurityCameraWindow]
+CameraLabel="Камера"
+CameraStatusLabel="Камера:"
+DoorStatusLabel="Дверь:"
+TurretStatusLabel="Турель:"
+OnLabel="Вкл"
+OffLabel="Выкл"
+FriendlyLabel="Обнаружение врагов"
+HostileLabel="Обнаружение союзников"
+DisabledLabel="Отключена"
+AttackingAlliesLabel="Атаковать союзников"
+AttackingEnemiesLabel="Атаковать врагов"
+AttackingEverythingLabel="Атаковать всех"
+NoSignalLabel="НЕТ СИГНАЛА"
+OpenLabel="Открыто"
+ClosedLabel="Закрыто"
+LockedLabel="Заперто"
+UnlockedLabel="Не заперто"
+
+[HUDObjectSlot]
+RoundLabel="%d патр"
+RoundsLabel="%d патр"
+CountLabel="x %d"
+
+[AutoTurret]
+titleString="Туррель"
+ItemName="Автономная туррель"
+
+[MenuUIWindow]
+btnLabelOK="|&OK"
+btnLabelCancel="|&Отмена"
+btnLabelPrevious="|&Предыдущий"
+btnLabelResetToDefaults="|&Отменить изменения"
+MessageBoxTitle="Подтвердите"
+ExitMessage="Вы уверены, что хотите|nвыйти из 2027?"
+TrainingWarningMessage="Ваша текущая игра будет утеряна, если вы ее не записали. Действительно начинать тренировку?"
+CreditsWarningMessage="Ваша текущая игра будет утеряна, если вы ее не записали. Действительно показать титры?"
+IntroWarningMessage="Ваша текущая игра будет утеряна, если вы ее не записали. Действительно будем смотреть заставку?"
+AskToTrainTitle="Тренировочная миссия"
+AskToTrainMessage="Перед началом новой игры в первый раз, мы рекомендуем пройти тренировку.  Вы хотите сделать это сейчас?"
+
+[MenuScreenLoadGame]
+strHeaderNameLabel="Название"
+strHeaderDateLabel="Дата"
+NewSaveGameButtonText="Новое сохранение"
+DeleteGameButtonText="Удалить"
+LoadGameButtonText="Загрузить"
+OverwriteTitle="Перезаписать сохранение?"
+OverwritePrompt="Вы уверены что хотите перезаписать сохранение?"
+DeleteTitle="Удалить сохранение?"
+DeletePrompt="Вы уверены что хотите удалить сохранение?"
+LoadGameTitle="Загрузка игры"
+SaveGameTitle="Сохранение игры"
+SaveInfoMissing_Label="SAVEINFO.DXS Отсутсвует!!!"
+TimeAMLabel="am"
+TimePMLabel="pm"
+LocationLabel="Локация: %s|n"
+SaveCountLabel="Счет: %d|n"
+PlayTimeLabel="Время: %s|n"
+FileSizeLabel="Размер: %dMB"
+FreeSpaceLabel="Свободно: %dMB"
+ConfirmDeleteLabel="Подтвердить удаление"
+CheatsEnabledLabel="- CHEATS ENABLED -"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_Other,Text="|&Загрузить",Key="LOAD")"
+actionButtons[2]="(Action=AB_Other,Text="|&Удалить",Key="DELETE")"
+Title="Загрузка игры"
+
+[AugmentationDisplayWindow]
+msgBotDanger="Критическое состояние!"
+msgBotHealth="Здоровье: "
+msgBotEnergy="Энергия: "
+msgRange="Дальность"
+msgRangeUnits="фт"
+msgHigh="Высоко"
+msgMedium="Средне"
+msgLow="Низко"
+msgHealth="Здоровье"
+msgOverall="Всего"
+msgPercent="%"
+msgHead="Голова"
+msgTorso="Торс"
+msgLeftArm="Л рука"
+msgRightArm="П рука"
+msgLeftLeg="Л нога"
+msgRightLeg="П нога"
+msgLegs="Ноги"
+msgWeapon="Оружие:"
+msgNone="Нет"
+msgBehind="Опасность сзади!"
+msgDroneActive="Дрон-шпион активен"
+msgEnergyLow="Заканчивается Биоэнергия!"
+msgCantLaunch="ОШИБКА - Нет места для активации дрона!"
+msgLightAmpActive="Инфразрение активно"
+msgIRAmpActive="Инфразрение активно"
+msgNoImage="Нет изображения"
+msgDisabled="Отключен"
+hintDroneOff="отключить"
+hintDroneBlow="детонация"
+hintBotOff="отключить"
+hintBotOrder="новый приказ"
+hintBotSwitch="выбрать бота"
+
+[AutoTurretGun]
+ItemName="Автономная туррель"
+
+[HackableDevices]
+msgMultitoolSuccess="Взлом успешно завершен"
+msgNotHacked="Защищено"
+msgHacking="Взламываем устройство..."
+msgAlreadyHacked="Уже взломано"
+
+[ComputerUIWindow]
+ButtonLabelLogin="|&Войти"
+ButtonLabelLogout="|&Выйти"
+ButtonLabelCancel="|&Отмена"
+ButtonLabelSpecial="|&Специальные опции"
+
+[SecurityCamera]
+msgActivated="Камера включена"
+msgDeactivated="Камера выключена"
+ItemName="Камера наблюдения"
+
+[FrobDisplayWindow]
+msgLocked="Заперто"
+msgUnlocked="Открыто"
+msgLockStr="Сложность: "
+msgDoorStr="Прочность: "
+msgHackStr="Сложность: "
+msgInf="MAX"
+msgHacked="Взломано"
+msgPick="отмычка"
+msgPicks="отмычек"
+msgTool="инструмент"
+msgTools="инструментов"
+
+[PersonaInventoryInfoWindow]
+AmmoLabel="Тип:"
+AmmoRoundsLabel="Число:"
+ShowAmmoDescriptionsLabel="Показывать описание"
+
+[PersonaScreenHealth]
+HealthPartDesc[0]="В большинстве ситуаций попадание в голову смертельно; однако, в том случае, когда смерть не наступает мгновенно, у агентов чаще всего с повреждением головы портится зрение и меткость. Позаботиться о здоровье в таком случае следует так быстро, как только возможно, иначе - смерть.|n|nЛегкие раны: Снижается меткость.|nСредние раны: Размытие изображения.|nТяжелые раны: Смерть."
+HealthPartDesc[1]="Корпус, безусловно, часть человеческого тела, получающая бОльшую долю повреждений, также оно наилучшая мишень в ближнем бою. Постепенно корпусу наносится все больший вред, и агенты теряют подвижность, истекая кровью, погибают, даже если не получили смертельного удара в жизненноважный орган.|n|nЛегкие раны: Снижается подвижность.|nСредние раны: Значительно снижается подвижность.|nСерьезные раны: Смерть."
+HealthPartDesc[2]="Очевидно, что повреждение рук в любой боевой ситуации непосредственно влияет на способность агента управляться с различным оружием. Потеря одной руки непременно снизит эффективность агента в бою, тогда как потеря обоих рук делает почти невозможным для агента нанести какой-либо вред врагу.|n|nЛегкие раны: Снижается точность.|nСредние раны: Точность снижается средне.|nСерьезные раны: Значительно снижается точность."
+HealthPartDesc[3]="Повреждение ног радикально снижает подвижность. Если агент на вражеской территории близок к потери обоих ног, но все еще жизнеспособен, он обязан следовать Приказу 99009 Отдела Специальных Опрераций (Самоуничтожение).|n|nЛегкие раны: Снижается подвижность.|nСредние раны: Подвижность снижена средне.|nТяжелые раны: Значительно снижается подвижность."
+MedKitUseText="Для лечения определенной части тела щелкнуть на ней, потом на кнопку ЛЕЧИТЬ."
+HealthTitleText="Здоровье"
+HealAllButtonLabel="Л|&ечить все"
+HealthLocationHead="Голова"
+HealthLocationTorso="Торс"
+HealthLocationRightArm="Рука"
+HealthLocationLeftArm="Рука"
+HealthLocationRightLeg="Нога"
+HealthLocationLeftLeg="Нога"
+PointsHealedLabel="%d единиц вылечено"
+
+[DataVaultImage]
+PickupMessage="Получено новое изображение - сверьтесь с базой данных"
+beltDescription="Изображение"
+
+[ComputerScreenSecurity]
+ActiveWindowOptionsHeader="Активировать опции окна"
+CameraOptionsHeader="Опции"
+PanZoomSpeedHeader="Скорость"
+ClickCameraWindowText="Нажмите на изображение для информации"
+Title="Наблюдение"
+ComputerNodeFunctionLabel="Безопасность"
+
+[PersonaScreenInventory]
+InventoryTitleText="Инвентарь"
+EquipButtonLabel="|&Взять "
+UnequipButtonLabel="Уб|&рать"
+UseButtonLabel="|&Использовать"
+DropButtonLabel="|&Бросить"
+ChangeAmmoButtonLabel="П|&атроны"
+NanoKeyRingInfoText="Список|nключей"
+NanoKeyRingLabel=""
+DroppedLabel="%s выброшен"
+AmmoLoadedLabel="Заряжено: %s"
+WeaponUpgradedLabel="%s улучшен"
+CannotBeDroppedLabel="Невозможно выбросить это здесь"
+AmmoInfoText="Список|nпатронов"
+AmmoTitleLabel="Боеприпасы"
+NoAmmoLabel="Нет боеприпасов"
+ChargePlanted="Заряд установлен"
+
+[AlarmUnit]
+msgActivated="Сигнализация включена"
+msgDeactivated="Сигнализация выключена"
+ItemName="Панель Звуковой Сигнализации"
+
+[POVCorpse]
+ItemName="тело"
+
+[ComputerSecurity]
+ItemName="Консоль безопасности"
+
+[MedKit]
+MustBeUsedOn="Используется для лечения частей тела в критическом состоянии, или применяется к определенным частям тела на экране персонажа."
+ItemName="Аптечка"
+Description="<FEMA NOTE WPN-836>Агент, обладающий знаниями в области медицины, способен более эффективно использовать аптечки."
+beltDescription="Аптечка"
+ItemArticle=""
+
+[ChargedPickup]
+ItemArticle=""
+ChargeRemainingLabel="Осталось заряда:"
+AlreadyUsing="%s уже используется"
+NotWithVision="Нельзя использовать при активном приращении '%s'"
+
+[ATM]
+msgLockedOut="Терминал заблокирован еще %d секунд"
+ItemName="Банковский терминал"
+
+[HUDHitDisplay]
+O2Text="O2"
+EnergyText="BE"
+
+[InformationDevices]
+msgNoText="Нет ничего интересного для прочтения"
+ImageLabel="[Изображение: %s]"
+AddedToDatavaultLabel="Получено изображение - Сверьтесь с базой данных"
+
+[BioelectricCell]
+msgRecharged="Заряжено %d единиц энергии"
+msgCharged="%c подзаряжен на %d единиц"
+RechargesLabel="Перезаряжает до %d единиц энергии."
+DragToUse="Перетащите на предмет для подзарядки. Предметы, обозначенные синим, могут быть подзаряжены."
+ItemName="Биобатарея"
+Description="Биобатарея обеспечивает достаточное вмещение энергии в форме пригодной для использования в ряде приборов."
+beltDescription="Энергия"
+ItemArticle=""
+
+[WeaponMod]
+DragToUpgrade="Перетащите на оружие для улучшения. Оружие, обозначенное зеленым, может быть улучшено."
+ItemArticle=""
+
+[MenuChoice_OnOff]
+enumText[0]="Выкл"
+enumText[1]="Вкл"
+
+[Keypad]
+msgNotHacked=""
+ItemName="Кодовый замок"
+
+[PersonaAmmoDetailButton]
+RoundLabel="%d Патрон"
+RoundsLabel="%d Патронов"
+
+[PersonaScreenImages]
+ImagesTitleText="Снимки"
+DeleteNoteButtonLabel="|&Удалить текст"
+AddNoteButtonLabel="Добавить |&текст"
+ShowNotesLabel="Показывать т|&екст"
+
+[HUDInfoLinkDisplay]
+strQueued="сообщение ждет..."
+IncomingTransmission="Загрузка сообщения..."
+fontText=Font'DeusExUI.FontFixedWidthSmall'
+fontTextX=8
+fontTextY=12
+numChars=37
+
+[Faucet]
+ItemName="Кран"
+
+[MenuScreenRGB]
+HUDBackgroundTranslucentLabel="|&Прозрачность HUD"
+HUDBordersTranclucentLabel="Прозрачность гра|&ниц HUD"
+MenusBackgroundTranslucentLabel="Прозрачность |&фона меню"
+RedLabel="Красный"
+GreenLabel="Зеленый"
+BlueLabel="Синий"
+TabHUDLabel="|&HUD"
+TabMenusLabel="|&Меню"
+ThemeLabel="Тема:"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Other,Text="|&Закрыть",Key="CLOSE")"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_Other,Text="|&Загрузить",Key="LOAD")"
+actionButtons[2]="(Align=HALIGN_Right,Action=AB_Other,Text="|&Сохранить",Key="SAVE")"
+actionButtons[3]="(Action=AB_Reset)"
+Title="Выбор цвета"
+
+[ShowerFaucet]
+ItemName="Кран душа"
+
+[AugmentationCannister]
+AugsAvailable="Можно добавить:"
+MustBeUsedOn="Можно установить лишь при помощи МедБота."
+ItemName="Емкость с приращением"
+Description="Защитная емкость с материалами для приращения. Для установки необходим медицинский бот."
+beltDescription="Имплант"
+ItemArticle=""
+
+[MedicalBot]
+FamiliarName="Медицинский бот"
+UnfamiliarName="Медицинский бот"
+
+[HUDAmmoDisplay]
+NotAvailable="---"
+msgReloading="---"
+AmmoLabel="Патр"
+ClipsLabel="Обой"
+
+[MenuScreenAdjustColorsExample]
+TitleBarLabel="Заголовок"
+TextHeaderLabel="Текст"
+TextNormalLabel="Текст"
+ButtonPressedLabel="Нажато"
+ButtonNormalLabel="ОК"
+
+[HUDRechargeWindow]
+RechargeButtonLabel="|&Использовать"
+CloseButtonLabel="|&Закрыть"
+RechargeTitle="Ремонтный бот"
+RepairBotInfoText="Ремонтный бот может восстановить до %d единиц био-энергии каждые %d секунд."
+RepairBotStatusLabel="Статус:"
+ReadyLabel="Готово!"
+SecondsPluralLabel="Подзарядка: %d секунд"
+SecondsSingularLabel="Подзарядка: %d секунда"
+BioStatusLabel="Энергия:"
+RepairBotRechargingLabel="|nРемонтный бот заряжается, подождите."
+RepairBotReadyLabel="|nРемонтный бот готов к использованию."
+RepairBotYouAreHealed="|nВаша био-энергия на максимуме."
+
+[MenuScreenNewGame]
+ButtonUpgradeLabel="Пов|&ысить"
+ButtonDowngradeLabel="|&Понизить"
+HeaderNameLabel="Настоящее имя"
+HeaderCodeNameLabel="Кодовое имя"
+HeaderAppearanceLabel="Внешность"
+HeaderSkillsLabel="Навыки"
+HeaderSkillPointsLabel="Опыт"
+HeaderSkillLevelLabel="Уровень"
+HeaderPointsNeededLabel="Необходимо"
+NameBlankTitle="Пустое имя!"
+NameBlankPrompt="Кодовое имя не может быть пустым! Введите имя."
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_Other,Text="|&Начать",Key="START")"
+actionButtons[2]="(Action=AB_Reset)"
+Title="Начать новую игру"
+
+[NanoKeyRing]
+NoKeys="Нет доступных нано-ключей"
+KeysAvailableLabel="Ключи:"
+ItemName="Нано-ключ"
+Description="Связка наноключей может считывать и хранить двухмерные молекулярные образцы разных наноключей, и затем воссоздавать эти структуры при надобности."
+beltDescription="Ключ"
+ItemArticle=""
+
+[Credits]
+msgCreditsAdded="На ваш счет зачисленно %d кредитов"
+ItemName="Кредитная расписка"
+beltDescription="Кредиты"
+ItemArticle=""
+
+[Barrel1]
+ItemName="Бочка"
+
+[PerkManager]
+NoSkillMessage="Перк не установлен"
+SuccessMessage="Удачно!"
+YourSkillLevelAt="Ваш перк %s теперь работает"
+
+[ComputerScreenHack]
+HackButtonLabel="|&Взлом"
+ReturnButtonLabel="|&Назад"
+HackReadyLabel="Ледоруб готов..."
+HackInitializingLabel="Инициализация ледоруба..."
+HackSuccessfulLabel="Лед взломан..."
+HackDetectedLabel="*** ВНИМАНИЕ ***|nОБНАРУЖЕН НАРУШИТЕЛЬ!"
+MPHackInitializingLabel="Взлом... Нажмите ESC для отмены"
+
+[ComputerScreenEmail]
+NoEmailTodayText="Нет новых сообщений!"
+EmailFromHeader="От:"
+EmailToHeader="К:"
+EmailCarbonCopyHeader="Копия:"
+EmailSubjectHeader="Тема:"
+HeaderFromLabel="От"
+HeaderSubjectLabel="Тема"
+Title="Электронная почта"
+ComputerNodeFunctionLabel="Почта"
+
+[PersonaScreenSkills]
+SkillsTitleText="Навыки"
+PerksTitleText="Умения"
+UpgradeButtonLabel="|&Повысить"
+InstallButtonLabel="|&Изучить"
+PointsNeededHeaderText="Цена"
+SkillLevelHeaderText="Уровень"
+SkillPointsHeaderText="Доступно"
+SkillUpgradedLevelLabel="Навык '%s' улучшен"
+PerkInstalledLabel="Изучено умение '%s'"
+UpgradePointsHeaderText="Можно изучить"
+ExperienceHeaderText="Опыт"
+
+[PersonaItemDetailButton]
+CountLabel="Кол-во: %d"
+
+[HUDMedBotHealthScreen]
+MedbotInterfaceText="ИНТЕРФЕЙС МЕДБОТА"
+HealthInfoTextLabel="МедБот восстановит до %d единиц здоровья."
+MedBotRechargingLabel="|nМедБот сейчас перезаряжается."
+MedBotReadyLabel="|nМедбот готов, можете лечиться."
+MedBotYouAreHealed="|nВаше здоровье восстановлено."
+SecondsPluralLabel="Осталось %d секунд"
+SecondsSingularLabel="Осталось %d секунд"
+ReadyLabel="Готов!"
+HealAllButtonLabel="Л|&ечить все"
+
+[MenuScreenSaveGame]
+DiskSpaceTitle="Мало места на диске"
+DiskSpaceMessage="Вы должны иметь по крайней мере 100MB свободного места, прежде чем сможете сохраниться."
+actionButtons[1]="(Text="|&Сохранить",Key="SAVE")"
+Title="Сохранение"
+
+[HUDReceivedDisplay]
+TextReceivedLabel="Получено:"
+
+[RepairBot]
+FamiliarName="Ремонтный бот"
+UnfamiliarName="Ремонтный бот"
+
+[PersonaScreenConversations]
+ConversationsTitleText="Диалоги"
+ActorButtonLabel="Контакт"
+LocationButtonLabel="Локация"
+TypeButtonLabel="Тип"
+
+[PersonaNavBarWindow]
+InventoryButtonLabel="|&Инвентарь"
+HealthButtonLabel="|&Здоровье"
+AugsButtonLabel="|&Приращения"
+SkillsButtonLabel="|&Навыки"
+GoalsButtonLabel="|&Цели"
+ConsButtonLabel="|&Диалоги"
+ImagesButtonLabel="Сним|&ки"
+LogsButtonLabel="|&Логи"
+
+[PersonaNavBarBaseWindow]
+ExitButtonLabel="В|&ыход"
+
+[SpyDrone]
+ItemName="Дрон-шпион"
+ItemArticle=""
+
+[NanoKey]
+ItemName="Нано-ключ"
+beltDescription="Нано"
+ItemArticle=""
+
+[HUDKeypadWindow]
+msgAccessDenied="ОШИБКА"
+msgAccessGranted="СОВПАДЕНИЕ"
+
+[Flare]
+ExpireMessage="Уже использован"
+ItemName="Сигнальный патрон"
+Description="Используется для подачи сигнала или привлечения внимания."
+beltDescription="Фонарь"
+ItemArticle=""
+
+[PersonaScreenGoals]
+GoalsTitleText="Цели"
+PrimaryGoalsHeader="Основные цели"
+SecondaryGoalsHeader="Дополнительные цели"
+DisplayCompletedGoals="Показывать в|&ыполненные и проваленные цели"
+NoGoalsLabel="Нет"
+GoalCompletedText=""
+NotesTitleText="Заметки"
+defaultNoteText="Новая заметка"
+ClickToEditNote="Нажмите на заметку для редактирования:"
+DeleteNoteTitle="Удалить заметку?"
+DeleteNotePrompt="Вы уверены что хотите удалить эту заметку?"
+AddButtonLabel="|&Добавить"
+DeleteButtonLabel="|&Удалить"
+ConfirmNoteDeletionLabel="Подтвердить удаление"
+
+[TAD]
+ItemName="Автоответчик"
+
+[PersonaImageWindow]
+strNoImages="Нет изображений"
+PressSpace="Нажмите [ESC] когда закончите ввод текста"
+EscapeToCancel="Клик на картинке для создания записи, [ESCAPE] для отмены"
+NewNoteLabel="New Note"
+
+[PersonaScreenLogs]
+LogsTitleText="Логи"
+ClearButtonLabel="Очистить"
+
+[AugmentationUpgradeCannister]
+MustBeUsedOn="Нужно использовать на экране приращений."
+ItemName="Набор для форсирования приращений"
+Description="Емкость содержит дополнительные энергетические ячейки, которые в комбинации с уже установленными могут увеличивать эффективность питания установленных приращений. Так как для обслуживания приращений не требуется серьезного медицинского вмешательства, эти элементы могут с минимальным риском устанавливать опытные агенты в полевых условиях.|n|nПриращения, работающие в форсированном режиме, расходуют на 20% больше энергии."
+beltDescription="Форсаж"
+ItemArticle=""
+
+[ComputerScreenHackAccounts]
+ChangeAccountButtonLabel="|&Изм.аккаунт"
+AllAccountsHeader="Все аккаунты пользователя"
+CurrentAccountHeader="Текущий пользователь"
+
+[Greasel]
+FamiliarName="Гризл"
+UnfamiliarName="Гризл"
+
+[FireExtinguisher]
+ItemName="Огнетушитель"
+Description="Химический огнетушитель."
+beltDescription="Огнетуш."
+ItemArticle=""
+
+[HKIncenseBurner]
+ItemName="Ароматизатор"
+
+[WeaponTool]
+DragToUse="Перетащите на предмет для использования. Предметы, обозначенные синим, могуг быть обработаны этим инструментом."
+ItemFixedLabel="%s починен"
+
+[MenuScreenThemesLoad]
+LoadHelpText="Выберите палитру для загрузки"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_Other,Text="|&Загрузить",Key="LOAD")"
+Title="Палитры"
+
+[AdaptiveArmor]
+ExpireMessage="Термооптический камуфляж выработал свой ресурс"
+ItemName="Термооптический камуфляж"
+Description="Сплетенный из оптоволокна, с передовой компьютерной системой, термооптический Камо (камуфляж) способен сделать агента невидимым для людей и ботов, поглощая свет и лучи радара; однако, высокое потребление энергии делает его полезным весьма короткое время, после чего его структура выплавляется и становится непригодной."
+beltDescription="Камо"
+ItemArticle=""
+
+[CleanerBot]
+FamiliarName="Чистящий бот"
+UnfamiliarName="Чистящий бот"
+
+[ComputerScreenATMWithdraw]
+ButtonLabelWithdraw="|&Снять"
+ButtonLabelClose="|&Закрыть"
+BalanceLabel="Текущий баланс:"
+WithdrawAmountLabel="Снять сумму:"
+InstructionText="Счет #: %d|nВведите колличество денег,|nкоторое вы хотите снять."
+InvalidAmountLabel="НЕВЕРНАЯ СУММА"
+InsufficientCreditsLabel="НЕ ХВАТАЕТ ДЕНЕГ"
+CreditsWithdrawnLabel="ДЕНЬГИ СНЯТЫ"
+StatusText="TMPLR//PUB:9811.1575[WD]"
+HackedText="ТЕРМИНАЛ ВЗЛОМАН"
+Title="Глобальная Банковская Сеть"
+ComputerNodeFunctionLabel="Терминал"
+
+[HUDMedBotAddAugsScreen]
+AvailableAugsText="Доступные приращения"
+MedbotInterfaceText="ИНТЕРФЕЙС МЕДБОТА"
+InstallButtonLabel="|&Установка"
+NoCansAvailableText="Нет емкостей приращений!"
+AlreadyHasItText="У вас уже есть это приращение, второй раз его установить нельзя."
+SlotFullText="Ячейка уже занята этим приращением."
+SelectAnotherText="Выберите другое приращение для установки."
+
+[ComputerPublic]
+ItemName="Общественный терминал"
+
+[Button1]
+ItemName="Кнопка"
+
+[MenuChoice_EnabledDisabled]
+enumText[0]="Да"
+enumText[1]="Нет"
+
+[ComputerScreenSpecialOptions]
+SecurityButtonLabel="|&Безопасность"
+EmailButtonLabel="|&Почта"
+Title="Специальные опции"
+ComputerNodeFunctionLabel="Опции"
+
+[Lockpick]
+ItemName="Отмычка"
+Description="Одноразовая отмычка. Обычные инструменты делаются из стали, но тонкие игольчатые - из быстротвердеющих полимеров."
+beltDescription="Отмычка"
+ItemArticle=""
+
+[Cloud]
+ItemName=""
+
+[PersonaHealthActionButtonWindow]
+HealButtonLabel="Лечить"
+
+[Multitool]
+ItemName="Мульти-инструмент"
+Description="Одноразовый электронный инструмент. Используется для определения электромагнитного резонанса и частотной модуляции для динамического изменения энерготока в цепи, опытные агенты могут использовать мульти-инструмент для оперирования кодовыми замками, камерами, автопушками, сигнализацией и другими системами безопасности."
+beltDescription="Гаджет"
+ItemArticle=""
+
+[MenuUIMessageBoxWindow]
+btnLabelYes="|&Да"
+btnLabelNo="|&Нет"
+btnLabelOK="|&OK"
+btnLabelCancel="|&Отмена"
+
+[HUDReadWindow]
+ButtonCloseLabel="Закрыть"
+ButtonSaveLabel="Сохранить в базу"
+
+[ComputerScreenBulletins]
+NoBulletinsTodayText="Сегодня нет объявлений!"
+BulletinsHeaderText="Выберите страницу:"
+Title="Объявления"
+ComputerNodeFunctionLabel="Объявления"
+
+[PersonaItemDetailIconWindow]
+CountLabel="Кол-во: %d"
+
+[MenuChoice_Resolution]
+HelpText="Изменить разрешение экрана."
+actionText="|&Разрешение экрана"
+
+[Doberman]
+FamiliarName="Доберман"
+UnfamiliarName="Доберман"
+
+[TrashPaper]
+ItemName="Бумага"
+
+[Karkian]
+FamiliarName="Каркиан"
+UnfamiliarName="Каркиан"
+
+[ShowerHead]
+ItemName="Душ"
+
+[HUDMedBotAugCanWindow]
+AugContainsText="Содержит:|n"
+
+[ComputerScreenLogin]
+UserNameLabel="Логин"
+PasswordLabel="Пароль"
+InvalidLoginMessage="ОШИБКА ЛОГИНА - ДОСТУП ЗАПРЕЩЕН"
+Title="С вами %s"
+ComputerNodeFunctionLabel="Логин"
+
+[Gray]
+FamiliarName="Серый"
+UnfamiliarName="Серый"
+
+[Fly]
+FamiliarName="Муха"
+UnfamiliarName="Муха"
+
+[Fireball]
+ItemName="Огонь"
+
+[MenuChoice_Volume]
+VolumeOffText="ВЫКЛ"
+VolumeMaxText="МАКС"
+
+[HUDMedBotNavBarWindow]
+HealthButtonLabel="|&Здоровье"
+AugsButtonLabel="|&Приращения"
+
+[Poolball]
+ItemName="Шар"
+
+[ComputerScreenATMDisabled]
+ButtonLabelClose="Закрыть"
+LoginInfoText="Извините, терминал временно недоступен.|n|nПриносим извинения за неудобства. Мы всегда будем рады обслужить вас в одном из 200.000 банковских терминалов по всему миру."
+StatusText="TMPLR//PUB:9811.1575[error]"
+Title="Глобальная Банковская Сеть"
+
+[ComputerScreenATM]
+AccountLabel="Счет #:"
+PinLabel="PIN #:"
+LoginInfoText="Введите номер вашего счета и PIN-Код"
+WarningText="ВНИМАНИЕ: Неавторизированный доступ будет встречен жестким силовым воздействием!"
+StatusText="TMPLR//PUB:9811.1575[login]"
+InvalidLoginMessage="ОШИБКА ЛОГИНА, ДОСТУП ЗАПРЕЩЕН"
+Title="Глобальная Банковская Сеть"
+
+[PersonaInventoryCreditsWindow]
+CreditsLabel="Деньги"
+
+[WaterFountain]
+msgEmpty="Вода кончилась"
+ItemName="Фонтан"
+
+[WIB]
+FamiliarName="Женщина в Черном"
+UnfamiliarName="Женщина в Черном"
+
+[WaterCooler]
+msgEmpty="Вода закончилась"
+ItemName="Кулер"
+
+[MIB]
+FamiliarName="Мужчина в Черном"
+UnfamiliarName="Мужчина в Черном"
+
+[AlarmLight]
+ItemName="Сигнализация"
+
+[Rat]
+FamiliarName="Крыса"
+UnfamiliarName="Крыса"
+
+[ComputerSecurityChoice_Turret]
+enumText[0]="Отключена"
+enumText[1]="Союзники"
+enumText[2]="Враги"
+enumText[3]="Все"
+actionText="|&Статус Турели"
+
+[MenuChoice_MouseSensitivity]
+HelpText="Изменяет чувствительность мыши."
+actionText="|&Чувствительность мыши"
+
+[Cart]
+ItemName="Хозяйственная тележка"
+
+[Cat]
+FamiliarName="Кошка"
+UnfamiliarName="Кошка"
+
+[MenuChoice_LowMedHigh]
+enumText[0]="Низкое"
+enumText[1]="Среднее"
+enumText[2]="Высокое"
+
+[CageLight]
+ItemName="Фонарь"
+
+[RetinalScanner]
+msgUsed="Доступ разрешен"
+ItemName="Сканнер сетчатки"
+
+[MenuChoice_EffectsChannels]
+HelpText="Количество каналов звука."
+actionText="З|&вуковые каналы"
+
+[Basketball]
+ItemName="Баскетбольный мяч"
+
+[ShipsWheel]
+ItemName="Штурвал"
+
+[WHPhone]
+ItemName="Телефон"
+
+[Valve]
+ItemName="Вентиль"
+
+[Phone]
+ItemName="Телефон"
+
+[VialCrack]
+ItemName="Пузырек фермента"
+Description="Фермент, приготовленный в какой-то подпольной лаборатории."
+beltDescription="Фермент"
+ItemArticle=""
+
+[VialAmrita]
+ItemName="Образец Амриты"
+Description="Образец Амриты. Защитный контейнер содержит мириады наноуровневых мекано-карбоновых модулей памяти, взвешенных в проводящей субстанции."
+beltDescription="Амрита"
+ItemArticle=""
+
+[PersonaImageNewLegendLabel]
+NewLegendLabel=" = Новое изображение"
+
+[WHPiano]
+ItemName="Рояль"
+
+[Toilet2]
+ItemName="Писсуар"
+
+[Toilet]
+ItemName="Туалет"
+
+[Switch2]
+ItemName="Переключатель"
+
+[Switch1]
+ItemName="Переключатель"
+
+[LightSwitch]
+ItemName="Выключатель"
+
+[HKMarketTarp]
+ItemName="Тент"
+
+[HKHangingPig]
+ItemName="Забитая свинья"
+
+[HangingChicken]
+ItemName="Забитая курица"
+
+[MenuChoice_RenderDevice]
+PromptTitle="Перезапустить 2027?"
+GamePromptMessage="Для выбора акселератора надо перезапустить 2027, при этом текущая игра потеряется, если вы не сохранились. Перезапустить?"
+RestartPromptMessage="Для выбора акселератора надо перезапустить 2027. Желаете продолжить?"
+HelpText="Выберите устройство для 3D рендеринга. Для этого нужно покинуть 2027 и выбрать 3D ускоритель."
+actionText="|&Видеокарта для рендеринга..."
+
+[BlackHelicopter]
+ItemName="Черный вертолет"
+
+[AttackHelicopter]
+ItemName="Боевой вертолет"
+
+[Pinball]
+ItemName="Игральный автомат"
+
+[Rebreather]
+ExpireMessage="Акваланг израсходован"
+ItemName="Акваланг"
+Description="Одноразовый химический фильтр, извлекающий кислород из воды при коротких подводных операциях."
+beltDescription="Акваланг"
+ItemArticle=""
+
+[BarrelFire]
+ItemName="Горящая бочка"
+
+[MenuScreenAdjustColors]
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_OK)"
+Title="Цвета"
+
+[MenuChoice_VisibleHidden]
+enumText[0]="Виден"
+enumText[1]="Скрыт"
+
+[AcousticSensor]
+ItemName="Аккустический сенсор стрельбы"
+
+[ControlPanel]
+ItemName="Электронная панель"
+
+[HazMatSuit]
+ExpireMessage="Энергия защитного костюма закончилась"
+ItemName="Защитный костюм"
+Description="Стандартный защитный костюм предохраняющий от целого ряда опасностей: радиации, токсинов, газа. После использования ресурс костюма заканчивается и он становится непригодным."
+beltDescription="Защита"
+ItemArticle=""
+
+[CrateBreakableMedMedical]
+ItemName="Ящик с медикаментами"
+
+[CrateBreakableMedGeneral]
+ItemName="Ящик со снаряжением"
+
+[CrateBreakableMedCombat]
+ItemName="Ящик с боеприпасами"
+
+[MenuChoice_HUDColor]
+HelpText="Палитра для всех игровых экранов."
+actionText="|&HUD цвета"
+
+[MenuChoice_MenuColor]
+HelpText="Палитра для всех меню."
+actionText="|&Цвета меню"
+
+[Lightbulb]
+ItemName="Лампочка"
+
+[BallisticArmor]
+ExpireMessage="Баллистическая защита разряжена"
+ItemName="Баллистическая защита"
+ItemArticle=""
+Description="Баллистическая защита сделана из электрически чувствительных полимеров, которые реагируют на удары пуль или взрывчатки, при этом затвердевая, поглощая основной ущерб. Эти полимеры должны быть заряжены перед использованием; после разрядки они теряют свои свойства и должны быть выброшены."
+beltDescription="Защита"
+
+[Flowers]
+ItemName="Цветы"
+
+[FlagPole]
+ItemName="Флаг"
+
+[Cushion]
+ItemName="Большая подушка"
+
+[CoffeeTable]
+ItemName="Кофейный столик"
+
+[WHChairPink]
+ItemName="Стул"
+
+[OfficeChair]
+ItemName="Офисный стул"
+
+[CouchLeather]
+ItemName="Диван"
+
+[ChairLeather]
+ItemName="Кресло"
+
+[HKHangingLantern2]
+ItemName="Бумажная лампа"
+
+[ClothesRack]
+ItemName="Одежда"
+
+[CeilingFanMotor]
+ItemName="Вентилятор"
+
+[CeilingFan]
+ItemName="Вентилятор"
+
+[MenuChoice_SpeechVolume]
+HelpText="Настройка громкости речи."
+actionText="|&Громкость речи"
+
+[MenuChoice_SoundVolume]
+HelpText="Настройка громкости звуковых эффектов."
+actionText="Г|&ромкость звуков"
+
+[MenuChoice_MusicVolume]
+HelpText="Настройка громкость музыки."
+actionText="|&Громкость музыки"
+
+[ComputerSecurityChoice_DoorOpen]
+enumText[0]="Открыта"
+enumText[1]="Закрыта"
+actionText="Состояние |&двери"
+
+[ComputerSecurityChoice_DoorAccess]
+enumText[0]="Заперто"
+enumText[1]="Не заперто"
+actionText="|&Замок"
+
+[ComputerSecurityChoice_Camera]
+enumText[0]="Вкл"
+enumText[1]="Выкл"
+actionText="|&Статус камеры"
+
+[Female1]
+FamiliarName="Женщина"
+UnfamiliarName="Женщина"
+
+[Female2]
+FamiliarName="Женщина"
+UnfamiliarName="Женщина"
+
+[Female3]
+FamiliarName="Женщина"
+UnfamiliarName="Женщина"
+
+[Female4]
+FamiliarName="Женщина"
+UnfamiliarName="Женщина"
+
+[Male1]
+FamiliarName="Мужчина"
+UnfamiliarName="Мужчина"
+
+[Male2]
+FamiliarName="Мужчина"
+UnfamiliarName="Мужчина"
+
+[Male3]
+FamiliarName="Мужчина"
+UnfamiliarName="Мужчина"
+
+[Male4]
+FamiliarName="Мужчина"
+UnfamiliarName="Мужчина"
+
+[MenuChoice_AdjustBrightness]
+actionText="|&Яркость"
+
+[MenuChoice_AlwaysRun]
+HelpText="Если разрешено, то игрок всегда бежит."
+actionText="|&Всегда бежать"
+
+[MenuChoice_Crosshairs]
+HelpText="Включение видимости прицела."
+actionText="При|&цел"
+
+[MenuChoice_FullScreen]
+HelpText="Переключение между полноэкранным и оконным режимом."
+actionText="Вкл/выкл полноэкранный режим"
+
+[MenuChoice_GoreLevel]
+enumText[0]="Низкий"
+enumText[1]="Обычный"
+HelpText="Установка на Низкий запретит показ крови в игре."
+actionText="|&Уровень насилия"
+
+[MenuChoice_HeadBob]
+HelpText="Включает легкое покачивание вверх и вниз при ходьбе."
+actionText="|&Покачивание"
+
+[MenuChoice_HUDAugDisplay]
+enumText[0]="Активные"
+enumText[1]="Все"
+HelpText="Эта установка определяет какие приращения отображаются в HUD."
+actionText="HUD экран приращений"
+
+[MenuChoice_HUDBordersVisible]
+HelpText="Определяет показываются или нет границы HUD."
+actionText="|&Видимость границ HUD"
+
+[MenuChoice_HUDBorderTranslucency]
+HelpText="Если прозрачность установлена, то границы HUD - прозрачны."
+actionText="|&Прозрачность границ HUD"
+
+[MenuChoice_HUDTranslucency]
+HelpText="Если прозрачность включена, то фон будет виден через игровые HUD или вспомогательные экраны."
+actionText="Прозрачность HUD ф|&она"
+
+[MenuChoice_InvertMouse]
+HelpText="Инвертирование движения мыши по вертикали."
+actionText="Инвертирование |&мыши"
+
+[MenuChoice_MenuTranslucency]
+HelpText="Если прозрачность включена, то фон будет виден через игровые меню."
+actionText="|&Прозрачность меню"
+
+[MenuChoice_ObjectNames]
+HelpText="Если включено, показывает название выделенного объекта."
+actionText="|&Название объекта"
+
+[MenuChoice_ReverseStereo]
+HelpText="Если включено, меняет местами левый и правый каналы."
+actionText="|&Инверсное стерео"
+
+[MenuChoice_Subtitles]
+HelpText="Если субтитры включены, то диалоги отображаются на экране."
+actionText="|&Субтитры"
+
+[MenuChoice_SurroundSound]
+HelpText="Включение поддержки звука Dolby Surround.  Требуется Dolby Pro-Logic Surround звуковой процессор."
+actionText="|&Звук Dolby Surround"
+
+[MenuChoice_ToggleCrouch]
+HelpText="Если активно, то клавиша приседания работает как переключатель."
+actionText="|&Переключатель приседания"
+
+[MenuChoice_UIBackground]
+enumText[0]="3D-рендер"
+enumText[1]="Статик"
+enumText[2]="Черный"
+HelpText="Определяет, что будет показываться под меню и 2D экранами: 3D-рендеринг, статичная картинка или же черный экран."
+actionText="|&Фон UI/Меню"
+
+[MenuChoice_WeaponAutoReload]
+HelpText="Если Разрешено, оружие будет автоматически перезаряжаться когда обойма закончится."
+actionText="|&Авто перезарядка"
+
+[MenuScreenControls]
+Title="Дополнительно"
+
+[MenuScreenOptions]
+Title="Options"
+
+[MenuScreenSound]
+Title="Звук"
+
+[MenuScreenThemesSave]
+LoadHelpText="Выберите палитру для сохранения"
+actionButtons[1]="(Text="Сохранить",Key="SAVE")"
+Title="Сохранить палитру"
+
+[Pigeon]
+FamiliarName="Голубь"
+UnfamiliarName="Голубь"
+
+[Seagull]
+FamiliarName="Чайка"
+UnfamiliarName="Чайка"
+
+[VialVirus]
+ItemName="Пробирка"
+Description=""
+beltDescription="Ампула"
+
+[Tumbleweed]
+ItemName="Tumbleweed"
+
+[Mutt]
+FamiliarName="Пес"
+UnfamiliarName="Пес"
+
+[WHTableBlue]
+ItemName="Стол"
+
+[WHRedVase]
+ItemName="Ваза"
+
+[WHRedOvalTable]
+ItemName="Стол"
+
+[WHRedLampTable]
+ItemName="Стол"
+
+[WHRedEagleTable]
+ItemName="Стол"
+
+[WHRedCouch]
+ItemName="Диван"
+
+[WHRedCandleabra]
+ItemName="Канделябр"
+
+[WHFireplaceLog]
+ItemName="Полено"
+
+[WHFireplaceGrill]
+ItemName="Решетка"
+
+[WHEndtableLibrary]
+ItemName="Стол"
+
+[WHDeskOvalOffice]
+ItemName="Стол"
+
+[WHDeskLibrarySmall]
+ItemName="Стол"
+
+[WHChairOvalOffice]
+ItemName="Кресло"
+
+[WHChairDining]
+ItemName="Стул"
+
+[WHCabinet]
+ItemName="Кабинет"
+
+[WHBookstandLibrary]
+ItemName="Книжный шкаф"
+
+[WHBenchLibrary]
+ItemName="Скамья"
+
+[WHBenchEast]
+ItemName="Скамья"
+
+[Vase2]
+ItemName="Ваза"
+
+[Vase1]
+ItemName="Ваза"
+
+[Van]
+ItemName="Черный фургон"
+
+[Trophy]
+ItemName="Призовой кубок"
+
+[TrashCan4]
+ItemName="Мусорный контейнер"
+
+[TrashCan3]
+ItemName="Мусорный контейнер"
+
+[Trashcan2]
+ItemName="Мусорный контейнер"
+
+[TrashCan1]
+ItemName="Мусорный контейнер"
+
+[Trashbag2]
+ItemName="Мусорный мешок"
+
+[Trashbag]
+ItemName="Мусорный мешок"
+
+[TrafficLight]
+ItemName="Светофор"
+
+[ThugMale3]
+FamiliarName="Бандит"
+UnfamiliarName="Бандит"
+
+[ThugMale2]
+FamiliarName="Бандит"
+UnfamiliarName="Бандит"
+
+[ThugMale]
+FamiliarName="Бандит"
+UnfamiliarName="Бандит"
+
+[SubwayControlPanel]
+ItemName="Панель управления"
+
+[Soldier]
+FamiliarName="Солдат"
+UnfamiliarName="Солдат"
+
+[SignFloor]
+ItemName="Знак предупреждения"
+
+[ShopLight]
+ItemName="Флюоресцентная лампа"
+
+[SecretService]
+FamiliarName="Агент"
+UnfamiliarName="Агент"
+
+[Secretary]
+FamiliarName="Секретарь"
+UnfamiliarName="Секретарь"
+
+[ScubaDiver]
+FamiliarName="Ныряльщик"
+UnfamiliarName="Ныряльщик"
+
+[ScientistMale]
+FamiliarName="Ученый"
+UnfamiliarName="Ученый"
+
+[ScientistFemale]
+FamiliarName="Ученый"
+UnfamiliarName="Ученый"
+
+[SarahMead]
+FamiliarName="Девушка"
+UnfamiliarName="Девушка"
+
+[Sailor]
+FamiliarName="Моряк"
+UnfamiliarName="Моряк"
+
+[RoadBlock]
+ItemName="Бетонная баррикада"
+
+[RachelMead]
+FamiliarName="Женщина"
+UnfamiliarName="Женщина"
+
+[Pot2]
+ItemName="Глиняный горшок"
+
+[Pot1]
+ItemName="Глиняный горшок"
+
+[PoolTableLight]
+ItemName="Светильник"
+
+[Plant3]
+ItemName="Домашнее растение"
+
+[Plant2]
+ItemName="Домашнее растение"
+
+[Plant1]
+ItemName="Домашнее растение"
+
+[Pillow]
+ItemName="Подушка"
+
+[PhilipMead]
+FamiliarName="Мужчина"
+UnfamiliarName="Мужчина"
+
+[Pan4]
+ItemName="Кастрюля"
+
+[Pan3]
+ItemName="Сковорода"
+
+[Pan2]
+ItemName="Кастрюля"
+
+[Pan1]
+ItemName="Сковорода"
+
+[NYPoliceBoat]
+ItemName="Полицейская лодка"
+UnfamiliarName="Пилот лодки"
+
+[Nurse]
+FamiliarName="Медсестра"
+UnfamiliarName="Медсестра"
+
+[NewspaperOpen]
+ItemName="Газета"
+
+[Newspaper]
+ItemName="Газета"
+
+[NathanMadison]
+FamiliarName="Моряк"
+UnfamiliarName="Моряк"
+
+[MorganEverett]
+FamiliarName="Морган Эверетт"
+UnfamiliarName="Морган Эверетт"
+
+[MiniSub]
+ItemName="Мини-подлодка"
+
+[Microscope]
+ItemName="Микроскоп"
+
+[MichaelHamner]
+FamiliarName="Мужчина"
+UnfamiliarName="Мужчина"
+
+[BoxSmall]
+ItemName="Картонная коробка"
+
+[MenuChoice_AdjustColors]
+HelpText="Позволяет настроить цвета в МЕНЮ и игровых HUD экранах."
+actionText="Коррекция цвета..."
+
+[Mechanic]
+FamiliarName="Механик"
+UnfamiliarName="Механик"
+
+[MargaretWilliams]
+FamiliarName="Женщина"
+UnfamiliarName="Женщина"
+
+[Mailbox]
+ItemName="Почтовый ящик"
+
+[Maid]
+FamiliarName="Служанка"
+UnfamiliarName="Служанка"
+
+[LowerClassMale2]
+FamiliarName="Низший класс"
+UnfamiliarName="Низший класс"
+
+[LowerClassMale]
+FamiliarName="Низший класс"
+UnfamiliarName="Низший класс"
+
+[LowerClassFemale]
+FamiliarName="Низший класс"
+UnfamiliarName="Низший класс"
+
+[Lamp3]
+ItemName="Настольная лампа"
+
+[Lamp2]
+ItemName="Галогенная лампа"
+
+[Lamp1]
+ItemName="Настольная лампа"
+
+[KarkianBaby]
+FamiliarName="Молодой каркиан"
+UnfamiliarName="Молодой каркиан"
+
+[JunkieMale]
+FamiliarName="Наркоман"
+UnfamiliarName="Наркоман"
+
+[JunkieFemale]
+FamiliarName="Наркоманка"
+UnfamiliarName="Наркоманка"
+
+[Janitor]
+FamiliarName="Дворник"
+UnfamiliarName="Дворник"
+
+[Hooker2]
+FamiliarName="Девушка"
+UnfamiliarName="Девушка"
+
+[Hooker1]
+FamiliarName="Девушка"
+UnfamiliarName="Девушка"
+
+[HKTukTuk]
+ItemName="Лодка"
+
+[HKTable]
+ItemName="Стол"
+
+[HKMilitary]
+FamiliarName="Китайский солдат"
+UnfamiliarName="Китайский солдат"
+
+[HKMarketTable]
+ItemName="Стол"
+
+[HKMarketLight]
+ItemName="Висячий светильник"
+
+[HKHangingLantern]
+ItemName="Бумажная лампа"
+
+[HKCouch]
+ItemName="Скамья"
+
+[HKChair]
+ItemName="Стул"
+
+[HKBuddha]
+ItemName="Статуя будды"
+
+[HKBirdcage]
+ItemName="Клетка"
+
+[HangingShopLight]
+ItemName="Флюоресцентная лампа"
+
+[Flask]
+ItemName="Пробирка"
+
+[Fan2]
+ItemName="Вентилятор"
+
+[Fan1Vertical]
+ItemName="Вентилятор"
+
+[Fan1]
+ItemName="Вентилятор"
+
+[Doctor]
+FamiliarName="Доктор"
+UnfamiliarName="Доктор"
+
+[DataCube]
+ItemName="Датакуб"
+
+[CrateUnbreakableSmall]
+ItemName="Железный ящик"
+
+[CrateUnbreakableMed]
+ItemName="Железный ящик"
+
+[CrateUnbreakableLarge]
+ItemName="Железный ящик"
+
+[CrateExplosiveSmall]
+ItemName="Ящик со взрывчаткой"
+
+[Cop]
+FamiliarName="Полицейский"
+UnfamiliarName="Полицейский"
+
+[ChildMale2]
+FamiliarName="Ребенок"
+UnfamiliarName="Ребенок"
+
+[ChildMale]
+FamiliarName="Ребенок"
+UnfamiliarName="Ребенок"
+
+[Chef]
+FamiliarName="Шеф-повар"
+UnfamiliarName="Шеф-повар"
+
+[Chandelier]
+ItemName="Канделябр"
+
+[Chair1]
+ItemName="Стул"
+
+[Chad]
+FamiliarName="Chad"
+UnfamiliarName="Chad"
+
+[Butler]
+FamiliarName="Дворецкий"
+UnfamiliarName="Дворецкий"
+
+[Businesswoman1]
+FamiliarName="Деловая женщина"
+UnfamiliarName="Деловая женщина"
+
+[Businessman3]
+FamiliarName="Бизнесмен"
+UnfamiliarName="Бизнесмен"
+
+[Businessman2]
+FamiliarName="Бизнесмен"
+UnfamiliarName="Бизнесмен"
+
+[Businessman1]
+FamiliarName="Бизнесмен"
+UnfamiliarName="Бизнесмен"
+
+[BumMale3]
+FamiliarName="Бомж"
+UnfamiliarName="Бомж"
+
+[BumMale2]
+FamiliarName="Старый бродяга"
+UnfamiliarName="Старый бродяга"
+
+[BumMale]
+FamiliarName="Бомж"
+UnfamiliarName="Бомж"
+
+[BumFemale]
+FamiliarName="Бродяга"
+UnfamiliarName="Бродяга"
+
+[BoxMedium]
+ItemName="Картонная коробка"
+
+[BoxLarge]
+ItemName="Картонная коробка"
+
+[BookOpen]
+ItemName="Книга"
+
+[BookClosed]
+ItemName="Книга"
+
+[BoneSkull]
+ItemName="Череп"
+
+[BoneFemur]
+ItemName="Кость"
+
+[BoatPerson]
+FamiliarName="Лодочник"
+UnfamiliarName="Лодочник"
+
+[Basket]
+ItemName="Плетеная корзина"
+
+[Bartender]
+FamiliarName="Бармен"
+UnfamiliarName="Бармен"
+
+[BarrelVirus]
+ItemName="Контейнер"
+
+[AIPrototype]
+ItemName="Голограмма"
+
+[ConWindowCredits]
+Credits="Деньги"
+
+[Cigarettes]
+ItemName="Сигареты"
+M_Activated=""
+Description="'Высококачественный отборный табак позволит вам насладиться великолепным вкусом наших сигарет'|n|nКурение - причина смертельных заболеваний."
+beltDescription="Табак"
+ItemArticle=""
+
+[HUDCarcassWindow]
+PickButtonLabel="Поднять тело"
+ExitButtonLabel="Выход"
+
+[SkilledTool]
+CountLabel="Количество: "
+ItemArticle=""
+
+[TechGoggles]
+ItemArticle=""
+
+[Binoculars]
+ItemArticle=""
+
+[SkillManager]
+NoToolMessage="Необходим %s"
+NoSkillMessage="Уровень навыка %s недостаточен для использования %s"
+SuccessMessage="Готово!"
+YourSkillLevelAt="Ваш навык %s теперь на уровне %d"
+
+[PersonaSkillButtonWindow]
+NotAvailableLabel="---"
+
+[MenuChoice_Use3DHardware]
+helpText="Использование аппаратного 3D звука."
+actionText="|&Аппаратный 3D звук"
+RestartTitle="Качество звука"
+RestartMessage="Для вступления изменений в силу необходимо перезапустить 2027."

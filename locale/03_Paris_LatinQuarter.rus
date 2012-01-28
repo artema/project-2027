@@ -1,0 +1,45 @@
+[GameComputerSecurity1]
+Views[0]="(titleString="Бар",CameraTag=StreetCam1)"
+Views[1]="(titleString="Кафе",CameraTag=StreetCam2)"
+Views[2]="(titleString="Лестница",CameraTag=StreetCam3)"
+
+[GenericMale0]
+FamiliarName="Альберт"
+UnfamiliarName="Молодой человек"
+
+[Businessman1]
+FamiliarName="Павел"
+UnfamiliarName="Русский"
+
+[GameComputerPersonal2]
+specialOptions[0]="(Text="Отключить патрульных ботов",TriggerText="Боты отключены",TriggerEvent=ShutDownBots,bTriggerOnceOnly=True)"
+
+[Hooker0]
+FamiliarName="Николь"
+UnfamiliarName="Девушка"
+
+[Female3]
+FamiliarName="Кристин"
+UnfamiliarName="Соседка"
+
+[LowerClassMale0]
+FamiliarName="Жак"
+
+[GameComputerSecurity2]
+Views[0]="(titleString="Полиция",CameraTag=PoliceCam1)"
+Views[1]="(titleString="Полиция",CameraTag=PoliceCam2)"
+Views[2]="(titleString="Полиция",CameraTag=PoliceCam3)"
+
+[GameComputerSecurity0]
+specialOptions[0]="(Text="Изменить гейт на 81.1.226.230",TriggerText="Трафик перенаправлен на 81.1.226.230",TriggerEvent=ChangeRouteGate,bTriggerOnceOnly=True)"
+
+[SkillAwardTrigger4]
+awardMessage="Магазин 'L'Arme' отключен от сети"
+
+[DummyTarget0]
+FamiliarName="Охранный бот"
+UnfamiliarName="Охранный бот"
+
+[DeusExLevelInfo0]
+MissionLocation="Париж - Латинский квартал"
+startupMessage[0]="Париж - Латинский квартал"

@@ -1,0 +1,19 @@
+[DeusExLevelInfo0]
+MissionLocation="Moscow - Yauza Boulevard"
+startupMessage[0]="Moscow, Russian Confederation"
+startupMessage[1]="Yauza Boulevard"
+startupMessage[2]="October 18th, Night"
+
+[DummyTarget0]
+FamiliarName="Daniel"
+UnfamiliarName="Daniel"
+
+[SpecialEvent0]
+Message="No time for games!"
+
+[BumMale0]
+FamiliarName="Genadiy"
+UnfamiliarName="Bum"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=Thug,KeyID=OmarPrison,Description="Omar Prison Key")"

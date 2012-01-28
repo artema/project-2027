@@ -1,0 +1,10 @@
+<COMMENT>Письмо</COMMENT>
+<P>Dear client,
+<P>You're ordered Electric Pump "Uragan" GAPR-4000, 1800W
+<P>
+<P>Unfortunately, we can't deliver your order to the address given: Russia, posyolok Amderma, troop command 7742 due to the non-delivery of budgetary funds. 
+<P>
+<P>Please, contact our accountant's office directly to settle the issue.
+<P>
+<P>We apologize for any inconvenience,
+<P>"Elektrotovary Sibiry"

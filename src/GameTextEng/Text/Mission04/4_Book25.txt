@@ -1,0 +1,9 @@
+<P>Cartridge: 5.56x45mm NATO
+<P>Action: Gas-operated, rotating bolt
+<P>Length: 688 mm
+<P>Barrel length: 400 mm
+<P>Weight: 3.6 kg
+<P>
+<P>The FN F2000 is a 5.56x45mm NATO bullpup assault rifle, designed by FN Herstal in Belgium. The F2000 made its debut in March 2001 at the IDEX defense exhibition held in Abu Dhabi, in the United Arab Emirates.
+<P>The F2000 is a modular weapon system; its principal component is a compact 5.56x45mm NATO-caliber assault rifle configured in a bullpup layout. The F2000 is a selective fire weapon operating from a closed bolt.
+<P>The rifle consists of two main assemblies: the barreled receiver group and the frame, coupled together by means of an axis pin located above the trigger guard. The barrel group has an integral MIL-STD-1913 Picatinny rail used to mount optical sights. The frame or lower receiver contains the trigger group, the bolt and bolt carrier assembly, return mechanism and magazine well. A removable handguard is installed in front of the trigger which completes and encloses the trigger guard.

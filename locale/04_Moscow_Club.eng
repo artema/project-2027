@@ -1,0 +1,86 @@
+[ClubThug0]
+FamiliarName="Thug"
+UnfamiliarName="Thug"
+
+[OmarCyclope0]
+FamiliarName="Cyclope"
+UnfamiliarName="Omar"
+
+[BolshevikWarrior6]
+FamiliarName="Security Guard"
+UnfamiliarName="Security Guard"
+
+[BolshevikWarrior7]
+FamiliarName="Security Guard"
+UnfamiliarName="Security Guard"
+
+[BolshevikWarrior8]
+FamiliarName="Security Guard"
+UnfamiliarName="Security Guard"
+
+[BolshevikWarrior9]
+FamiliarName="Security Guard"
+UnfamiliarName="Security Guard"
+
+[MechClubOwner1]
+FamiliarName="Dmitri"
+UnfamiliarName="Cyborg"
+
+[Businessman6]
+FamiliarName="Egor"
+UnfamiliarName="Young Man"
+
+[Hooker1]
+FamiliarName="Girl"
+UnfamiliarName="Girl"
+
+[ThugMale2]
+FamiliarName="Sergey"
+UnfamiliarName="Angry Guy"
+
+[ThugMale4]
+FamiliarName="Viktor"
+UnfamiliarName="Guy"
+
+[GameComputerSecurity0]
+Views[0]="(titleString="ATM",CameraTag=Camera1)"
+Views[1]="(titleString="Storage",CameraTag=Camera1)"
+
+[Omar0]
+FamiliarName="Yury"
+UnfamiliarName="Angry Omar"
+
+[LevelSummary]
+Title="Untitled"
+
+[DeusExLevelInfo0]
+MissionLocation="Moscow - Club"
+startupMessage[0]="Night Club 'Revolutionist'"
+
+[ClubMale0]
+FamiliarName="Boor"
+UnfamiliarName="Man"
+
+[Hooker0]
+FamiliarName="Bartender"
+UnfamiliarName="Bartender"
+
+[Bandit0]
+FamiliarName="Petr"
+UnfamiliarName="Young Man"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=ClubThug,KeyID=key_MoscowClub_Main,Description="'Revolutionist' club")"
+
+[Male0]
+FamiliarName="Mihail"
+UnfamiliarName="Man"
+
+[LowerClassMale2]
+FamiliarName="Vasiliy"
+UnfamiliarName="Drunk Man"
+
+[Businessman1]
+FamiliarName="Vlad"
+UnfamiliarName="Man With An Iron Jaw"
+

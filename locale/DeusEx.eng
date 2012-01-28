@@ -1,0 +1,2097 @@
+[DataLinkPlay]
+infoLinkNames[0]="(BindName="Titan",displayName="Titan")"
+infoLinkNames[1]="(BindName="TitanBot",displayName="Titan")"
+infoLinkNames[2]="(BindName="Xander",displayName="Xander")"
+infoLinkNames[3]="(BindName="VladimirGrigoryev",displayName="Vladimir Grigoryev")"
+infoLinkNames[4]="(BindName="MagnusAthers",displayName="Magnus")"
+infoLinkNames[5]="(BindName="Thanatos",displayName="Thanatos")"
+infoLinkNames[6]="(BindName="Cyclope",displayName="Cyclops")"
+infoLinkNames[7]="(BindName="OmarPrisoner",displayName="Omar")"
+infoLinkNames[8]="(BindName="Majestic",displayName="Majestic")"
+EndTransmission="END TRANSMISSION..."
+
+[SkillAwardTrigger]
+awardMessage=""
+msgExplorationBonus="Exploration Bonus"
+msgAreaLocationBonus="Area Location Bonus"
+msgBonusForCreativity="Creativity Bonus"
+msgPrimaryGoalComplete="Primary Goal Bonus"
+msgSecondaryGoalComplete="Secondary Goal Bonus"
+
+[PersonaScreenAugmentations]
+AugmentationsTitleText="Augmentations"
+UpgradeButtonLabel="|&Upgrade"
+ActivateButtonLabel="Acti|&vate"
+DeactivateButtonLabel="Deac|&tivate"
+UseCellButtonLabel="Us|&e Cell"
+AugCanUseText="Click on the Augmentation you wish to upgrade, then on the Upgrade button."
+BioCellUseText="To replenish Bioelectric Energy for your Augmentations, click on the Use Cell button."
+AugLocationDefault="Default"
+AugLocationCranial="Cranial"
+AugLocationEyes="Eyes"
+AugLocationArms="Arms"
+AugLocationLegs="Legs"
+AugLocationTorso="Torso"
+AugLocationSubdermal="Skin"
+AugLocationDesc[0]="Next gen augmentations are able to interact with the central nervous system directly through PEDOT clusters, leading to enhanced cognitive abilities and access to external computational and analytical faculties."
+AugLocationDesc[1]="Eyeballs are replaced with artificially improved substitutes, improving visual detection and definition across all wavelengths, luminosities, and other visual parameters. Augmented reality systems can be fed directly into the visual cortex."
+AugLocationDesc[2]="Most human organs now have improved artificial replicants."
+AugLocationDesc[3]="Mechano-electrical appendage replacements based on EAP (electro-active polymer) muscle substitutes provide for signficantly stronger, faster, and more precise movements."
+AugLocationDesc[4]="Artificial legs based on the same EPA technology as artificial arms are not only useful as prosthesis for the disabled, but can improve mobility and effectiveness in the case of combat fatigue."
+AugLocationDesc[5]="Modern sub- and intra- dermal modifications provide for a wide range of technological applications ranging from security to camouflage."
+
+[AugVision]
+AugmentationName="Digital Vision"
+Description="Polycarbon eyeball and optic nerve replacements with integrated digital signal processing modules allow the user to see in pitch black environments. Nanomechanically produced receptor arrays can detect light wavelengths outside the visual spectrum.|n|nSTANDARD MODE: Infrared imaging based night vision. WARNING: Bright sources of light may damage the detector.|n|nAFTERBURNER MODE: Active sonar based vision overlay combined with ultra-wide and narrow electromagnetic radiation detectors allow user to see organisms and electronic devices through walls and other obstacles."
+NotWithGoggles="Incompatible with goggles"
+
+[AugSpeed]
+AugmentationName="Cybernetic Leg Prosthesis"
+Description="Titanium based EAP electro-mechanical leg implants with a PEDOT control interface significantly improve user's ability to run and jump at high speeds and distances, while reducing vulnerability to fire and other types of wounds.|n<NOTE AUG-352>Non FPA based actuators produce noise under active use, NOT recommended for stealth operations.|n|nSTANDARD MODE: Running speed improved dramatically.|n|nAFTERBURNER MODE: Running and jumping speed and distance pushed to limits; shock absorbers and adaptive decelleration control systems protect user from physical harm in the case of a long fall."
+
+[AugTime]
+AugmentationName="Reaction Boost"
+Description="Neural PEDOT clusters interfaced directly with installed co-processors and wireless communication nodules speed up nerve impulse transmissions for a short period, improving reflex, reaction, and processing times (cognitive velocity) in the user. Test subjects have described Reaction Boost as if 'time slowed down', referencing 20th century cinema special effects. |n|nSTANDARD MODE: Slight boost in reaction times and cognitive velocity.|n|nAFTERBURNER MODE: Reaction time and cognitive velocity doubled."
+
+[AugEnviro]
+AugmentationName="Closed Rebreather"
+Description="A completely closed back-up respiratory system allows user to breathe clean oxygenated air in any environment; providing for prolonged underwater or toxic environment operations.|n|nNO UPGRADES"
+
+[AugDatalink]
+AugmentationName="Infolink"
+Description="One-way micro-transceiver array allows agents in the field to receive messages from Control, and to store and later retrieve relevant maps, conversations, and notes (augmented reality interface compatible); Also includes automatic launguage translation functionalities.|n|nNO UPGRADES"
+
+[AugBallistic]
+AugmentationName="Subcutaneous Body Armor"
+Description="An active subcutaneous network of para-aramid fibers holding metallo-ceramic plates significantly reduces the damage produced by various kinds of mechanical forces, including bullet impacts.|n|nSTANDARD MODE: Partially reduces damage from firearms.|n|nAFTERBURNER MODE: Significantly reduces damage from firearms, high temperatures, and explosive ordnance."
+
+[AugHealing]
+AugmentationName="Amrita"
+Description="The very latest in augmentation technology: Amrita, so named for the Sanskrit, "that which is immortal", uses recent advances in nanotechnological biomedical applications to aid and speed healing in damaged areas of any organism.|n|nWARNING: Amrita has not be fully tested nor is it entirely understood. Erratic performance and unanticipated side-affects may be encountered."
+
+[AugHeartLung]
+AugmentationName="Afterburner"
+Description="An additional energy storage capacitor block located in the thoracic cavity provides a short burst of power to all currently installed augmentations shifting them into AFTERBURNER mode, so as to access their energy intensive functionalities.|n|nNO UPGRADES"
+
+[AugPower]
+AugmentationName="Energy Optimizer"
+Description="Electric flow control modules integrated with neural network based computer chips provide adaptive real-time intelligent feed-back flow management reducing energy consumption rates of all augmentations.|n|nACTIVATES AUTOMATICALLY|n|nNO UPGRADES"
+
+[AugCloak]
+AugmentationName="Thermoptic Camo"
+Description="Nanotechnologically produced proprietary fiber-woven synthetic leathers absorb visible wavelengths of light and mask body heat, making the user invisible to the naked eye and thermoptic sensors.|n|nSTANDARD MODE: Invisible to the naked eye.|n|nAFTERBURNER MODE: Invisible to the naked eye as well as thermoptic sensors standard in surveillance and bot technology."
+
+[AugMuscle]
+AugmentationName="Cybernetic Arm Prosthesis"
+Description="Titanium based EAP electro-mechanical arm implants with a PEDOT control interface significantly improve user's arm strength, speed, and agility; allowing the user to lift heavy objects and appropriating a serious advantage in close combat engagements with non augmented hostiles.|n|nSTANDARD MODE: Able to lift heavy objects.|n|nAFTERBURNER MODE: Able to lift even heavier objects; substantial improvements in close combat effectiveness."
+
+[AugLight]
+AugmentationName="LED Lighting"
+Description="LED lights imbedded in the cranial orbits project light onto the user's field of vision.|n|nSTANDARD MODE: LED's project visual wavelengths onto field of vision.|n|nAFTERBURNER MODE: LED's project wider than visual wavelengths invisible to other people."
+
+[AugEMPShield]
+EnergyRateLabel="Energy rate: 20 per minute (25 in afterburning mode) plus energy spent on attacks."
+AugActivated="EMP Field activated"
+AugDeactivated="EMP Field deactivated"
+AugmentationName="EMP Field"
+Description="A system of electromagnetic detectors and pointed emitters effectively disables all electronics in a several meter radius for a short period of time.|n|nSTANDARD MODE: All electronics within a 10 meter radius are effected.|n|nAFTERBURNER MODE: All electronics within a 20 meter radius are more strongly effected; Microprocessor controled sub-system neutralizes rockets and other projectiles before impact."
+
+
+
+
+
+
+[WeaponModAccuracy]
+ItemName="Weapon Modification (Accuracy)"
+Description="When clamped to the frame of most projectile weapons, a harmonic balancer dampens vertical motion produced when firing projectiles, resulting in increased accuracy."
+beltDescription="Mod"
+
+[WeaponModRecoil]
+ItemName="Weapon Modification (Recoil)"
+Description="A stock cushioned with polycellular shock absorbing materials significantly reduces perceived weapon recoil."
+beltDescription="Mod"
+
+[WeaponModReload]
+ItemName="Weapon Modification (Reload)"
+Description="A speed loader greatly decreases the time required to reload a weapon."
+beltDescription="Mod"
+
+[WeaponModClip]
+ItemName="Weapon Modification (Clip)"
+Description="An extended magazine that increases clip capacity beyond the factory default."
+beltDescription="Mod"
+
+[WeaponModRange]
+ItemName="Weapon Modification (Range)"
+Description="By lubricating the firing path with synthetic synovial fluid, the drag on fired projectiles is greatly reduced with a consequent increase in range."
+beltDescription="Mod"
+
+
+
+[PerkBotsammo]
+PerkName="Bots Ammo"
+Description="An experienced agent has knowledge of the internal configurations of modern bots. Once this skill is mastered, an agent is able to disabled modern combat bots while leaving the bot's internal ammo reserves undamaged, allowing the agent to scavange the ammo for later use."
+
+[PerkFire]
+PerkName="Survival Fundamentals"
+Description="Every good agent needs sets of survival skills for operating in dangerous environments. Once mastered, an agent is capable of properly recognizing, diagnosing, treating, and avoiding toxins and poisons without the aid of technical or medical technologies; moreover, an agent intuitively learns how to best react to explosions, reducing the chance of bodily harm."
+
+[PerkMarksman]
+PerkName="Adaptive Performance"
+Description="Combat agents know the importance of operating effectively regardless of physical condition. Once mastered, an agent is capable of maintaining ranged combat even in cases of seriously bodily harm."
+
+[PerkDoubleMods]
+PerkName="Gunsmith"
+Description="Technically savvy weapon specialists often better maintain and even improve the performance of their firearms. An agent who has mastered this skill knows how to rig two of the same mods onto a single weapon, often doubling modification efficacy."
+
+[PerkEnergy]
+PerkName="Energy Restoration"
+Description="Augmented field agents experienced in the use of their mechanical augmentations often adapt various techniques which restore energy without resorting to external rechargers. Once mastered, an agent unconciously restores some energy in the field."
+
+[PerkBotexplode]
+PerkName="Drone Detonation"
+Description="Most field agents today are acquainted with the use of unmanned drones to scout unfamiliar or dangerous areas. An agent who masters spy drone operation and maintenance often discovers how to detonate them in the field as an improvised explosive device, causing significant damage to hostile personnel and equipment within a radius of several meters."
+
+[PerkAugs]
+PerkName="Technical Expert"
+Description="Augmented agents who recognize the benefits of fully understanding the interior mechanisms of their mechanical augmentations and auxiliary technologies often become technical experts capable of servicing devices of any complexity. Once mastered, an agent more effectively services his augmentations in the field, resulting in the more efficient use of recharging batteries."
+
+[PerkStealth]
+PerkName="Silent Movement"
+Description="Recently augmented agents quickly discover that the hours they spent on stealth operations courses are now useless. Their new anatomy requires that mechanically augmented agents re-master the ninja muscle strength and desterity techniques of moving without making sound. Once re-mastered, however, an agent becomes even more capable of silent walking and running. WARNING: Standard non-FPA mechanical actuators produce significant noise while in active use."
+
+
+
+[SkillWeaponHeavy]
+SkillName="Heavy Weaponry"
+Description="The use of heavy weapons and explosive devices, including flamethrowers, LAWs, GEP guns, LAMs, gas grenades, EMP grenades, and electronic scramble grenades.|n|nUNTRAINED: An agent is able to figure out how to operate heavy weaponry, but unfamiliarity with the equipment results in low accuracy and difficulty with movement. An agent understands how to arm/disarm grenades and set/disable their proximity triggers.|n|nTRAINED: Better knowledge of heavy weaponry results in slightly increased accuracy and inflicted damage, as well as somewhat more fluid reloading and movement. Greater understanding of proximity triggers results in techniques improving safety margins while approaching armed mines.|n|nADVANCED: Familiarity with heavy weaponry results in moderate increases in accuracy and potential damage, as well as fluid reloading and movement.|n|nMASTER: The agent is a walking tank when equipped with heavy weaponry."
+
+[SkillMedicine]
+SkillName="Medicine"
+Description="Practical knowledge of human physiology and treatment techniques. The use of medical kits and the control of physical condition. The use of cold weapon.|n|nUNTRAINED: An agent passed CPR and First Aid courses, allowing the application of medical kits. An agent can operate a cold weapon.|n|nTRAINED: Specific knowledge of human physiology and common battlefield treatments improves an agent's ability to heal wounds, and reduces time to flush toxins and poisons from the body.|n|nADVANCED: Medical training and battlefield experience allow an agent to treat serious wounds, while specialized techniques further speed up toxin and poison flush. An agent knows how to use cold weapon effectively against any enemy.|n|nMASTER: An agent‘s medical knowledge and expertise is extensive. The agent could perform a heart bypass with household materials."
+
+[SkillElectronics]
+SkillName="Electronics"
+Description="The covert manipulation of computer and security systems and devices, including the use of multitools to affect electronic circuits.|n|nUNTRAINED: An agent has experience with computer interfaces, allowing the use of terminals to read bulletins and news. An agent can run standard mutlitool algorithms to bypass electronic devices.|n|nTRAINED: Specific knowledge of current computer and electronic hacking techniques allows an agent to hack ATM, computer, and security consoles with pre-programmed ICE algorithms.|n|nADVANCED: Schooling in modern computer and electrical engineering improves an agent's ability to work dynamically with security systems, resulting in a moderate increase in detection countdowns and a moderate decrease in lockout times.|n|nMASTER: An agent is a computer genius, an elite hacker that few systems can withstand."
+
+[SkillPower]
+SkillName="Battle Training"
+Description="Encompasses all aspects of physical conditioning and combat equipment training. |n|nUNTRAINED: An agent is in good physical condition, and knows how to use most types of combat equipment.|n|nTRAINED: Adherence to regular physical conditioning routines allows an agent to lift heavy objects and swim faster and longer while submerged.|n|nADVANCED: Cutting edge conditioning and strength exercises and techniques allow an agent to lift even heavier objects, as well as swim even faster and longer while submerged. Extensive knowledge and equipment training results in super effective combat equipment utilization while in the field.|n|nMASTER: Olympic level physical conditioning and techniques produce a near perfect specimen of human physiology. Agent is Hercules reborn. Who needs augmentations?"
+
+[SkillTechnics]
+SkillName="Mechanics"
+Description="The ability to break physical security and mechanical locks. The use and maintenance of complex electro-mechanical devices, including mobile bots.|n|nUNTRAINED: An agent is capable of crudely breaking locks. An agent's basic knowledge allows the minimum use and service of mobile bots.|n|nTRAINED: Knowledge of modern lock-breaking techniques improves agent's efficacy. Technical skill allows agent to modify bots to consume less energy.|n|nADVANCED: Wide knowledge of modern locks further improves agent's ability to break them. Technical expertise makes mobile bots more efficient.|n|nMASTER: Significant experience and expertise with modern locks allows a technical genius to break any physical security known to man."
+
+[SkillWeaponPistol]
+SkillName="Weapons: Pistol"
+Description="The application of hand-held weapons in combat situations, including pistols, submachine guns, and the mini-crossbow.|n|nUNTRAINED: An agent can use hand-held weapons.|n|nTRAINED: Knowledge of and experience with side-arms improves agent accuracy and potential damage, while resulting in somewhat fluid reloading.|n|nADVANCED: Agent demonstrates significant talent with side-arms, with moderately increased accuracy and inflicted damage. Experience produces fluid reloading.|n|nMASTER: Expertise with hand-held weapons, innate skill, and significant experience produce a marksman that is lightening quick and lethally precise with side-arms of all types."
+
+[SkillWeaponRifle]
+SkillName="Weapons: Rifle"
+Description="The application of rifles in combat situations, including assault rifles, sniper rifles, and shotguns.|n|nUNTRAINED: An agent can use rifles.|n|nTRAINED: Knowledge of and experience with rifles improves agent accuracy and potential damage, while resulting in somewhat fluid reloading.|n|nADVANCED: Agent demonstrates significant talent with rifles, with moderately increased accuracy and inflicted damage. Experience produces fluid reloading.|n|nMASTER: Expertise with rifles, innate skill, and significant experience produce a marksman that is lightening quick and lethally precise with rifles of all types. An agent can take down a target a mile away with one shot."
+
+
+
+[RAmmoRocket]
+ItemName="Rockets"
+ItemArticle="some"
+Description="A gyroscopically stabilized rocket with limited onboard guidance systems for in-flight course corrections. Engineered for use with the GEP gun."
+beltDescription="Rockets"
+
+[RAmmoDart]
+ItemName="Darts"
+ItemArticle="some"
+Description="The mini-crossbow dart is a favored weapon for many 'wet' operations; however, silent kills require a high degree of skill."
+beltDescription="Darts"
+
+[RAmmoDartPoison]
+ItemArticle="some"
+ItemName="Tranquilizer Darts"
+Description="A mini-crossbow dart tipped with a succinylcholine-variant that causes complete skeletal muscle relaxation, effectively incapacitating a target in a non-lethal manner."
+beltDescription="Poison"
+
+[RAmmoDartFlare]
+ItemArticle="some"
+ItemName="Flare Darts"
+Description="Mini-crossbow flare darts use a slow-burning incendiary device, ignited on impact, to provide illumination of a targeted area."
+beltDescription="Flare"
+
+[RAmmo10mm]
+ItemArticle="some"
+ItemArticleBullet="a"
+ItemName="9mm Ball ammo"
+ItemNameBullet="9mm Ball cartridge"
+Description="Standard 9x19mm Parabellum rounds, which, even before World War II, became the ideal bullet for most of the so-called 'civilized world'. It lies in the 'sweet spot' between strength, weight and recoil."
+beltDescription="Ball"
+
+[RAmmo10mmJHP]
+ItemArticle="some"
+ItemArticleBullet="a"
+ItemName="9mm JHP ammo"
+ItemNameBullet="9mm JHP cartridge"
+Description="Special 9x19mm hollow point 'expanding' rounds. Actively used by police and hunter agencies, since it reduces ricochet and more effectively cripples unarmored targets. However, produces strong changes in firearm ballistics, reducing the efficiency of deflection type silencers."
+beltDescription="JHP"
+
+[RAmmo3006]
+ItemArticle="some"
+ItemArticleBullet="a"
+ItemName="7.62mm Match ammo"
+ItemNameBullet="7.62mm Match cartridge"
+Description="Based on the standard NATO 7.62mm cartridges, Match ammo is manufactured for precision and superior ballistics, with assiduously aligned components and extremely low error margins on gunpower joint hinges. High quality begets high price, and 7.62 Match ammo is usually reserved for sportsmen and professional snipers."
+beltDescription="Match"
+
+[RAmmo3006Ultra]
+ItemArticle="some"
+ItemArticleBullet="a"
+ItemName="7.62mm AP ammo"
+ItemNameBullet="7.62mm AP cartridge"
+Description="Based on the high precision 7.62 Match ammo, AP cartridges have been modified with tungsten cores for long distance armor penetration. Currently restricted to only the most elite military operations involving the need to cripple hostile armor from long distances."
+beltDescription="AP"
+
+[RAmmo556mm]
+ItemArticle="some"
+ItemArticleBullet="a"
+ItemName="4.7mm Ball ammo"
+ItemNameBullet="4.7mm cartridge"
+Description="A lightweight and precise round for PDW class weapons. Successfully introduced in 1990 with the MP7 PDW class submachine gun, it quicly became the NATO standard for submachine class weapons."
+beltDescription="Ball"
+
+[RAmmo556mmJHP]
+ItemArticle="some"
+ItemArticleBullet="a"
+ItemName="4.7mm Action ammo"
+ItemNameBullet="4.7mm Action cartridge"
+Description="Special 4.7mm hollow point 'expanding' rounds. Actively used by police, hunter, and secret service agencies, since it reduces ricochet and more effectively cripples unarmored targets."
+beltDescription="Action"
+
+[RAmmo762mm]
+ItemArticle="some"
+ItemArticleBullet="a"
+ItemName="5.56mm Ball ammo"
+ItemNameBullet="5.56mm Ball cartridge"
+Description="The NATO standard for assault rifle class weapons. Despite a push to replace 5.56mm rounds with larger calibre and more efficient 6.5mm rounds beginning in the 21st century, 5.56mm rounds have maintained their position for over half a century, thanks to their time-tested and effective performance."
+beltDescription="Ball"
+
+[RAmmo762mmB]
+ItemArticle="some"
+ItemArticleBullet="a"
+ItemName="5.56mm HP ammo"
+ItemNameBullet="5.56mm HP cartridge"
+Description="An attempt to produce a more powerful NATO 5.56mm round, the 5.56mm HP cartridge succeeds in providing addiitional power in a smaller package."
+beltDescription="HP"
+
+[RAmmoSabot]
+ItemArticle="some"
+ItemArticleBullet="a"
+ItemName="Sub-caliber rounds"
+ItemNameBullet="Sub-caliber cartridge"
+Description="12 caliber smoothbore rounds specifically designed for use against armored (up to IFV class) targets. However, the small caliber tungsten swallowtail striking component signficantly decreases efficacy against unarmored hostiles."
+beltDescription="AP"
+
+[RAmmoShell]
+ItemArticle="some"
+ItemArticleBullet="a"
+ItemName="Buckshot '00'"
+ItemNameBullet="Buckshot '00' cartridge"
+Description="The most common 12 caliber round - a large lead shot that reliably destroys unarmored targets at close range. Unfortunately, efficacy quickly drops off at longer ranges."
+beltDescription="Buckshot"
+
+[RAmmoRocketWP]
+ItemArticle="some"
+ItemName="WP Rockets"
+Description="The white-phosphorus rocket, or 'wooly peter,' was designed to expand the mission profile of the GEP gun. While it does minimal damage upon detonation, the explosion will spread a cloud of particularized white phosphorus that ignites immediately upon contact with the air."
+beltDescription="WP"
+
+[RAmmoPepper]
+ItemName="Pepper Cartridge"
+ItemArticle="a"
+Description="'ANTIGONE pepper spray will incapacitate your attacker in UNDER TWO SECONDS. ANTIGONE -- better BLIND than DEAD. NOTE: Keep away from children under the age of five. Contents under pressure.'"
+beltDescription="Pepper"
+
+[RAmmoNapalmGrenade]
+beltDescription="Napalm"
+
+[RAmmoGas]
+ItemArticle="a"
+ItemName="Napalm Canister"
+Description="A pressurized canister of jellied gasoline for use with flamethrowers."
+beltDescription="Napalm"
+
+[RAmmoBattery]
+ItemName="Prod Charger"
+ItemArticle="a"
+Description="A portable charging unit for the riot prod."
+beltDescription="Charger"
+
+
+
+[Candybar]
+ItemName="Candy Bar"
+Description="Hershey's Chocolate, now with 25% more COCAINE!"
+beltDescription="Candy"
+
+[CandybarDark]
+ItemName="Candy Bar"
+Description="Hershey's Dark Chocolate, now with 25% more COCAINE!"
+beltDescription="Candy"
+
+[Chips]
+ItemArticle="some"
+ItemName="Chips"
+Description="Lay's Chips. Eat too many of us and you'll never get laid."
+beltDescription="Chips"
+
+[Sodacan]
+ItemName="Soda"
+ItemArticle="some"
+Description="Pepsi-Cola: WARNING: May cause obesity."
+beltDescription="Soda"
+
+[SodacanB]
+ItemName="Soda"
+ItemArticle="some"
+Description="Pepsi-Cola Zero: WARNING: May cause cancer and obesity."
+beltDescription="Soda"
+
+[SodacanBlast]
+ItemName="Soda"
+ItemArticle="some"
+Description="BLAST!: 30% alcohol, 5000 mg caffiene! You'll have a blast! Serving size: 1/4 of can. Recommended servings: 1"
+beltDescription="Soda"
+
+[SodacanOrange]
+ItemName="Soda"
+ItemArticle="some"
+Description="ORANGE: When lemon-lime just won't do!"
+beltDescription="Soda"
+
+[SodacanZap]
+ItemName="Soda"
+ItemArticle="some"
+Description="ZAP! It ZAPS your taste-buds, literally! WARNING: Zap contains nanoscale capacitors, not recommended for patients with pace-makers or mental augmentations."
+beltDescription="Soda"
+
+[SoyFood]
+ItemName="Soy Food"
+ItemArticle="some"
+Description="Made with new Versalife 'SAVIOR!' Beans. Eat the future."
+beltDescription="Soy Food"
+
+[Vodka]
+ItemName="Liquor"
+ItemArticle="some"
+Description="The label is torn off, but it looks like some of the good stuff."
+beltDescription="Liquor"
+
+[WineBottle]
+ItemName="Wine"
+ItemArticle="some"
+Description="A nice bottle of wine."
+beltDescription="Wine"
+
+[Beer]
+ItemName="Forty"
+Description="'COLD SWEAT forty ounce malt liquor. Never let 'em see your COLD SWEAT.'"
+beltDescription="Forty"
+
+[DeusExPlayer]
+InventoryFull="Not enough room in your inventory to pick up the %s"
+TooMuchAmmo="You already have enough of that type of ammo"
+TooHeavyToLift="It's too heavy to lift"
+CannotLift="You can't lift that"
+NoRoomToLift="There's no room to lift that"
+CanCarryOnlyOne="You can only carry one %s"
+CannotDropHere="Can't drop that here"
+HandsFull="Your hands are full"
+NoteAdded="Note Received - Check DataVault For Details"
+GoalAdded="Goal Received - Check DataVault For Details"
+PrimaryGoalCompleted="Primary Goal Completed"
+SecondaryGoalCompleted="Secondary Goal Completed"
+GoalFailedMsg="Goal Failed"
+EnergyDepleted="Bio-electric energy reserves depleted"
+AddedNanoKey="%s added to Nano Key Ring"
+HealedPointsLabel="Healed %d points"
+HealedPointLabel="Healed %d point"
+SkillPointsAward="%d skill points awarded"
+QuickSaveGameTitle="Quick Save"
+HeadString="Head"
+TorsoString="Torso"
+LegsString="Legs"
+NoneString="-"
+msgHeroLevelAward="You Reached Level %d!"
+
+[Skill]
+skillLevelStrings[0]="Untrained"
+skillLevelStrings[1]="Trained"
+skillLevelStrings[2]="Advanced"
+skillLevelStrings[3]="Master"
+SkillAtMaximum="Skill at Maximum Level"
+
+[AugmentationManager]
+AugLocationFull="You can't add any more augmentations to that location!"
+NoAugInSlot="There is no augmentation in that slot"
+msgLowPower="Not enough power for %d"
+
+[Augmentation]
+EnergyRateLabel="Energy Rate: %d Units/Minute"
+OccupiesSlotLabel="Occupies Slot: %s"
+AugLocsText[0]="Cranial"
+AugLocsText[1]="Eyes"
+AugLocsText[2]="Torso"
+AugLocsText[3]="Arms"
+AugLocsText[4]="Legs"
+AugLocsText[5]="Subdermal"
+AugLocsText[6]="Default"
+AugActivated="%s activated"
+AugDeactivated="%s deactivated"
+AugAlreadyHave="You already have the %s at the maximum level"
+AugNowHave="%s upgraded"
+AugNowHaveAtLevel="Augmentation %s at level %d"
+AlwaysActiveLabel="[Always Active]"
+CanUpgradeLabel="(Can Upgrade)"
+CurrentLevelLabel="Current Mode: %d"
+MaximumLabel="(Afterburner is N/A)"
+LevelLabelNormal="Regular"
+LevelLabelTurbo="Afterburner"
+
+
+[DeusExRootWindow]
+QuickLoadTitle="Quick Load?"
+QuickLoadMessage="You will lose your current game in progress, are you sure you wish to Quick Load?"
+
+[DeusExWeapon]
+msgCannotBeReloaded="This weapon can't be reloaded"
+msgOutOf="Out of %s"
+msgNowHas="%s now has %s loaded"
+msgAlreadyHas="%s already has %s loaded"
+msgNone="NONE"
+msgLockInvalid="---"
+msgLockRange="RANGE"
+msgLockAcquire="ACQUIRE"
+msgLockLocked="LOCKED"
+msgRangeUnit="meters"
+msgTimeUnit="seconds"
+msgMassUnit="kilograms"
+msgNotWorking="This weapon doesn't work underwater"
+msgInfoAmmoLoaded="Ammo loaded:"
+msgInfoAmmo="Ammo type(s):"
+msgInfoDamage="Base damage:"
+msgInfoClip="Clip size:"
+msgInfoROF="Rate of fire:"
+msgInfoReload="Reload time:"
+msgInfoRecoil="Recoil:"
+msgInfoAccuracy="Base Accuracy:"
+msgInfoAccRange="Acc. range:"
+msgInfoMaxRange="Max. range:"
+msgInfoMass="Mass:"
+msgInfoLaser="Laser sight:"
+msgInfoScope="Scope:"
+msgInfoSilencer="Silencer:"
+msgInfoNA="N/A"
+msgInfoYes="yes"
+msgInfoNo="no"
+msgInfoAuto="auto"
+msgInfoSingle="single"
+msgInfoRounds="rounds"
+msgInfoRoundsPerSec="rounds/second"
+msgInfoSkill="Skill:"
+msgInfoWeaponStats="Weapon Stats:"
+PickupMessage="You found"
+
+[DeusExCarcass]
+msgSearching="You found:"
+msgEmpty="You don't find anything"
+msgNotDead="Unconscious"
+msgAnimalCarcass="Animal Carcass"
+msgCannotPickup="You cannot pickup the %s"
+ItemName="Dead Body"
+msgRecharged="Recharged %d points"
+
+[MenuUIChoice]
+actionText="Choice"
+FalseTrue[0]="False"
+FalseTrue[1]="True"
+OnlyThatRendering="only in"
+
+[DeusExPickup]
+CountLabel="Count:"
+msgTooMany="You can't carry any more of those"
+PickupMessage="You found"
+M_Activated=" activated"
+M_Deactivated=" deactivated"
+
+[DeusExAmmo]
+PickupMessage="You found"
+
+[PersonaInventoryItemButton]
+CountLabel="x %d"
+RoundLabel="x %d"
+RoundsLabel="x %d"
+
+[DeusExMover]
+msgKeyLocked="Your NanoKey Ring locked it"
+msgKeyUnlocked="Your NanoKey Ring unlocked it"
+msgLockpickSuccess="You picked the lock"
+msgOneWayFail="It won't open from this side"
+msgLocked="It's locked"
+msgPicking="Picking the lock..."
+msgAlreadyUnlocked="It's already unlocked"
+msgNoNanoKey="Your NanoKey Ring doesn't have the right code"
+
+[Computers]
+msgLockedOut="Terminal is locked out for %d more seconds"
+CompInUseMsg=""
+
+[ComputerSecurityCameraWindow]
+CameraLabel="Camera"
+CameraStatusLabel="Camera:"
+DoorStatusLabel="Door:"
+TurretStatusLabel="Turret:"
+OnLabel="On"
+OffLabel="Off"
+DisabledLabel="Bypassed"
+AttackingAlliesLabel="Attacking Allies"
+AttackingEnemiesLabel="Attacking Enemies"
+AttackingEverythingLabel="Attacking Everything"
+NoSignalLabel="NO SIGNAL"
+OpenLabel="Open"
+ClosedLabel="Closed"
+LockedLabel="Locked"
+UnlockedLabel="Unlocked"
+FriendlyLabel="Detecting Enemies"
+HostileLabel="Detecting Allies"
+
+[HUDObjectSlot]
+RoundLabel="%d round"
+RoundsLabel="%d rounds"
+CountLabel="x %d"
+
+[AutoTurret]
+titleString="AutoTurret"
+ItemName="Auto Turret"
+
+[MenuUIWindow]
+btnLabelOK="|&OK"
+btnLabelCancel="|&Cancel"
+btnLabelPrevious="|&Previous"
+btnLabelResetToDefaults="|&Restore Defaults"
+MessageBoxTitle="Please Confirm"
+ExitMessage="Are you sure you|nwant to exit 2027?"
+TrainingWarningMessage="The current game you are playing will be lost if you have not already saved it. Do you still wish to enter the training mission?"
+CreditsWarningMessage="The current game you are playing will be lost if you have not already saved it. Do you still wish to show credits?"
+IntroWarningMessage="The current game you are playing will be lost if you have not already saved it. Do you still wish to view the intro?"
+AskToTrainTitle="Training Mission"
+AskToTrainMessage="Before starting a new game for the first time, we suggest running through the Training Mission. Would you like to do this now?"
+
+
+
+[MenuScreenLoadGame]
+strHeaderNameLabel="Name"
+strHeaderDateLabel="Date"
+NewSaveGameButtonText="New Save Game"
+DeleteGameButtonText="Delete Game"
+LoadGameButtonText="Load Game"
+OverwriteTitle="Overwrite Savegame?"
+OverwritePrompt="Are you sure you wish to overwrite this savegame?"
+DeleteTitle="Delete Savegame?"
+DeletePrompt="Are you sure you wish to delete this savegame?"
+LoadGameTitle="Load Game"
+SaveGameTitle="Save Game"
+SaveInfoMissing_Label="SAVEINFO.DXS Missing!!!"
+TimeAMLabel="am"
+TimePMLabel="pm"
+LocationLabel="Location: %s|n"
+SaveCountLabel="Save Count: %d|n"
+FileSizeLabel="File Size: %dMB"
+FreeSpaceLabel="Free Space: %dMB"
+Title="Load Game"
+PlayTimeLabel="Play Time: %s|n"
+ConfirmDeleteLabel="Confirm Deletion"
+CheatsEnabledLabel="- CHEATS ENABLED -"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_Other,Text="|&Load Game",Key="LOAD")"
+actionButtons[2]="(Action=AB_Other,Text="|&Delete Game",Key="DELETE")"
+
+[AugmentationDisplayWindow]
+msgBotDanger="Danger!"
+msgBotHealth="Health: "
+msgBotEnergy="Energy: "
+msgRange="Randge"
+msgRangeUnits="ft"
+msgHigh="High"
+msgMedium="Medium"
+msgLow="Low"
+msgHealth="Health"
+msgOverall="Overall"
+msgPercent="%"
+msgHead="Head"
+msgTorso="Torso"
+msgLeftArm="Left Arm"
+msgRightArm="Right Arm"
+msgLeftLeg="Left Leg"
+msgRightLeg="Right Leg"
+msgLegs="Legs"
+msgWeapon="Weapon:"
+msgNone="---"
+msgBehind="Behind you!"
+msgDroneActive="Drone active"
+msgEnergyLow="BioElectric energy low!"
+msgCantLaunch="ERROR - No room for SpyDrone construction!"
+msgLightAmpActive="LightAmp Active"
+msgIRAmpActive="IRAmp Active"
+msgNoImage="Image Not Available"
+msgDisabled="Disabled"
+hintDroneOff="turn off"
+hintDroneBlow="detonate"
+hintBotOff="turn off"
+hintBotOrder="new order"
+hintBotSwitch="select bot"
+
+[AutoTurretGun]
+ItemName="Autonomous Defense Turret"
+
+[HackableDevices]
+msgMultitoolSuccess="You bypassed the device"
+msgNotHacked="It's secure"
+msgHacking="Bypassing the device..."
+msgAlreadyHacked="It's already bypassed"
+
+[ComputerUIWindow]
+ButtonLabelLogin="|&Login"
+ButtonLabelLogout="|&Logout"
+ButtonLabelCancel="|&Cancel"
+ButtonLabelSpecial="|&Special Options"
+
+[SecurityCamera]
+msgActivated="Camera activated"
+msgDeactivated="Camera deactivated"
+ItemName="Surveillance Camera"
+
+[FrobDisplayWindow]
+msgLocked="Locked"
+msgUnlocked="Unlocked"
+msgLockStr="Lock Str: "
+msgDoorStr="Door Str: "
+msgHackStr="Bypass Str: "
+msgInf="INF"
+msgHacked="Bypassed"
+msgPick="pick"
+msgPicks="picks"
+msgTool="tool"
+msgTools="tools"
+
+[PersonaInventoryInfoWindow]
+AmmoLabel="Type:"
+AmmoRoundsLabel="Count:"
+ShowAmmoDescriptionsLabel="Show Description"
+
+[PersonaScreenHealth]
+MedKitUseText="To heal a specific region of the body, click on the region, then click the Heal button."
+HealthTitleText="Health"
+HealAllButtonLabel="H|&eal All"
+HealthLocationHead="Head"
+HealthLocationTorso="Torso"
+HealthLocationRightArm="Right Arm"
+HealthLocationLeftArm="Left Arm"
+HealthLocationRightLeg="Right Leg"
+HealthLocationLeftLeg="Left Leg"
+PointsHealedLabel="%d points healed"
+HealthPartDesc[0]="Head wounds are fatal in the vast majority of threat scenarios; however, in those cases where death is not instantaneous, agents will often find that head injuries impair vision and aim. Care should be taken to heal such injuries as quickly as possible or death may result.|n|nLight Wounds: Slightly decreased accuracy.|nMedium Wounds: Wavering vision.|nHeavy Wounds: Death."
+HealthPartDesc[1]="The torso is by far the portion of the human anatomy able to absorb the most damage, but it is also the easiest to target in close quarters combat. As progressively more damage is inflicted to the torso, agents may find their movements impaired and eventually bleed to death even if a mortal blow to a vital organ is not suffered.|n|nLight Wounds: Slightly impaired movement.|nMedium Wounds: Significantly impaired movement.|nMajor Wounds: Death."
+HealthPartDesc[2]="Obviously damage to the arm is of concern in any combat situation as it has a direct effect on the agent's ability to utilize a variety of weapons. Losing the use of one arm will certainly lower the agent's combat efficiency, while the loss of both arms will render it nearly impossible for an agent to present even a nominal threat to most hostiles.|n|nLight Wounds: Slightly decreased accuracy.|nMedium Wounds: Moderately decreased accuracy.|nMajor Wounds: Significantly decreased accuracy."
+HealthPartDesc[3]="Injuries to the leg will result in drastically diminished mobility. If an agent in hostile territory is unfortunate enough to lose the use of both legs but still remain otherwise viable, they are ordered to execute Special Operations Order 99009 (Self-Termination).|n|nLight Wounds: Slightly impaired movement.|nMedium Wounds: Moderately impaired movement.|nHeavy Wounds: Significantly impaired movement."
+
+[DataVaultImage]
+PickupMessage="Image added to DataVault"
+beltDescription="Image"
+
+[ComputerScreenSecurity]
+ActiveWindowOptionsHeader="Active Window Options"
+CameraOptionsHeader="Camera Options"
+PanZoomSpeedHeader="Pan/Zoom Speed"
+ClickCameraWindowText="Click on a camera view to select that camera."
+Title="Surveillance"
+ComputerNodeFunctionLabel="Security"
+
+[PersonaScreenInventory]
+InventoryTitleText="Inventory"
+EquipButtonLabel="|&Equip"
+UnequipButtonLabel="Un|&equip"
+UseButtonLabel="|&Use"
+DropButtonLabel="|&Drop"
+ChangeAmmoButtonLabel="Change Amm|&o"
+NanoKeyRingInfoText="List of Nano Keys"
+NanoKeyRingLabel="Keys: %s"
+DroppedLabel="%s dropped"
+AmmoLoadedLabel="%s loaded"
+WeaponUpgradedLabel="%s upgraded"
+CannotBeDroppedLabel="%s cannot be dropped here"
+AmmoInfoText="List of Ammo"
+AmmoTitleLabel="Ammunition"
+NoAmmoLabel="No Ammo Available"
+ChargePlanted="Charge planted"
+
+[AlarmUnit]
+msgActivated="Alarm activated"
+msgDeactivated="Alarm deactivated"
+ItemName="Alarm Sounder Panel"
+
+[POVCorpse]
+ItemName="body"
+
+[ComputerSecurity]
+ItemName="Security Computer Terminal"
+
+[MedKit]
+MustBeUsedOn="Use to heal critical body parts, or use on character screen to direct healing at a certain body part."
+ItemName="Medkit"
+Description="A first-aid kit."
+beltDescription="Medkit"
+
+[ChargedPickup]
+ChargeRemainingLabel="Charge remaining:"
+AlreadyUsing="%s is already used"
+NotWithVision="Cannot be used while %s is active"
+
+[ATM]
+msgLockedOut="Terminal is locked out for %d more seconds"
+ItemName="Public Banking Terminal"
+
+[HUDHitDisplay]
+O2Text="O2"
+EnergyText="BE"
+
+[InformationDevices]
+msgNoText="There's nothing interesting to read"
+ImageLabel="[Image: %s]"
+AddedToDatavaultLabel="Image %s added to DataVault"
+
+[BioelectricCell]
+msgRecharged="Recharged %d points"
+msgCharged="%c подзаряжен на %d единиц"
+RechargesLabel="Recharges %d Energy Units"
+DragToUse="Drag over item to recharge. Items highlighted in BLUE can be recharged"
+ItemName="Bioelectric Cell"
+Description="A bioelectric cell provides efficient storage of energy in a form that can be utilized by a number of different devices."
+beltDescription="Cell"
+
+
+
+[WeaponMod]
+DragToUpgrade="Drag over weapon to upgrade. Weapons highlighted in GREEN can be upgraded with this mod."
+
+[MenuChoice_OnOff]
+enumText[0]="Off"
+enumText[1]="On"
+
+[Keypad]
+msgNotHacked=""
+ItemName="Security Keypad"
+
+[PersonaAmmoDetailButton]
+RoundLabel="%d Round"
+RoundsLabel="%d Rounds"
+
+[PersonaScreenImages]
+ImagesTitleText="Images"
+DeleteNoteButtonLabel="|&Delete Note"
+AddNoteButtonLabel="Add |&Note"
+ShowNotesLabel="Show N|&otes"
+
+[HUDInfoLinkDisplay]
+strQueued="message waiting..."
+IncomingTransmission="INCOMING TRANSMISSION..."
+fontText=Font'DeusExUI.InfolinkFont'
+fontTextX=7
+fontTextY=14
+numChars=43
+
+[Faucet]
+ItemName="Faucet"
+
+[MenuScreenRGB]
+HUDBackgroundTranslucentLabel="HUD Back|&grounds Translucent"
+HUDBordersTranclucentLabel="HUD Bor|&ders Translucent"
+MenusBackgroundTranslucentLabel="Menu Back|&grounds Translucent"
+RedLabel="R|&ed"
+GreenLabel="|&Green"
+BlueLabel="|&Blue"
+TabHUDLabel="|&HUD"
+TabMenusLabel="|&Menus"
+ThemeLabel="Theme:"
+Title="Color Selection"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Other,Text="|&Close",Key="CLOSE")"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_Other,Text="|&Load",Key="LOAD")"
+actionButtons[2]="(Align=HALIGN_Right,Action=AB_Other,Text="|&Save",Key="SAVE")"
+actionButtons[3]="(Action=AB_Reset)"
+
+[ShowerFaucet]
+ItemName="Shower Faucet"
+
+[AugmentationCannister]
+AugsAvailable="Can Add:"
+MustBeUsedOn="Can only be installed with the help of a MedBot."
+ItemName="Augmentation Canister"
+ItemArticle="an"
+Description="Protective tank with materials for augmentations. In order to install MedBot is needed."
+beltDescription="Aug"
+
+
+
+
+[MedicalBot]
+FamiliarName="Medical Bot"
+UnfamiliarName="Medical Bot"
+
+[HUDAmmoDisplay]
+NotAvailable="---"
+msgReloading="---"
+AmmoLabel="AMMO"
+ClipsLabel="CLIPS"
+
+[MenuScreenAdjustColorsExample]
+TitleBarLabel="Title Bar"
+TextHeaderLabel="Sample Text"
+TextNormalLabel="Sample Text"
+ButtonPressedLabel="Pressed"
+ButtonNormalLabel="Normal"
+
+[HUDRechargeWindow]
+RechargeButtonLabel="|&Recharge"
+CloseButtonLabel="|&Close"
+RechargeTitle="REPAIRBOT INTERFACE"
+RepairBotInfoText="The RepairBot can restore up to %d points of Bio Electric Energy every %d seconds."
+RepairBotStatusLabel="RepairBot Status:"
+ReadyLabel="Ready!"
+SecondsPluralLabel="Recharging: %d seconds"
+SecondsSingularLabel="Recharging: %d second"
+BioStatusLabel="Bio Energy:"
+RepairBotRechargingLabel="|nThe RepairBot is currently Recharging."
+RepairBotReadyLabel="|nThe RepairBot is Ready."
+RepairBotYouAreHealed="|nYour BioElectric Energy is at Maximum."
+
+[MenuScreenNewGame]
+ButtonUpgradeLabel="Upg|&rade"
+ButtonDowngradeLabel="|&Downgrade"
+HeaderNameLabel="Real Name"
+HeaderCodeNameLabel="Code Name"
+HeaderAppearanceLabel="Appearance"
+HeaderSkillsLabel="Skills"
+HeaderSkillPointsLabel="Skill Points"
+HeaderSkillLevelLabel="Skill Level"
+HeaderPointsNeededLabel="Price"
+NameBlankTitle="Name Blank!"
+NameBlankPrompt="The Real Name cannot be blank, please enter a name."
+Title="Start New Game"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_Other,Text="|&Start Game",Key="START")"
+actionButtons[2]="(Action=AB_Reset)"
+
+[NanoKeyRing]
+NoKeys="No Nano Keys Available!"
+KeysAvailableLabel="Nano Keys Available:"
+ItemName="Nanokey Ring"
+ItemArticle="the"
+Description="A nanokey ring can read and store the two-dimensional molecular patterns from different nanokeys, and then recreate those patterns on demand."
+beltDescription="Key"
+
+[Credits]
+msgCreditsAdded="%d credits added"
+ItemName="Credit Chit"
+beltDescription="Credits"
+
+[Barrel1]
+ItemName="Barrel"
+
+[PerkManager]
+NoSkillMessage="Perk is not acquired"
+SuccessMessage="Success!"
+YourSkillLevelAt="%s perk added"
+
+[ComputerScreenHack]
+HackButtonLabel="|&Hack"
+ReturnButtonLabel="|&Return"
+HackReadyLabel="Ice Breaker Ready..."
+HackInitializingLabel="Initializing ICE Breaker..."
+HackSuccessfulLabel="ICE Breaker Hack Successful..."
+HackDetectedLabel="*** WARNING ***|nINTRUDER DETECTED!"
+MPHackInitializingLabel="Hacking... Hit ESC to Abort"
+
+[ComputerScreenEmail]
+NoEmailTodayText="No Email Today!"
+EmailFromHeader="From:"
+EmailToHeader="To:"
+EmailCarbonCopyHeader="CC:"
+EmailSubjectHeader="Subj:"
+HeaderFromLabel="From"
+HeaderSubjectLabel="Subject"
+Title="Email"
+ComputerNodeFunctionLabel="Email"
+
+[PersonaScreenSkills]
+SkillsTitleText="Skills"
+PerksTitleText="Perks"
+UpgradeButtonLabel="|&Upgrade"
+InstallButtonLabel="|&Add"
+PointsNeededHeaderText="Price"
+SkillLevelHeaderText="Skill Level"
+SkillPointsHeaderText="Skill Points"
+SkillUpgradedLevelLabel="%s upgraded"
+PerkInstalledLabel="'%s' added"
+UpgradePointsHeaderText="Points"
+ExperienceHeaderText="Exp."
+
+
+
+
+[PersonaItemDetailButton]
+CountLabel="Count: %d"
+
+[HUDMedBotHealthScreen]
+MedbotInterfaceText="MEDBOT INTERFACE"
+HealthInfoTextLabel="The MedBot will heal up to %d units."
+MedBotRechargingLabel="|nThe MedBot is currently Recharging. Please Wait."
+MedBotReadyLabel="|nThe MedBot is Ready, you may now be Healed."
+MedBotYouAreHealed="|nYou are currently in Full Health."
+SecondsPluralLabel="Recharging: %d seconds"
+SecondsSingularLabel="Recharging: %d second"
+ReadyLabel="Ready!"
+HealAllButtonLabel="H|&eal All"
+
+[MenuScreenSaveGame]
+Title="Save Game"
+DiskSpaceTitle="Disk Space Low"
+DiskSpaceMessage="You must have at least 100MB of free disk space before you can save. Please delete some save games or free up space in Windows."
+actionButtons[1]="(Text="|&Save Game",Key="SAVE")"
+
+[HUDReceivedDisplay]
+TextReceivedLabel="Received:"
+
+[RepairBot]
+FamiliarName="Repair Bot"
+UnfamiliarName="Repair Bot"
+
+[PersonaScreenConversations]
+ConversationsTitleText="Conversations"
+ActorButtonLabel="Contact"
+LocationButtonLabel="Location"
+TypeButtonLabel="Type"
+
+[PersonaNavBarWindow]
+InventoryButtonLabel="|&Inventory"
+HealthButtonLabel="|&Health"
+AugsButtonLabel="|&Augs"
+SkillsButtonLabel="|&Skills"
+GoalsButtonLabel="|&Goals/Notes"
+ConsButtonLabel="|&Conversations"
+ImagesButtonLabel="I|&mages"
+LogsButtonLabel="|&Logs"
+
+[PersonaNavBarBaseWindow]
+ExitButtonLabel="E|&xit"
+
+[SpyDrone]
+ItemName="Drone"
+
+[NanoKey]
+ItemName="NanoKey"
+Description="NO KEY DESCRIPTION - REPORT THIS AS A BUG!"
+beltDescription="NanoKey"
+
+[HUDKeypadWindow]
+msgAccessDenied="DENIED"
+msgAccessGranted="GRANTED"
+
+[Flare]
+ExpireMessage="It's already been used"
+ItemName="Flare"
+Description="A flare."
+beltDescription="Flare"
+
+[PersonaScreenGoals]
+GoalsTitleText="Goals"
+PrimaryGoalsHeader="Primary Goals"
+SecondaryGoalsHeader="Secondary Goals"
+DisplayCompletedGoals="Display C|&ompleted and Failed Goals"
+NoGoalsLabel="None"
+GoalCompletedText=""
+NotesTitleText="Notes"
+defaultNoteText="New Note"
+ClickToEditNote="Click on a Note to edit it:"
+DeleteNoteTitle="Delete Note?"
+DeleteNotePrompt="Are you sure you wish to delete this note?"
+AddButtonLabel="Add |&Note"
+DeleteButtonLabel="|&Delete Note"
+ConfirmNoteDeletionLabel="Confirm Note Deletion"
+
+[TAD]
+ItemName="Telephone Answering Machine"
+
+[PersonaImageWindow]
+strNoImages="No Images Available"
+PressSpace="Press [ESCAPE] when finished editing note"
+EscapeToCancel="Click on image to create note, press [ESCAPE] to cancel"
+NewNoteLabel="New Note"
+
+[PersonaScreenLogs]
+LogsTitleText="Logs"
+ClearButtonLabel="Cl|&ear Log"
+
+[AugmentationUpgradeCannister]
+MustBeUsedOn="Must be used on Augmentations Screen."
+ItemName="Augmentation Upgrade Canister"
+ItemArticle="an"
+Description="The tank contains additional energy cells, which are in combination with that which are installed already, would increase the effectiveness of powering augmentations installed. Since to service augmentations there's no need in a serious medical intervention, these elements are easy-to-install for experienced agents even in the field.|n|nAugmentations working in afterburner mode, consume 20% more energy."
+beltDescription="Upgrade"
+
+
+[ComputerScreenHackAccounts]
+ChangeAccountButtonLabel="|&Change Account"
+AllAccountsHeader="All User Accounts"
+CurrentAccountHeader="Current User"
+
+[Greasel]
+FamiliarName="Greasel"
+UnfamiliarName="Greasel"
+
+[FireExtinguisher]
+ItemName="Fire Extinguisher"
+Description="A chemical fire extinguisher."
+beltDescription="Extinguisher"
+
+[HKIncenseBurner]
+ItemName="Incense Burner"
+
+[WeaponTool]
+DragToUpgrade="Drag over item to repair. Weapons highlighted in BLUE can be repaired with this kit."
+ItemFixedLabel="%s repaired"
+
+[MenuScreenThemesLoad]
+LoadHelpText="Choose the color theme to load"
+Title="Load Theme"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_Cancel)"
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_Other,Text="|&Load Theme",Key="LOAD")"
+
+[AdaptiveArmor]
+ExpireMessage="Thermoptic camo power supply used up"
+ItemName="Thermoptic Camo"
+ItemArticle="some"
+Description="Integrating woven fiber-optics and an advanced computing system, thermoptic camo can render an agent invisible to both humans and bots by dynamically refracting light and radar waves; however, the high power drain makes it impractial for more than short-term use, after which the circuitry is fused and it becomes useless."
+beltDescription="Camo"
+
+[CleanerBot]
+FamiliarName="Cleaner Bot"
+UnfamiliarName="Cleaner Bot"
+
+[ComputerScreenATMWithdraw]
+ButtonLabelWithdraw="|&Withdraw"
+ButtonLabelClose="|&Close"
+BalanceLabel="Current Balance:"
+WithdrawAmountLabel="Amount to Withdraw:"
+InstructionText="Account #: %d|nPlease enter the amount of|ncredits you wish to withdraw."
+InvalidAmountLabel="INVALID AMOUNT ENTERED"
+InsufficientCreditsLabel="INSUFFICIENT CREDITS"
+CreditsWithdrawnLabel="CREDITS WITHDRAWN"
+StatusText="TMPLR//GLOBAL//PUB:3902.9571[wd]"
+HackedText="TERMINAL HACKED"
+Title="Global Banking System"
+ComputerNodeFunctionLabel="ATMWD"
+
+[HUDMedBotAddAugsScreen]
+AvailableAugsText="Available Augmentations"
+MedbotInterfaceText="MEDBOT INTERFACE"
+InstallButtonLabel="|&Install"
+NoCansAvailableText="No Augmentation Cannisters Available!"
+AlreadyHasItText="You already have this augmentation, therefore you cannot install it a second time."
+SlotFullText="The slot that this augmentation occupies is already full, therefore you cannot install it."
+SelectAnotherText="Please select another augmentation to install."
+
+[ComputerPublic]
+ItemName="Public Computer Terminal"
+
+[Button1]
+ItemName="Button"
+
+[MenuChoice_EnabledDisabled]
+enumText[0]="Yes"
+enumText[1]="No"
+
+[ComputerScreenSpecialOptions]
+SecurityButtonLabel="|&Security"
+EmailButtonLabel="|&Email"
+Title="Special Options"
+ComputerNodeFunctionLabel="SpecialOptions"
+
+[Lockpick]
+ItemName="Lockpick"
+Description="A disposable lockpick. The tension wrench is steel, but appropriate needles are formed from fast congealing polymers."
+beltDescription="Lockpick"
+
+[Cloud]
+ItemName=""
+
+[PersonaHealthActionButtonWindow]
+HealButtonLabel="Heal"
+
+[Multitool]
+ItemName="Multitool"
+Description="A disposable electronics tool. By using electromagnetic resonance detection and frequency modulation to dynamically alter the flow of current through a circuit, skilled agents can use the multitool to manipulate code locks, cameras, autogun turrets, alarms, or other security systems."
+beltDescription="Multitool"
+
+[MenuUIMessageBoxWindow]
+btnLabelYes="|&Yes"
+btnLabelNo="|&No"
+btnLabelOK="|&OK"
+btnLabelCancel="|&Cancel"
+
+[HUDReadWindow]
+ButtonCloseLabel="Close"
+ButtonSaveLabel="Save to Vault"
+
+[ComputerScreenBulletins]
+NoBulletinsTodayText="No Bulletins Today!"
+BulletinsHeaderText="Please choose a bulletin to view:"
+Title="Bulletins"
+ComputerNodeFunctionLabel="Bulletins"
+
+[PersonaItemDetailIconWindow]
+CountLabel="Count: %d"
+
+[MenuChoice_Resolution]
+helpText="Change the video resolution"
+actionText="|&Screen Resolution"
+
+[Doberman]
+FamiliarName="Dog"
+UnfamiliarName="Dog"
+
+[TrashPaper]
+ItemName="Paper"
+
+[Karkian]
+FamiliarName="Karkian"
+UnfamiliarName="Karkian"
+
+[ShowerHead]
+ItemName="Shower Head"
+
+[HUDMedBotAugCanWindow]
+AugContainsText="Contains:|n"
+
+[ComputerScreenLogin]
+UserNameLabel="User Name"
+PasswordLabel="Password"
+InvalidLoginMessage="LOGIN ERROR - ACCESS DENIED"
+Title="Welcome to %s"
+ComputerNodeFunctionLabel="Login"
+
+[Fly]
+FamiliarName="Fly"
+UnfamiliarName="Fly"
+
+[Gray]
+FamiliarName="Gray"
+UnfamiliarName="Gray"
+
+[Fireball]
+ItemName="Fireball"
+
+[MenuChoice_Volume]
+VolumeOffText="OFF"
+VolumeMaxText="MAX"
+
+[HUDMedBotNavBarWindow]
+HealthButtonLabel="|&Health"
+AugsButtonLabel="|&Augmentations"
+
+[Poolball]
+ItemName="Poolball"
+
+[ComputerScreenATMDisabled]
+ButtonLabelClose="Close"
+LoginInfoText="Sorry, this terminal is out of service (ERR 06MJ12)|n|nWe apologize for the inconvenience but would gladly service you at any of the other 231,000 banking terminals around the globe."
+StatusText="TMPLR//GLOBAL//PUB:3902.9571[dsbld]"
+Title="Global Banking System"
+
+[ComputerScreenATM]
+AccountLabel="Account #:"
+PinLabel="PIN #:"
+LoginInfoText="Please enter your Account # and Pin"
+WarningText="WARNING: Unauthorized access will be met with excessive force!"
+StatusText="TMPLR//GLOBAL//PUB:3902.9571[login]"
+InvalidLoginMessage="LOGIN ERROR, ACCESS DENIED"
+Title="Global Banking System"
+
+[PersonaInventoryCreditsWindow]
+CreditsLabel="Credits"
+
+[WaterFountain]
+msgEmpty="It's out of water"
+ItemName="Water Fountain"
+
+[WIB]
+FamiliarName="Woman In Black"
+UnfamiliarName="Woman In Black"
+
+[MIB]
+FamiliarName="Man In Black"
+UnfamiliarName="Man In Black"
+
+[WaterCooler]
+msgEmpty="It's out of water"
+ItemName="Water Cooler"
+
+[AlarmLight]
+ItemName="Alarm Light"
+
+[Rat]
+FamiliarName="Rat"
+UnfamiliarName="Rat"
+
+[ComputerSecurityChoice_Turret]
+actionText="|&Turret Status"
+enumText[0]="Bypassed"
+enumText[1]="Allies"
+enumText[2]="Enemies"
+enumText[3]="Everything"
+
+[MenuChoice_MouseSensitivity]
+helpText="Modifies the mouse sensitivity"
+actionText="Mouse |&Sensitivity"
+
+[Cart]
+ItemName="Utility Push-Cart"
+
+[Cat]
+FamiliarName="Cat"
+UnfamiliarName="Cat"
+
+[MenuChoice_LowMedHigh]
+enumText[0]="Low"
+enumText[1]="Medium"
+enumText[2]="High"
+
+[CageLight]
+ItemName="Light Fixture"
+
+[RetinalScanner]
+msgUsed="Clearance granted"
+ItemName="Retinal Scanner"
+
+[MenuChoice_EffectsChannels]
+helpText="Number of sound effects channels"
+actionText="E|&ffects Channels"
+
+[Basketball]
+ItemName="Basketball"
+
+[ShipsWheel]
+ItemName="Ship's Wheel"
+
+[WHPhone]
+ItemName="Phone"
+
+[Valve]
+ItemName="Valve"
+
+[Phone]
+ItemName="Phone"
+
+[VialCrack]
+ItemName="Zyme Vial"
+Description="A vial of zyme, brewed up in some basement lab."
+beltDescription="Zyme"
+
+[VialAmrita]
+ItemName="Amrita Vial"
+Description="Amrita sample. Protective tank contains myriads of nano-leveled mekan-carbon memory modules suspended in a conductive substance."
+beltDescription="Amrita"
+
+[PersonaImageNewLegendLabel]
+NewLegendLabel=" = New Image"
+
+[WHPiano]
+ItemName="Piano"
+
+[Toilet2]
+ItemName="Urinal"
+
+[Toilet]
+ItemName="Toilet"
+
+[Switch2]
+ItemName="Switch"
+
+[Switch1]
+ItemName="Switch"
+
+[LightSwitch]
+ItemName="Switch"
+
+[HKMarketTarp]
+ItemName="Canvas Tarp"
+
+[HKHangingPig]
+ItemName="Slaughtered Pig"
+
+[HangingChicken]
+ItemName="Slaughtered Chicken"
+
+[MenuChoice_RenderDevice]
+PromptTitle="Restart 2027?"
+GamePromptMessage="In order to choose a render device, 2027 must be restarted. The current game you are playing will be lost if you have not already saved it. Do you still wish to restart?"
+RestartPromptMessage="In order to choose a render device, Deus Ex must be restarted. Do you wish to proceed?"
+helpText="Select the device to use for 3D rendering. 2027 must EXIT to allow you to select a 3D hardware device."
+actionText="Rendering |&Device..."
+
+[BlackHelicopter]
+ItemName="Black Helicopter"
+
+[AttackHelicopter]
+ItemName="Attack Helicopter"
+
+[Pinball]
+ItemName="Pinball Machine"
+
+[Rebreather]
+ExpireMessage="Rebreather power supply used up"
+ItemName="Rebreather"
+Description="A disposable chemical scrubber that can extract oxygen from water during brief submerged operations."
+beltDescription="Scuba"
+
+[BarrelFire]
+ItemName="Burning Barrel"
+
+[MenuScreenAdjustColors]
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_OK)"
+Title="Adjust Colors"
+
+[MenuChoice_VisibleHidden]
+enumText[0]="Visible"
+enumText[1]="Hidden"
+
+[AcousticSensor]
+ItemName="Gunfire Acoustic Sensor"
+
+[ControlPanel]
+ItemName="Electronic Control Panel"
+
+[HazMatSuit]
+ExpireMessage="HazMatSuit power supply used up"
+ItemName="Hazmat Suit"
+Description="A standard hazardous materials suit that protects against a full range of environmental hazards including radiation, fire, biochemical toxins, and electricity. Hazmat suits contain an integrated bacterial oxygen scrubber that degrades over time and thus should not be reused."
+beltDescription="Suit"
+
+[CrateBreakableMedMedical]
+ItemName="Medical Supply Crate"
+
+[CrateBreakableMedGeneral]
+ItemName="General Supply Crate"
+
+[CrateBreakableMedCombat]
+ItemName="Combat Supply Crate"
+
+[MenuChoice_HUDColor]
+helpText="Color scheme used in all the in-game screens."
+actionText="|&HUD Color Scheme"
+
+[MenuChoice_MenuColor]
+helpText="Color scheme used in all menus."
+actionText="|&Menu Color Scheme"
+
+[Lightbulb]
+ItemName="Light Bulb"
+
+[BallisticArmor]
+ExpireMessage="Ballistic Armor power supply used up"
+ItemName="Ballistic Armor"
+ItemArticle="some"
+Description="Ballistic armor is manufactured from electrically sensitive polymer sheets that intrinsically react to the violent impact of a bullet or an explosion by 'stiffening' in response and absorbing the majority of the damage. These polymer sheets must be charged before use; after the charge has dissipated they lose their reflexive properties and should be discarded."
+beltDescription="Armor"
+
+[Flowers]
+ItemName="Flowers"
+
+[FlagPole]
+ItemName="Flag Pole"
+
+[Cushion]
+ItemName="Floor Cushion"
+
+[CoffeeTable]
+ItemName="Coffee Table"
+
+[WHChairPink]
+ItemName="Chair"
+
+[OfficeChair]
+ItemName="Swivel Chair"
+
+[CouchLeather]
+ItemName="Leather Couch"
+
+[ChairLeather]
+ItemName="Comfy Chair"
+
+[HKHangingLantern2]
+ItemName="Paper Lantern"
+
+[ClothesRack]
+ItemName="Hanging Clothes"
+
+[CeilingFanMotor]
+ItemName="Ceiling Fan"
+
+[CeilingFan]
+ItemName="Ceiling Fan"
+
+[MenuChoice_SpeechVolume]
+helpText="Adjusts the Speech volume."
+actionText="|&Speech Volume"
+
+[MenuChoice_SoundVolume]
+helpText="Adjusts the Sound Effects volume."
+actionText="Sound |&Effects Volume"
+
+[MenuChoice_MusicVolume]
+helpText="Adjusts the Music volume."
+actionText="|&Music Volume"
+
+[ComputerSecurityChoice_DoorOpen]
+actionText="|&Door Status"
+enumText[0]="Open"
+enumText[1]="Closed"
+
+[ComputerSecurityChoice_DoorAccess]
+actionText="Door |&Access"
+enumText[0]="Locked"
+enumText[1]="Unlocked"
+
+[ComputerSecurityChoice_Camera]
+actionText="|&Camera Status"
+enumText[0]="On"
+enumText[1]="Off"
+
+[Female1]
+FamiliarName="Female"
+UnfamiliarName="Female"
+
+[Female2]
+FamiliarName="Female"
+UnfamiliarName="Female"
+
+[Female3]
+FamiliarName="Female"
+UnfamiliarName="Female"
+
+[Female4]
+FamiliarName="Female"
+UnfamiliarName="Female"
+
+[Male1]
+FamiliarName="Male"
+UnfamiliarName="Male"
+
+[Male2]
+FamiliarName="Male"
+UnfamiliarName="Male"
+
+[Male3]
+FamiliarName="Male"
+UnfamiliarName="Male"
+
+[Male4]
+FamiliarName="Male"
+UnfamiliarName="Male"
+
+[MenuChoice_AdjustBrightness]
+actionText="|&Brightness"
+
+[MenuChoice_AlwaysRun]
+helpText="If set to Enabled, the player will always run"
+actionText="|&Always Run"
+
+[MenuChoice_Crosshairs]
+helpText="Toggles Crosshairs visibility."
+actionText="Cross|&hairs"
+
+[MenuChoice_FullScreen]
+helpText="Toggle between running the game full-screen or in a window"
+actionText="Toggle |&Full-Screen Mode"
+
+[MenuChoice_GoreLevel]
+helpText="Setting to low will remove blood from the game"
+actionText="|&Gore Level"
+enumText[0]="Low"
+enumText[1]="Normal"
+
+[MenuChoice_HeadBob]
+helpText="If enabled, the player will bob up and down slightly while walking."
+actionText="|&Player Bob"
+
+[MenuChoice_HUDAugDisplay]
+helpText="This setting determines which Augmentations are displayed in the HUD."
+actionText="HUD |&Augmentation Display"
+enumText[0]="Active"
+enumText[1]="All Augs"
+
+[MenuChoice_HUDBordersVisible]
+helpText="Determines whether the HUD Borders are displayed"
+actionText="HUD Borders |&Visible"
+
+[MenuChoice_HUDBorderTranslucency]
+helpText="If translucency is enabled, the HUD borders will be translucent"
+actionText="HUD |&Borders Translucency"
+
+[MenuChoice_HUDTranslucency]
+helpText="If translucency is enabled, the background will be visible through the in-game HUD and User-Interface screens."
+actionText="HUD Background Tr|&anslucency"
+
+[MenuChoice_InvertMouse]
+helpText="Inverts the vertical mouse axis so when you push up you look down and vice versa"
+actionText="Invert |&Mouse"
+
+[MenuChoice_MenuTranslucency]
+helpText="If translucency is enabled, the background will be visible through the menus."
+actionText="Menu |&Translucency"
+
+[MenuChoice_ObjectNames]
+helpText="If enabled, the name of the selected object in the world will be printed"
+actionText="|&Object Names"
+
+[MenuChoice_ReverseStereo]
+helpText="If enabled, the left and right stereo channels are reversed."
+actionText="|&Reverse Stereo"
+
+[MenuChoice_Subtitles]
+helpText="If subtitles are On, conversation dialogue will be displayed on-screen."
+actionText="|&Subtitles"
+
+[MenuChoice_SurroundSound]
+helpText="Enables Dolby Surround Sound support. Requires a Dolby Pro-Logic Surround Sound Processor."
+actionText="|&Dolby Surround Sound"
+
+[MenuChoice_ToggleCrouch]
+helpText="If set to Enabled, the crouch key will act as a toggle"
+actionText="|&Toggle Crouch"
+
+[MenuChoice_UIBackground]
+helpText="Determines what is displayed under menus and 2D screens. Render 3D is good for fast machines, followed by Snapshot and then Black."
+actionText="UI/Menu |&Background"
+enumText[0]="Render 3D"
+enumText[1]="Snapshot"
+enumText[2]="Black"
+
+[MenuChoice_WeaponAutoReload]
+helpText="If enabled, weapons will automatically reload when their ammo is depleted."
+actionText="|&Weapon Auto-Reload"
+
+[MenuScreenControls]
+Title="Controls"
+
+[MenuScreenOptions]
+Title="Options"
+
+[MenuScreenSound]
+Title="Sound"
+
+[MenuScreenThemesSave]
+LoadHelpText="Choose the color theme to save"
+Title="Save Theme"
+actionButtons[1]="(Text="Save Theme",Key="SAVE")"
+
+[Pigeon]
+FamiliarName="Pigeon"
+UnfamiliarName="Pigeon"
+
+[Seagull]
+FamiliarName="Seagull"
+UnfamiliarName="Seagull"
+
+[VialVirus]
+ItemName="Vial"
+Description=""
+beltDescription="Vial"
+
+[Tumbleweed]
+ItemName="Tumbleweed"
+
+[Mutt]
+FamiliarName="Dog"
+UnfamiliarName="Dog"
+
+[WHTableBlue]
+ItemName="Table"
+
+[WHRedVase]
+ItemName="Vase"
+
+[WHRedOvalTable]
+ItemName="Table"
+
+[WHRedLampTable]
+ItemName="Table"
+
+[WHRedEagleTable]
+ItemName="Table"
+
+[WHRedCouch]
+ItemName="Couch"
+
+[WHRedCandleabra]
+ItemName="Candelabra"
+
+[WHFireplaceLog]
+ItemName="Log"
+
+[WHFireplaceGrill]
+ItemName="Fireplace Grating"
+
+[WHEndtableLibrary]
+ItemName="Table"
+
+[WHDeskOvalOffice]
+ItemName="Table"
+
+[WHDeskLibrarySmall]
+ItemName="Table"
+
+[WHChairOvalOffice]
+ItemName="Leather Chair"
+
+[WHChairDining]
+ItemName="Chair"
+
+[WHCabinet]
+ItemName="Cabinet"
+
+[WHBookstandLibrary]
+ItemName="Library"
+
+[WHBenchLibrary]
+ItemName="Bench"
+
+[WHBenchEast]
+ItemName="Bench"
+
+[Vase2]
+ItemName="Vase"
+
+[Vase1]
+ItemName="Vase"
+
+[Van]
+ItemName="Van"
+
+[Trophy]
+ItemName="Trophy Cup"
+
+[TrashCan4]
+ItemName="Trashcan"
+
+[TrashCan3]
+ItemName="Trashcan"
+
+[Trashcan2]
+ItemName="Trashcan"
+
+[TrashCan1]
+ItemName="Trashcan"
+
+[Trashbag2]
+ItemName="Trashbag"
+
+[Trashbag]
+ItemName="Trashbag"
+
+[TrafficLight]
+ItemName="Traffic Light"
+
+[ThugMale3]
+FamiliarName="Thug"
+UnfamiliarName="Thug"
+
+[ThugMale2]
+FamiliarName="Thug"
+UnfamiliarName="Thug"
+
+[ThugMale]
+FamiliarName="Thug"
+UnfamiliarName="Thug"
+
+[SubwayControlPanel]
+ItemName="Control Panel"
+
+[Soldier]
+FamiliarName="Soldier"
+UnfamiliarName="Soldier"
+
+[SignFloor]
+ItemName="Caution Sign"
+
+[ShopLight]
+ItemName="Flourescent Light"
+
+[SecretService]
+FamiliarName="Agent"
+UnfamiliarName="Agent"
+
+[Secretary]
+FamiliarName="Secretary"
+UnfamiliarName="Secretary"
+
+[ScubaDiver]
+FamiliarName="Diver"
+UnfamiliarName="Diver"
+
+[ScientistMale]
+FamiliarName="Scientist"
+UnfamiliarName="Scientist"
+
+[ScientistFemale]
+FamiliarName="Scientist"
+UnfamiliarName="Scientist"
+
+[SarahMead]
+FamiliarName="Girl"
+UnfamiliarName="Girl"
+
+[Sailor]
+FamiliarName="Sailor"
+UnfamiliarName="Sailor"
+
+[RoadBlock]
+ItemName="Concrete Barricade"
+
+[RachelMead]
+FamiliarName="Woman"
+UnfamiliarName="Woman"
+
+[Pot2]
+ItemName="Clay Pot"
+
+[Pot1]
+ItemName="Clay Pot"
+
+[PoolTableLight]
+ItemName="Hanging Light"
+
+[Plant3]
+ItemName="Houseplant"
+
+[Plant2]
+ItemName="Houseplant"
+
+[Plant1]
+ItemName="Houseplant"
+
+[Pillow]
+ItemName="Pillow"
+
+[PhilipMead]
+FamiliarName="Man"
+UnfamiliarName="Man"
+
+[Pan4]
+ItemName="Pot"
+
+[Pan3]
+ItemName="Frying Pan"
+
+[Pan2]
+ItemName="Pot"
+
+[Pan1]
+ItemName="Frying Pan"
+
+[NYPoliceBoat]
+ItemName="Boat"
+UnfamiliarName="Boat"
+
+[Nurse]
+FamiliarName="Nurse"
+UnfamiliarName="Nurse"
+
+[NewspaperOpen]
+ItemName="Newspaper"
+
+[Newspaper]
+ItemName="Newspaper"
+
+[NathanMadison]
+FamiliarName="Sailor"
+UnfamiliarName="Sailor"
+
+[MorganEverett]
+FamiliarName="Morgan Everett"
+UnfamiliarName="Morgan Everett"
+
+[MiniSub]
+ItemName="MiniSub"
+
+[Microscope]
+ItemName="Microscope"
+
+[MichaelHamner]
+FamiliarName="Man"
+UnfamiliarName="Man"
+
+[BoxSmall]
+ItemName="Box"
+
+[MenuChoice_AdjustColors]
+helpText="Allows you to adjust the colors of the MENU and in-game HUD screens."
+actionText="Adjust Colors..."
+
+[Mechanic]
+FamiliarName="Mechanic"
+UnfamiliarName="Mechanic"
+
+[MargaretWilliams]
+FamiliarName="Woman"
+UnfamiliarName="Woman"
+
+[Mailbox]
+ItemName="Mailbox"
+
+[Maid]
+FamiliarName="Maid"
+UnfamiliarName="Maid"
+
+[LowerClassMale2]
+FamiliarName="Lower Class"
+UnfamiliarName="Lower Class"
+
+[LowerClassMale]
+FamiliarName="Lower Class"
+UnfamiliarName="Lower Class"
+
+[LowerClassFemale]
+FamiliarName="Lower Class"
+UnfamiliarName="Lower Class"
+
+[Lamp3]
+ItemName="Desk Lamp"
+
+[Lamp2]
+ItemName="Halogen Lamp"
+
+[Lamp1]
+ItemName="Table Lamp"
+
+[KarkianBaby]
+FamiliarName="Baby Karkian"
+UnfamiliarName="Baby Karkian"
+
+[JunkieMale]
+FamiliarName="Junkie"
+UnfamiliarName="Junkie"
+
+[JunkieFemale]
+FamiliarName="Junkie"
+UnfamiliarName="Junkie"
+
+[Janitor]
+FamiliarName="Janitor"
+UnfamiliarName="Janitor"
+
+[Hooker2]
+FamiliarName="Girl"
+UnfamiliarName="Girl"
+
+[Hooker1]
+FamiliarName="Girl"
+UnfamiliarName="Girl"
+
+[HKTukTuk]
+ItemName="TukTuk"
+
+[HKTable]
+ItemName="Table"
+
+[HKMilitary]
+FamiliarName="Soldier"
+UnfamiliarName="Soldier"
+
+[HKMarketTable]
+ItemName="Table"
+
+[HKMarketLight]
+ItemName="Hanging Light"
+
+[HKHangingLantern]
+ItemName="Paper Lantern"
+
+[HKCouch]
+ItemName="Bench"
+
+[HKChair]
+ItemName="Chair"
+
+[HKBuddha]
+ItemName="Buddha Statue"
+
+[HKBirdcage]
+ItemName="Birdcage"
+
+[HangingShopLight]
+ItemName="Flourescent Light"
+
+[Flask]
+ItemName="Lab Flask"
+
+[Fan2]
+ItemName="Fan"
+
+[Fan1Vertical]
+ItemName="Fan"
+
+[Fan1]
+ItemName="Fan"
+
+[Doctor]
+FamiliarName="Doctor"
+UnfamiliarName="Doctor"
+
+[DataCube]
+ItemName="DataCube"
+
+[CrateUnbreakableSmall]
+ItemName="Metal Crate"
+
+[CrateUnbreakableMed]
+ItemName="Metal Crate"
+
+[CrateUnbreakableLarge]
+ItemName="Metal Crate"
+
+[CrateExplosiveSmall]
+ItemName="TNT Crate"
+
+[Cop]
+FamiliarName="Cop"
+UnfamiliarName="Cop"
+
+[ChildMale2]
+FamiliarName="Child"
+UnfamiliarName="Child"
+
+[ChildMale]
+FamiliarName="Child"
+UnfamiliarName="Child"
+
+[Chef]
+FamiliarName="Chef"
+UnfamiliarName="Chef"
+
+[Chandelier]
+ItemName="Chandelier"
+
+[Chair1]
+ItemName="Chair"
+
+[Chad]
+FamiliarName="Chad"
+UnfamiliarName="Chad"
+
+[Butler]
+FamiliarName="Butler"
+UnfamiliarName="Butler"
+
+[Businesswoman1]
+FamiliarName="Businesswoman"
+UnfamiliarName="Businesswoman"
+
+[Businessman3]
+FamiliarName="Businessman"
+UnfamiliarName="Businessman"
+
+[Businessman2]
+FamiliarName="Businessman"
+UnfamiliarName="Businessman"
+
+[Businessman1]
+FamiliarName="Businessman"
+UnfamiliarName="Businessman"
+
+[BumMale3]
+FamiliarName="Bum"
+UnfamiliarName="Bum"
+
+[BumMale2]
+FamiliarName="Bum"
+UnfamiliarName="Bum"
+
+[BumMale]
+FamiliarName="Bum"
+UnfamiliarName="Bum"
+
+[BumFemale]
+FamiliarName="Bum"
+UnfamiliarName="Bum"
+
+[BoxMedium]
+ItemName="Box"
+
+[BoxLarge]
+ItemName="Box"
+
+[BookOpen]
+ItemName="Book"
+
+[BookClosed]
+ItemName="Book"
+
+[BoneSkull]
+ItemName="Human Skull"
+
+[BoneFemur]
+ItemName="Human Femur"
+
+[BoatPerson]
+FamiliarName="Boat Person"
+UnfamiliarName="Boat Person"
+
+[Basket]
+ItemName="Wicker Basket"
+
+[Bartender]
+FamiliarName="Bartender"
+UnfamiliarName="Bartender"
+
+[BarrelVirus]
+ItemName="Container"
+
+[AIPrototype]
+ItemName="Hologram"
+
+[ConWindowCredits]
+Credits="Credits"
+
+[Cigarettes]
+ItemName="Cigarettes"
+ItemArticle="some"
+Description="'COUGHING NAILS -- when you've just got to have a cigarette.'"
+beltDescription="Nails"
+
+[HUDCarcassWindow]
+PickButtonLabel="Pickup body"
+ExitButtonLabel="Exit"
+
+[SkilledTool]
+CountLabel="Count: "
+
+[SkillManager]
+NoToolMessage="You need the %s"
+NoSkillMessage="%s skill level insufficient to use the %s"
+SuccessMessage="Success!"
+YourSkillLevelAt="Your skill level at %s is now %d"
+
+[PersonaSkillButtonWindow]
+NotAvailableLabel="---"
+
+[MenuChoice_Use3DHardware]
+helpText="Enables Hardware 3D Sound Support."
+actionText="|&Hardware 3D Support"
+RestartTitle="Sound Quality"
+RestartMessage="This change will not take effect until you restart 2027."

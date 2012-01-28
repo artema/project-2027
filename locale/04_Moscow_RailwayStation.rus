@@ -1,0 +1,12 @@
+[DeusExLevelInfo0]
+MissionLocation="Москва - Железнодорожная станция"
+startupMessage[0]="Железнодорожная станция"
+startupMessage[1]="15 километров от Москвы"
+startupMessage[2]="18 октября, утро"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=Thug1,KeyID=key_VagonsDoors,Description="Вагоны")"
+NanoKeyData[1]="(ScriptedPawnTag=Thug2,KeyID=key_VagonsDoors,Description="Вагоны")"
+
+[NanoKey1]
+Description="Вагоны"

@@ -1,0 +1,3 @@
+<COMMENT>Datacube with the login for the main computer</COMMENT>
+<P>Hey, Rob, I've saved the report and the research data (physiopharmaceutical augmentation) on the main computer. Alex wants a presentation ready for the next board meeting.
+<P>Login: HH, password: Wisdom.

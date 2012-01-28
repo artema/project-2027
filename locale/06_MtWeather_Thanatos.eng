@@ -1,0 +1,28 @@
+[Omar1]
+FamiliarName="Petr"
+UnfamiliarName="Petr"
+
+[GameComputerSecurity1]
+specialOptions[0]="(Text="Shut Down Life Support System",TriggerText="Life Support System Disabled",TriggerEvent=KillThanatos,bTriggerOnceOnly=True)"
+specialOptions[1]="(Text="Activate Security Bot",TriggerText="Security Bot Activated",TriggerEvent=ReleaseSupportBot,bTriggerOnceOnly=True)"
+
+[Omar2]
+FamiliarName="Yury"
+UnfamiliarName="Yury"
+
+[DeusExLevelInfo0]
+MissionLocation="Mt. Weather - Thanatos"
+
+[Omar6]
+FamiliarName="Yuri"
+UnfamiliarName="Yuri"
+
+[Omar5]
+FamiliarName="Petr"
+UnfamiliarName="Petr"
+
+[OmarCyclope2]
+UnfamiliarName="Cyclope"
+
+[MechClubOwner2]
+UnfamiliarName="Dmitri"

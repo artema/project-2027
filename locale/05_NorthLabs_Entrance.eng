@@ -1,0 +1,41 @@
+[GameComputerSecurity4]
+Views[0]="(titleString="Main Gate",cameraTag=BlastDoorsCamera)"
+Views[1]="(titleString="Elevator",cameraTag=ElevatorCamera)"
+Views[2]="(titleString="Generator",cameraTag=GeneratorCamera,turretTag=GeneratorTurret)"
+specialOptions[0]="(Text="Reload Bot AI",TriggerText="AI Has Been Reloaded",TriggerEvent=BotsAItrigger,bTriggerOnceOnly=True)"
+
+[GameComputerSecurity1]
+Views[0]="(titleString="Main Gate",cameraTag=BlastDoorsCamera)"
+Views[1]="(titleString="Elevator",cameraTag=ElevatorCamera)"
+Views[2]="(titleString="Generator",cameraTag=GeneratorCamera,turretTag=GeneratorTurret)"
+specialOptions[0]="(Text="Open Blast Doors",TriggerText="Blast Doors Opened",TriggerEvent=OpenBlastDoors,bTriggerOnceOnly=True)"
+
+[GameComputerPersonal0]
+specialOptions[0]="(Text="Disable Military Bot",TriggerText="Bot Disabled",TriggerEvent=MilBotDeactivate,bTriggerOnceOnly=True)"
+specialOptions[1]="(Text="Open Elevator Doors",TriggerText="Doors Opened",TriggerEvent=ElevatorBunkerDoors,bTriggerOnceOnly=True)"
+
+[DeusExLevelInfo0]
+MissionLocation="North Labs - Entrance"
+startupMessage[0]="Somewhere in Siberia, Russian Confederation"
+startupMessage[1]="North Labs"
+
+[NanoKey1]
+Description="Titan Complex"
+
+[GameComputerSecurity0]
+specialOptions[0]="(Text="Disable Shield",TriggerText="Shield Disabled",TriggerEvent=RailScreen,bTriggerOnceOnly=True)"
+
+[MilitaryHelicopter2]
+FamiliarName="Xander"
+UnfamiliarName="Xander"
+
+[GameComputerSecurity2]
+Views[0]="(titleString="Tech Zone",cameraTag=TechZoneCamera,turretTag=TechZoneTurrets)"
+
+[GameComputerSecurity3]
+Views[0]="(titleString="Main Gate",cameraTag=BlastDoorsCamera)"
+Views[1]="(titleString="Elevator",cameraTag=ElevatorCamera)"
+Views[2]="(titleString="Generator",cameraTag=GeneratorCamera,turretTag=GeneratorTurret)"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=LockedTrainTrooper,KeyID=RailTrainDoor,Description="Train Door")"

@@ -1,0 +1,5 @@
+<COMMENT>Datacube with the password to access the elevator</COMMENT>
+
+<COMMENT>AberrantRevelation update: I Americanized the document and included a simple puzzle and joke for the player </COMMENT>
+
+<P>NOTICE: Per the updated security regulations (Chapter 3, Article 24B), requiring the bi-weekly rotation of pass-codes for sector entry, and having recieved and processed your Prompt Dissemination of Time Critical Data Requisition Order Form IISP F2.34, under the existing Inter-Departmental Information Sharing Policy (IISP: 2.34.5), 14 days ago the password to the laboratory elevator was changed from 1296 to 1295. We hope this information will help you and your department perform more effeciently.

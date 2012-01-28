@@ -1,0 +1,12 @@
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=Xander,KeyID=Key_ParisHome,Description="Paris Apartment")"
+
+[TAD1]
+FamiliarName="TAD"
+UnfamiliarName="TAD"
+
+[DeusExLevelInfo0]
+MissionLocation="Paris - Apartment"
+startupMessage[0]="Paris, France"
+startupMessage[1]="2 Years Later"
+startupMessage[2]="October 17th, 2027"

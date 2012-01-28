@@ -1,0 +1,13 @@
+[GameComputerSecurity1]
+specialOptions[0]="(Text="Открыть защитные двери",TriggerText="Защитные двери открыты",TriggerEvent=TitanComplexBlastDoors,bTriggerOnceOnly=True)"
+specialOptions[1]="(Text="Сбросить груз с крана",TriggerText="Кран поврежден",TriggerEvent=SabotateCargo,bTriggerOnceOnly=True)"
+
+[GameComputerPersonal0]
+specialOptions[0]="(Text="Реанимировать Титана",TriggerText="Титан реанимирован",TriggerEvent=UploadTitanInfo,bTriggerOnceOnly=True)"
+
+[DeusExLevelInfo0]
+MissionLocation="Северная база - Главный комплекс"
+startupMessage[0]="Северные лаборатории, главный комплекс"
+
+[NanoKey0]
+Description="Медицинская зона комплекса"

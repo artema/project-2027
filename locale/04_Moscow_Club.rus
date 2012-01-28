@@ -1,0 +1,83 @@
+[ClubThug0]
+FamiliarName="Хмырь"
+UnfamiliarName="Хмырь"
+
+[OmarCyclope0]
+FamiliarName="Циклоп"
+UnfamiliarName="Омар"
+
+[BolshevikWarrior6]
+FamiliarName="Охранник"
+UnfamiliarName="Охранник"
+
+[BolshevikWarrior7]
+FamiliarName="Охранник"
+UnfamiliarName="Охранник"
+
+[BolshevikWarrior8]
+FamiliarName="Охранник"
+UnfamiliarName="Охранник"
+
+[BolshevikWarrior9]
+FamiliarName="Охранник"
+UnfamiliarName="Охранник"
+
+[MechClubOwner1]
+FamiliarName="Дмитрий"
+UnfamiliarName="Киборг"
+
+[Businessman6]
+FamiliarName="Егор"
+UnfamiliarName="Молодой человек"
+
+[Hooker1]
+FamiliarName="Девушка"
+UnfamiliarName="Девушка"
+
+[ThugMale2]
+FamiliarName="Сергей"
+UnfamiliarName="Взбешенный парень"
+
+[ThugMale4]
+FamiliarName="Виктор"
+UnfamiliarName="Парень"
+
+[GameComputerSecurity0]
+Views[0]="(titleString="Банкомат",CameraTag=Camera1)"
+Views[1]="(titleString="Хранилище",CameraTag=Camera1)"
+
+[Omar0]
+FamiliarName="Юрий"
+UnfamiliarName="Злой Омар"
+
+[DeusExLevelInfo0]
+MissionLocation="Москва - Клуб"
+startupMessage[0]="Ночной клуб 'Революцiонеръ'"
+
+[ClubMale0]
+FamiliarName="Хам"
+UnfamiliarName="Мужчина"
+
+[Hooker0]
+FamiliarName="Бармен"
+UnfamiliarName="Бармен"
+
+[Bandit0]
+FamiliarName="Петр"
+UnfamiliarName="Молодой человек"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=ClubThug,KeyID=key_MoscowClub_Main,Description="Клуб 'Революцiонеръ'")"
+
+[Male0]
+FamiliarName="Михаил"
+UnfamiliarName="Мужчина"
+
+[LowerClassMale2]
+FamiliarName="Василий"
+UnfamiliarName="Пьяница"
+
+[Businessman1]
+FamiliarName="Влад"
+UnfamiliarName="Мужчина с железной челюстью"
+

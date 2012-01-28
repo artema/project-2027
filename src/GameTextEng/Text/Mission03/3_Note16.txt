@@ -1,0 +1,3 @@
+<COMMENT>Electrical Control in the Sanitation Latin Quarter</COMMENT>
+
+<P>Circuit-Breaker: Operate switch with care. WARNING: Extreme Voltage Jump.

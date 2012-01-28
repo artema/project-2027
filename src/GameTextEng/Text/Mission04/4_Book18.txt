@@ -1,0 +1,7 @@
+<P><JC>Upgrade logs</JC>
+<P>
+<P>Phase One... Completed...
+<P> - 98% of internal data streams have been rerouted through the central Titan System.
+<P>Phase Two... In Progress... 'Completion estimated for the end of the year.'
+<P> - External data streams and main channel rerouting.
+<P> - Upgrades to the AI system blocks 'Expect a 15% gain in general systems performance.'

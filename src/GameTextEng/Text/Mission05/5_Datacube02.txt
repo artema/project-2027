@@ -1,0 +1,1 @@
+<P>To enhance the security level, the password to the service sector of the base was changed to 7554. Previous checks revealed a failure in one of the electronic locks. Any password given opened the door. The problem was solved only yesterday. If you encounter this error again, contact the service master in module M-2 immediately.

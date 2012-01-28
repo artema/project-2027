@@ -1,0 +1,22 @@
+<P>18:35:02 - Initializing enviro::core
+<P>18:35:03 - Access denied. Client AC19:23A0:48CD:15C9 disconnected
+<P>18:35:04 - Connecting to AC19:23A0:48CD:15C9
+<P>18:35:04 - Invalid password. Access denied
+<P>18:35:04 - Invalid password. Access denied
+<P>18:35:04 - Invalid password. Access denied
+<P>18:35:04 - Invalid password. Access denied
+<P>...................
+<P>...................
+<P>18:35:04 - Connecting to AC19:23A0:48CD:15C9
+<P>18:36:05 - Access granted
+<P>18:36:05 - Client AC19:23A0:48CD:15C9 is executing command #549
+<P>18:36:10 - Initializing process # 549
+<P>18:36:15 - Main power is offline!
+<P>18:36:20 - Switching to an emergency power source
+<P>18:36:26 - Client AC19:23A0:48CD:15C9 is executing command #238
+<P>18:36:30 - Ventilation system is offline
+<P>18:36:51 - All personnel must evacuate immediately!
+<P>18:37:08 - Client AC19:23A0:48CD:15C9 is executing command #182
+<P>18:45:15 - Main chamber is sealed
+<P>18:45:15 - Error 891. Network route error
+<P>18:45:18 - System Shutdown

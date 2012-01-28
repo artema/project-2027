@@ -1,0 +1,40 @@
+[BlackGangMember1]
+FamiliarName="Жерар"
+
+[ClubThug0]
+FamiliarName="Охрана клуба"
+UnfamiliarName="Охрана клуба"
+
+[DeusExLevelInfo0]
+MissionLocation="Париж - Клуб"
+startupMessage[0]="Клуб 'Черный рыцарь'"
+
+[Hooker0]
+FamiliarName="Девушка"
+UnfamiliarName="Девушка"
+
+[BlackGandLeader0]
+FamiliarName="Даррелл"
+UnfamiliarName="Даррелл"
+
+[PickupDistributor3]
+NanoKeyData[0]="(ScriptedPawnTag=Gerard,KeyID=key_ParisClubVIP,Description="VIP-зона клуба 'Черный рыцарь'",SkinColor=SC_Level2)"
+
+[Businessman2]
+FamiliarName="Мужчина"
+UnfamiliarName="Мужчина"
+
+[Hooker1]
+FamiliarName="Девушка"
+UnfamiliarName="Девушка"
+
+[PickupDistributor1]
+NanoKeyData[0]="(ScriptedPawnTag=Arman,KeyID=SmugglersBasementKey,Description="Ключ Теневого Легиона")"
+
+[Businessman1]
+FamiliarName="Мужчина"
+UnfamiliarName="Мужчина"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=ClubThug,KeyID=key_ParisClub_Main,Description="Клуб 'Черный рыцарь'")"
+NanoKeyData[1]="(ScriptedPawnTag=BlackGandLeader,KeyID=OldQuarterApartaments,Description="Квартира Давида")"

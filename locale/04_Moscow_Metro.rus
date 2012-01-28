@@ -1,0 +1,39 @@
+[GameComputerSecurity6]
+Views[0]="(titleString="Эскалатор",CameraTag=EscalatorCamera)"
+Views[1]="(titleString="Поезд",CameraTag=TrainCamera)"
+Views[2]="(titleString="Зал ожидания",CameraTag=WaitRoomCamera)"
+
+[GameComputerSecurity5]
+Views[0]="(titleString="Эскалатор",CameraTag=EscalatorCamera)"
+Views[1]="(titleString="Поезд",CameraTag=TrainCamera)"
+Views[2]="(titleString="Зал ожидания",CameraTag=WaitRoomCamera)"
+
+[NanoKey0]
+Description="Касса московского метро"
+
+[GameComputerSecurity2]
+Views[0]="(CameraTag=omarCamera1,Turrettag=AutoGun)"
+Views[1]="(CameraTag=omarCamera2)"
+Views[2]="(CameraTag=omarCamera3)"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=OmarTrader,KeyID=key_OmarTraderSafe,Description="Сейф Омаров")"
+
+[DeusExLevelInfo0]
+MissionLocation="Москва - Метро"
+
+[GuardBotMini3]
+FamiliarName="Бот Омаров"
+UnfamiliarName="Бот Омаров"
+
+[TAD0]
+FamiliarName="Машинист"
+UnfamiliarName="Связь с машинистом"
+
+[TAD2]
+FamiliarName="Машинист"
+UnfamiliarName="Связь с машинистом"
+
+[TAD1]
+FamiliarName="Машинист"
+UnfamiliarName="Связь с машинистом"

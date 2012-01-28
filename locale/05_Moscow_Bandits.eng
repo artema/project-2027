@@ -1,0 +1,5 @@
+[DeusExLevelInfo0]
+MissionLocation="Moscow - Hideout"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=Boris,KeyID=key_BanditsArmory,Description="Basement Armory")"

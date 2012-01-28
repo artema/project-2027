@@ -1,0 +1,1 @@
+<P>Captain ordered me to give you access to the security terminal at the central tracking center. Here it is: Taurus - Universe. The account has the following privileges: SE_INC_BASE_PRIORITY_NAME, SE_LOCK_MEMORY_NAME, SE_PROF_SINGLE_PROCESS_NAME, SE_SECURITY_NAME, SE_SHUTDOWN_NAME.

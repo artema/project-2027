@@ -1,0 +1,7 @@
+[DeusExLevelInfo2]
+MissionLocation="Париж - Лаборатория"
+startupMessage[0]="Заброшенная лаборатория Human Horizon"
+
+[GameComputerSecurity0]
+specialOptions[0]="(Text="Открыть защитные двери лаборатории",TriggerText="Защитные двери открыты",TriggerEvent=OpenLabDoor,bTriggerOnceOnly=True)"
+

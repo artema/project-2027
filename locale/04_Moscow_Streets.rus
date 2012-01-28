@@ -1,0 +1,19 @@
+[DeusExLevelInfo0]
+MissionLocation="Москва - Яузский бульвар"
+startupMessage[0]="Российская Конфедерация, Москва"
+startupMessage[1]="Яузский бульвар"
+startupMessage[2]="18 октября, ночь"
+
+[DummyTarget0]
+FamiliarName="Даниэль"
+UnfamiliarName="Даниэль"
+
+[SpecialEvent0]
+Message="Нет времени для игр!"
+
+[BumMale0]
+FamiliarName="Геннадий"
+UnfamiliarName="Бомж"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=Thug,KeyID=OmarPrison,Description="Ключ от клетки с Омаром")"

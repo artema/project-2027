@@ -1,0 +1,12 @@
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=Xander,KeyID=Key_ParisHome,Description="Парижская квартира")"
+
+[TAD1]
+FamiliarName="Автоответчик"
+UnfamiliarName="Автоответчик"
+
+[DeusExLevelInfo0]
+MissionLocation="Париж - Дом"
+startupMessage[0]="Франция - Париж"
+startupMessage[1]="Прошло два года"
+startupMessage[2]="17 октября 2027, раннее утро"

@@ -1,0 +1,6 @@
+syntax: glob
+launcher/2027Starter.suo
+syntax: regexp
+\/obj\/
+\/bin\/
+ReSharper

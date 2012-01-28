@@ -1,0 +1,1 @@
+<P>Капитан приказал выдать тебе доступ к компьютеру безопасности центра слежения за полетами. Держи: Taurus - Universe. Учетная запись имеет следующие привилегии: SE_INC_BASE_PRIORITY_NAME, SE_LOCK_MEMORY_NAME, SE_PROF_SINGLE_PROCESS_NAME, SE_SECURITY_NAME, SE_SHUTDOWN_NAME.

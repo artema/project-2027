@@ -1,0 +1,2 @@
+<FILE=3_Bulletin01,Accident at Vandenberg>
+<FILE=3_Bulletin02,Street patrols>

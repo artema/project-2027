@@ -1,0 +1,45 @@
+[GameComputerSecurity1]
+Views[0]="(titleString="Bar",CameraTag=StreetCam1)"
+Views[1]="(titleString="Cafe",CameraTag=StreetCam2)"
+Views[2]="(titleString="Stairs",CameraTag=StreetCam3)"
+
+[GenericMale0]
+FamiliarName="Albert"
+UnfamiliarName="Young Man"
+
+[Businessman1]
+FamiliarName="Pavel"
+UnfamiliarName="Russian"
+
+[GameComputerPersonal2]
+specialOptions[0]="(Text="Shut down patrol bots",TriggerText="Patrol bots disabled",TriggerEvent=ShutDownBots,bTriggerOnceOnly=True)"
+
+[Hooker0]
+FamiliarName="Nicolle"
+UnfamiliarName="Girl"
+
+[Female3]
+FamiliarName="Cristine"
+UnfamiliarName="Neighbour"
+
+[LowerClassMale0]
+FamiliarName="Jacque"
+
+[GameComputerSecurity2]
+Views[0]="(titleString="Police",CameraTag=PoliceCam1)"
+Views[1]="(titleString="Police",CameraTag=PoliceCam2)"
+Views[2]="(titleString="Police",CameraTag=PoliceCam3)"
+
+[GameComputerSecurity0]
+specialOptions[0]="(Text="Change gate to 81.1.226.230",TriggerText="Main route gate now is 81.1.226.230",TriggerEvent=ChangeRouteGate,bTriggerOnceOnly=True)"
+
+[SkillAwardTrigger4]
+awardMessage="'L'Arme' gun shop is offline"
+
+[DummyTarget0]
+FamiliarName="Bot"
+UnfamiliarName="Bot"
+
+[DeusExLevelInfo0]
+MissionLocation="Paris - Latin Quarter"
+startupMessage[0]="Paris - Latin Quarter"

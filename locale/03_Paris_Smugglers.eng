@@ -1,0 +1,39 @@
+[PickupDistributor1]
+NanoKeyData[0]="(ScriptedPawnTag=SmugglersLeader,KeyID=Key_Paris_Shaft,Description="Cable Shaft Access")"
+
+[PickupDistributor2]
+NanoKeyData[0]="(ScriptedPawnTag=EquipmentSmuggler,KeyID=LegionArmory,Description="Shadow Legion's Lodge")"
+
+[ThugMale3]
+FamiliarName="Legionarie"
+UnfamiliarName="Legionarie"
+
+[EquipmentSmuggler0]
+FamiliarName="Sebastian"
+UnfamiliarName="Supplies Manager"
+
+[WeaponSmuggler0]
+FamiliarName="Nicolas"
+UnfamiliarName="Trader"
+
+[ThugMale5]
+FamiliarName="Legionarie"
+UnfamiliarName="Legionarie"
+
+[ThugMale4]
+FamiliarName="Legionarie"
+UnfamiliarName="Legionarie"
+
+[ThugMale1]
+FamiliarName="Legionarie"
+UnfamiliarName="Legionarie"
+
+[ThugMale2]
+FamiliarName="Legionarie"
+UnfamiliarName="Legionarie"
+
+[DeusExLevelInfo0]
+MissionLocation="Paris - Hideout"
+
+[Arman0]
+UnfamiliarName="Arman"

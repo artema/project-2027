@@ -1,0 +1,28 @@
+[Omar1]
+FamiliarName="Петр"
+UnfamiliarName="Петр"
+
+[GameComputerSecurity1]
+specialOptions[0]="(Text="Отключить систему жизнеобеспечения",TriggerText="Система жизнеобеспечения отключена",TriggerEvent=KillThanatos,bTriggerOnceOnly=True)"
+specialOptions[1]="(Text="Активировать охранного бота",TriggerText="Охранный бот активирован",TriggerEvent=ReleaseSupportBot,bTriggerOnceOnly=True)"
+
+[Omar2]
+FamiliarName="Юрий"
+UnfamiliarName="Юрий"
+
+[DeusExLevelInfo0]
+MissionLocation="Mt. Weather - Танатос"
+
+[Omar6]
+FamiliarName="Юрий"
+UnfamiliarName="Юрий"
+
+[Omar5]
+FamiliarName="Петр"
+UnfamiliarName="Петр"
+
+[OmarCyclope2]
+UnfamiliarName="Циклоп"
+
+[MechClubOwner2]
+UnfamiliarName="Дмитрий"

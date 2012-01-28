@@ -1,0 +1,1262 @@
+[ChapterEndgame1]
+EndgameQuote[0]="Весь мир насилья мы разрушим|nДо основанья, а затем|nМы наш, мы новый мир построим,|nКто был ничем, тот станет всем."
+EndgameQuote[1]="    -- 'Интернационал'"
+
+[ChapterEndgame2]
+EndgameQuote[0]="Если хочешь победить весь мир, победи самого себя."
+EndgameQuote[1]="    -- Ф. Достоевский"
+
+[ChapterEndgame3]
+EndgameQuote[0]="Разрушать - профессия тех, кто не умеет строить."
+EndgameQuote[1]="    -- Ральф Уолдо Эмерсон"
+
+[Chapter3]
+AutosaveName="Париж"
+
+[Chapter4]
+AutosaveName="Москва"
+RedOmarName="Михаил"
+
+[Chapter5]
+AutosaveName="Северные лаборатории"
+
+[Chapter6]
+AutosaveName="Mount Weather"
+
+[Minidisk]
+EmptyMsg="Ничего интересного не найдено"
+
+[VendingMachineWindow]
+title="Торговый автомат"
+priceString="Цена: %s"
+hackString="Взломано"
+moneyString="Ваши деньги: %s"
+
+[TruePlayer]
+msgBloodCritical="Большая потеря крови!"
+msgEnergy="Заряжено 9000 единиц энергии"
+msgCheatsActivated="-== Режим читов активирован ==-"
+msgDieworld="NPC уничтожены"
+msgTimeFast="Скорость времени увеличена"
+msgTimeSlow="Скорость времени уменьшена"
+msgTimeNormal="Скорость времени восстановлена"
+msgSubmarineOn="Режим субмарины включен"
+msgSubmarineOff="Режим субмарины отключен"
+msgGodOn="Режим бога включен"
+msgGodOff="Режим бога отключен"
+msgInvisibleOn="Режим невидимости включен"
+msgInvisibleOff="Режим невидимости отключен"
+msgGhost="Режим призрака включен"
+msgGhostOff="Режим призрака отключен"
+msgFly="Режим полета включен"
+msgFlyOff="Режим полета отключен"
+msgFirstView="Режим от первого лица"
+msgThirdView="Режим от третьего лица"
+msgHasAllAmmo="Боеприпасы получены"
+AddedNanoKey="%s добавлен в список нано-ключей"
+msgHeroLevelAward="Доступно новое умение!"
+labelAutosave="Автосохранение: %s"
+FamiliarName="Даниэль"
+UnfamiliarName="Даниэль"
+DefaultTruePlayerName="Даниэль"
+
+[SupportBotContainerRussian]
+ShortBotName="R.E.S.S.I.E."
+FullBotName="Бот R.E.S.S.I.E."
+ItemName="Бот R.E.S.S.I.E."
+Description="R.E.S.S.I.E.: Russian Electronic Support System for Infiltration and Extermination.|nЭкспериментальный прототип. В качестве основного оружия используется электрошок с выстреливающими на расстояние в несколько метров электродами. Для ведения боя против бронированных целей, а также против нескольких противников, робот оснащен экспериментальной системой 'Тайфун'."
+beltDescription="RESSIE"
+
+[SupportBotContainerMJ12]
+ShortBotName="Majestic"
+FullBotName="Бот Majestic"
+ItemName="Бот Majestic"
+Description="Прототип персонального мобильного робота первого поколения.|nВооружен слезоточивым газом военного образца и может обезвреживать противников выстрелом дротиков с транквилизатором."
+beltDescription="Majestic"
+
+[GameConsole]
+LoadingMessage=""
+SavingMessage=""
+PausedMessage="ПАУЗА"
+
+[GameWeapon]
+msgNone=""
+msgInfoHumanDamage="Урон для людей:"
+
+[BolshevikWarrior]
+FamiliarName="Воин Асуров"
+UnfamiliarName="Воин Асуров"
+
+[Christoph]
+FamiliarName="Кристоф"
+UnfamiliarName="Кристоф"
+
+[Andre]
+FamiliarName="Андре"
+UnfamiliarName="Бармен"
+
+[BiotechAgent]
+FamiliarName="Агент"
+UnfamiliarName="Агент"
+
+[MJ12CommandoTroop]
+FamiliarName="Коммандо MJ12"
+UnfamiliarName="Коммандо MJ12"
+
+[SupportBot]
+msgDestroyed="%c уничтожен"
+msgEMPed="%c обесточен"
+msgCharged="Заряжено %d единиц биоэнергии"
+msgChargedMax="Энергия уже на максимуме"
+msgChargedMin="Энергии бота недостаточно для подзарядки"
+msgWait1="Идет восстановление биоэнергии бота, подождите ещё %d секунду"
+msgWait="Идет восстановление биоэнергии бота, подождите ещё %d секунд"
+FamiliarName="Support bot"
+UnfamiliarName="Support bot"
+
+[SupportBotContainer]
+HealthRemainingLabel="Здоровье: "
+HealthEMPRemainingLabel="Энергия: "
+PointsLabel="единиц"
+StatInfoLabel="Состояние:"
+DescInfoLabel="Описание:"
+FuncInfoLabel="Спецвозможности:"
+FuncDesc="Описание функции."
+EnergyInfo="Расход энергии (в минуту): "
+EnergyNormal="Обычный режим: "
+EnergyFunc="Функциональный режим: "
+ShortBotName="Бот"
+FullBotName="Робот"
+ChargePlacedLabel="Установлен заряд:"
+ItemName="Переносной бот"
+Description="Описание бота."
+beltDescription="Бот"
+msgNeedItem="Для использования необходим %c"
+
+[SupportBotControl]
+msgSBPatrol="Текущий приказ бота '%c': Патрулирование"
+msgSBSupporting="Текущий приказ бота '%c': Поддержка"
+msgSBDeactivated="Бот '%c' отключен"
+msgSBChanged="Текущий бот: %c"
+msgSBNoBot="отсутствует"
+msgSBFuncOn="Спецфункция бота '%c' включена"
+msgSBFuncOff="Спецфункция бота '%c' отключена"
+ItemName="Пульт управления"
+Description="Универсальный пульт дистанционного управления персональными ботами и дронами."
+beltDescription="Пульт"
+
+[SpyDroneContainer]
+M_Activated=""
+ItemName="Дрон-шпион"
+Description="Дрон для разведки вражеской территории."
+beltDescription="Дрон"
+msgNeedItem="Для использования необходим %c"
+HealthEMPRemainingLabel="Энергия: "
+PointsLabel="единиц"
+ChargePlacedLabel="Установлен заряд:"
+StatInfoLabel="Состояние:"
+DescInfoLabel="Описание:"
+EnergyInfo="Расход энергии (в минуту): "
+
+[SpyDroneFlying]
+ItemName="Дрон-шпион"
+msgDestroyed="Дрон уничтожен"
+msgDeactivated="Дрон обесточен"
+
+[SpyDronePickup]
+FamiliarName="Дрон-шпион"
+UnfamiliarName="Дрон-шпион"
+msgDestroyed="Дрон уничтожен"
+
+[MilitaryHelicopter]
+ItemName="Военный вертолет"
+FamiliarName="Ксандер"
+UnfamiliarName="Ксандер"
+
+[RussianArmy]
+FamiliarName="Российский солдат"
+UnfamiliarName="Российский солдат"
+
+[MagnusAthers]
+FamiliarName="Магнус"
+UnfamiliarName="Магнус"
+
+[MagnusAthersJr]
+FamiliarName="Магнус"
+UnfamiliarName="Магнус"
+
+[GameMenuScreenCustomizeKeys]
+FunctionText[0]="Огонь/Активировать"
+FunctionText[1]="Использовать"
+FunctionText[2]="Выбросить предмет"
+FunctionText[3]="Вперед"
+FunctionText[4]="Назад"
+FunctionText[5]="Шаг влево"
+FunctionText[6]="Шаг вправо"
+FunctionText[7]="Наклон влево"
+FunctionText[8]="Наклон вправо"
+FunctionText[9]="Прыжок"
+FunctionText[10]="Присесть"
+FunctionText[11]="Идти/Бежать"
+FunctionText[12]="Следующий предмет"
+FunctionText[13]="Предыдуший предмет"
+FunctionText[14]="Приблизить прицел"
+FunctionText[15]="Отдалить прицел"
+FunctionText[16]="Перезарядить"
+FunctionText[17]="Выключить все приращения"
+FunctionText[18]="Сменить патроны"
+FunctionText[19]="Инвентарь"
+FunctionText[20]="Экран здоровья"
+FunctionText[21]="Экран приращений"
+FunctionText[22]="Экран умений"
+FunctionText[23]="Экран целей/заметок"
+FunctionText[24]="Экран диалогов"
+FunctionText[25]="Экран изображений"
+FunctionText[26]="Экран логов"
+FunctionText[27]="Быстрое сохранение"
+FunctionText[28]="Быстрая загрузка"
+FunctionText[29]="Скриншот"
+FunctionText[30]="F3"
+FunctionText[31]="F4"
+FunctionText[32]="F5"
+FunctionText[33]="F6"
+FunctionText[34]="F7"
+FunctionText[35]="F8"
+FunctionText[36]="F9"
+FunctionText[37]="F10"
+FunctionText[38]="F11"
+FunctionText[39]="F12"
+strHeaderActionLabel="Действие"
+strHeaderAssignedLabel="Клавиша"
+WaitingHelpText="Выберите действие, которое хотите назначить и нажмите [ENTER]. Нажмите [DELETE] для удаления."
+InputHelpText="Нажмите клавишу, которую хотите назначить. Нажмите [ESC] для отмены."
+ReassignedFromLabel="'%s' переназначенно на '%s'"
+Title="Управление"
+
+[DanielDouble]
+FamiliarName="Даниэль"
+UnfamiliarName="Даниэль"
+
+[GameMenuScreenNewGame]
+ButtonUpgradeLabel="По|&высить"
+ButtonDowngradeLabel="По|&низить"
+HeaderNameLabel="Настоящее имя"
+HeaderCodeNameLabel="Кодовое имя"
+HeaderAppearanceLabel="Внешность"
+HeaderSkillsLabel="Навыки"
+HeaderSkillPointsLabel="Опыт"
+HeaderSkillLevelLabel="Уровень"
+HeaderPointsNeededLabel="Стоимость"
+NameBlankTitle="Нет имени!"
+NameBlankPrompt="Кодовое имя не может отсутсвовать! Введите имя."
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_Other,Text="|&Начать",Key="START")"
+Title="Начать новую игру"
+
+[GasCan]
+ItemName="Канистра"
+
+[Bandit]
+FamiliarName="Бандит"
+UnfamiliarName="Бандит"
+
+[WeaponKnife]
+ItemName="Боевой нож"
+Description="Нож, сделанный из высоко-карбонной нержавеющей стали. Стандартное оружие в арсенале военных."
+beltDescription="Нож"
+
+[Ashtray]
+ItemName="Пепельница"
+
+[FireHydrant]
+ItemName="Пожарный гидрант"
+
+[WeaponGuidGun]
+msgTrackActive="GEP: коррекция полета"
+msgTrackPassive="GEP: линейная атака"
+ShortName="GEP"
+ItemName="Система GEP"
+Description="Мобильная ракетная установка, использующая лазерную наводку для высокоточного поражения целей. При необходимости может автоматически корректировать траекторию полета ракеты в сторону движения цели. Нетренированные агенты могут испытывать затруднение при движении."
+beltDescription="GEP"
+
+[Bandit2]
+FamiliarName="Бандит"
+UnfamiliarName="Бандит"
+
+[Boris]
+NameArticle=""
+FamiliarName="Борис"
+UnfamiliarName="Борис"
+
+[TextTrigger]
+NoteAdded="Получена запись - Сверьтесь с базой данных"
+
+[P_LAM]
+ItemName="Легкая боевая граната (LAM)"
+
+[Outforcer]
+ItemName="Излучатель"
+
+[DataVaultTrigger]
+msgImageAdded="Получено изображение - Сверьтесь с базой данных"
+
+[P_NapalmGrenade]
+ItemName="Поджигающая граната"
+
+[WeaponLAMGrenade]
+ItemName="LAM"
+Description="Мультифункциональная взрывчатка с электронной системой детонации. Может быть брошена как граната или прикреплена к любой поверхности как мина-ловушка. В данный момент это оружие запрещено во многих странах мира."
+beltDescription="LAM"
+
+[Evgeny]
+NameArticle=""
+FamiliarName="Евгений"
+UnfamiliarName="Евгений"
+
+[RussianArmy_2]
+FamiliarName="Российский солдат"
+UnfamiliarName="Российский солдат"
+
+[WeaponShotGun]
+ItemName="Дробовик"
+Description="Помповый дробовик. Возможно, Mossberg, Winchester, Remington, Benelli или ИжМаш - 'помповая' конструкция настолько популярна, что даже специалисту подчас трудно определить конкретную модель. Широкий разброс дроби делает его практически бесполезным против дальних целей, но на ближних и средних дистанциях выстрел из дробовика равноценен длинной очереди из ПП. Для стрельбы используются патроны 12-го калибра."
+beltDescription="Ружье"
+
+[WeaponIronCrowbar]
+ItemName="Лом"
+Description="Обычный рабочий инструмент. Однако часто приментяется для вскрытия простейших механических замков или как оружие в уличной разборке."
+beltDescription="Лом"
+
+[CombatBot]
+FamiliarName="Военный бот"
+UnfamiliarName="Военный бот"
+
+[MJ12Troop_Aug]
+FamiliarName="Солдат MJ12"
+UnfamiliarName="Солдат MJ12"
+
+[AdvLightSwitch]
+ItemName="Выключатель"
+
+[VladimirGrigoryev]
+FamiliarName="Владимир"
+UnfamiliarName="Владимир"
+
+[MJ12Cyborg]
+FamiliarName="Киборг MJ12"
+UnfamiliarName="Киборг MJ12"
+
+[WeaponToolRepair]
+ItemName="Ремонтный набор"
+Description="Набор универсальных инструментов, позволяющий проводить сложный ремонт различных механизмов в полевых условиях. Для эффективного использования необходимо обладать хорошими техническими навыками."
+beltDescription="Ремонт"
+
+[P_EMP]
+ItemName="EMP граната"
+
+[P_RiotGrenade]
+ItemName="Газовая граната"
+
+[P_RadioGrenade]
+ItemName="Радио граната"
+
+[WeaponPulseGrenade]
+ItemName="EMP граната"
+Description="Электро-магнитная (EMP) граната создает локальный импульс, который временно выводит из строя всю электронику, в том числе камеры и лазерные лучи, в радиусе нескольких метров.|n|n<NOTE MED-553> Эффект EMP поля может негативно влиять на энергосистемы приращений."
+beltDescription="EMP"
+
+[GameMenuMain]
+ButtonNames[0]="Новая игра"
+ButtonNames[1]="Сохранение"
+ButtonNames[2]="Загрузка"
+ButtonNames[3]="Опции"
+ButtonNames[4]="Титры"
+ButtonNames[5]="Назад в игру"
+ButtonNames[6]="Выход"
+Title="2027"
+
+[RussianMilitia]
+FamiliarName="Российская полиция"
+UnfamiliarName="Российская полиция"
+
+[WeaponAK74]
+ItemName="AK-101"
+Description="Очередная модификация легендарного 'Калашникова', хоть и немного устаревшая после выхода автоматов 200-й серии. Изначально планировалась как чисто-экспортный вариант АК-74М, однако после входа России в 'Партнерства ради Мира' АК-101 постепенно стал основным автоматом Конфедерации. Для стрельбы используются патроны калибра 5.56mm."
+beltDescription="AK-101"
+
+[WeaponSpecialAK47]
+ItemName="AK-101 Владимира"
+Description="Достаточно редкая модификация АК-101, оснащенная оптическим прицелом и глушителем. Для стрельбы используются патроны калибра 5.56mm."
+beltDescription="AK-101+"
+
+[WeaponChinaSword]
+ItemName="Меч"
+Description="Угрожающе выглядящий меч."
+beltDescription="Меч"
+
+[GuardBot]
+FamiliarName="Охранный бот"
+UnfamiliarName="Охранный бот"
+
+[P_Dart]
+ItemName="Дротик"
+
+[GameMenuChoice_DetailTextures]
+HelpText="Отключение детализации текстур на слабых машинах может повысить быстродействие."
+actionText="Детализация Т|&екстур"
+
+[GuardBotMini2]
+FamiliarName="Охранный бот"
+UnfamiliarName="Охранный бот"
+
+[GuardBotMini]
+FamiliarName="Охранный бот"
+UnfamiliarName="Охранный бот"
+
+[BigBioelectricCell]
+ItemName="Биоаккумулятор"
+Description="Этот биоаккумулятор имеет большую энергоемкость, чем стандартная биобатарейка."
+beltDescription="Энергия"
+
+[AdvSwitch1]
+ItemName="Переключатель"
+
+[AdvSwitch2]
+ItemName="Переключатель"
+
+[AdvValve]
+ItemName="Вентиль"
+
+[NightVision]
+ItemArticle=""
+ExpireMessage="Закончилась энергия"
+ItemName="Техно-очки"
+Description="Прибор ночного видения очень полезен на ночных миссиях. Он позволяет видеть почти в полной темноте."
+beltDescription="Тех.Очки"
+
+[Screwdriver]
+ItemName="Отвертка"
+
+[UtilityCart]
+ItemName="Тележка"
+
+[Thug3]
+FamiliarName="Милитарист"
+UnfamiliarName="Милитарист"
+
+[P_Fireball]
+ItemName="Fireball"
+
+[P_ThrowingKnife]
+ItemName="Метательный нож"
+
+[TruckWheel]
+ItemName="Колесо"
+
+[Pylon]
+ItemName="Пилон"
+
+[Pizza]
+msgnoperk="Перка нет"
+msgyesperk="Перк есть"
+ItemName="Пицца"
+
+[CardReader]
+msgNoKey="У вас нет необходимого нано-ключа"
+msgUseKey="Используйте ваш нано-ключ"
+ItemName="Электронный замок"
+
+[MenuChoice_Resurrection]
+RestartTitle="Возрождение"
+RestartMessage="Необходимо перезапустить 2027 чтобы изменения вступили в силу."
+enumText[0]="Вкл"
+enumText[1]="Выкл"
+HelpText="Отключение модуля 'Возрождение' позволяет увеличить производительность игры. 'Возрождение' отвечает за новые качественные эффекты и модели."
+actionText="Возро|&ждение"
+
+[WeaponMP5]
+ItemName="H&K MP9A3"
+Description="Все новое - это хорошо забытое старое, а новый немецкий пистолет-пулемет MP9A3 - это хорошо забытый MP5A5, но под специальный патрон 4.7mm HK. Автомат выгодно отличается от современников большим боезапасом, малым весом, надежностью и удобством использоваия... Ну и, естественно, классическим обликом! Для стрельбы используются патроны калибра 4.7mm."
+beltDescription="MP9A3"
+
+[Nikolay]
+FamiliarName="Николай"
+UnfamiliarName="Избитый парень"
+
+[PencilCan]
+ItemName="Карандаши"
+
+[RingBell]
+ItemName="Звонок"
+
+[WeaponNapalmGrenade]
+ItemName="Поджигающая граната"
+Description="Поджигающая граната создана специально для использования в закрытых помещениях. Внутри гранаты находится белый фосфор, который при контакте с воздухом мгновенно воспламеняется. Следует быть крайне осторожным при использовании, так как граната имеет достатчно большой радиус поражения. Как и большинство современных гранат, она может крепиться практически на любую поверхность.|n|n<NOTE WPN-902> Практически бесполезна против роботов и других бронированных целей."
+beltDescription="Напалм"
+
+[Omar2]
+FamiliarName="Омар"
+UnfamiliarName="Омар"
+
+[Omar1]
+FamiliarName="Омар"
+UnfamiliarName="Омар"
+
+[OmarCyclope]
+FamiliarName="Циклоп"
+UnfamiliarName="Омар"
+
+[MechClubOwner]
+FamiliarName="Дмитрий"
+UnfamiliarName="Киборг"
+
+[WeaponRadioGrenade]
+ItemName="Радио-граната"
+Description="Детонация радио гранаты генерирует коротковолновый сигнал, направленный на рабочую частоту большинства ботов. Этот сигнал временно вызывает сбой в системе AI ботов, заставляя их атаковать своих союзников. Как и другие современные гранаты, радио граната может крепиться к практически любой поверхности."
+beltDescription="Радио"
+
+[WeaponAutoShotgun]
+ItemName="ИжМаш Сайга-12К"
+Description="Полуавтоматический дробовик на основе всенародно любимого АК. Надежное оружие с высокой скорострельностью. Легко модифицируется под конкретные пожелания владельца - многие мелкие американские оружейные фирмы сделали себе имя на создании всевозможных 'обвесов' для Сайги. Для стрельбы используются патроны 12-го калибра."
+beltDescription="Сайга"
+
+[GameSetDifficulty]
+ButtonNames[0]="Легко"
+ButtonNames[1]="Средне"
+ButtonNames[2]="Трудно"
+ButtonNames[3]="Реалистично"
+ButtonNames[4]="Назад"
+Title="Выбор сложности игры"
+
+[WeaponAug]
+ItemName="M16"
+beltDescription="M16"
+
+[WeaponColtCommando]
+ItemName="Colt M4A1"
+Description="Штурмовой карабин производства США, потомок знаменитой M16. Со времен достопамятного предка прошел несколько модификаций, значительно повысивших надежность карабина - но до 'Калаша' ему пока далеко... Зато точность на вполне высоком уровне. Для стрельбы используются патроны калибра 5.56mm."
+beltDescription="M4A1"
+
+[WeaponSpecialColtCommando]
+ItemName="Специальный M4A1"
+Description="Специальная модификация M4A1 с возможностью установки глушителя, разработанная подпольным 'Левшой'. Для стрельбы используются патроны калибра 5.56mm."
+beltDescription="M4A1-S"
+
+[Xander]
+FamiliarName="Ксандер"
+UnfamiliarName="Ксандер"
+
+[WeaponRiotGrenade]
+ItemName="Газовая граната"
+Description="При детонациии газовая граната выделяет большое колличество CS (военный аналог слезоточивого газа) на площади ее действия. При контакте с газом происходит сильное раздражение открытых слизистых мембран, что приводит к временной слепоте и продолжительному кашлю. Как и другие гранаты, газовая граната может прикремпляться к любой поверхности и быть использованная как мина-ловушка."
+beltDescription="Газ"
+
+[WeaponM23]
+ItemName="H&K MP9K"
+Description="Укороченная версия MP9, удобно скрываемая под плащом или в атташе-кейсе. Излюбленное оружие телохранителей и полиции в штатском. Для стрельбы используются патроны калибра 4.7mm."
+beltDescription="MP9K"
+
+[WeaponSpecialM23]
+ItemName="Бесшумный MAC-14"
+Description="Кустарная русская копия китайской подделки американского пистолета-пулемета. Оригинальная модель - третья инкарнация пистолета-пулемета MAC-10, в свое время ставшего воплощением принципа pray'n'spray - "молись и стреляй". Точность низкая, скорострельность высокая, магазин большой. То, что надо для скоротечной бандитской перестрелки. Для стрельбы используются патроны калибра 4.7mm."
+beltDescription="MAC-14"
+
+[WeaponSilencedPistol]
+ItemName="Glock-17SD"
+Description="Довольно редкая модификация Glock-17 с интегрированным глушителем. Отличное оружие для специальных операций, когда скрытность является необходимой. |n|n<NOTE WPN-345> Использование патронов типа JHP сильно снижает эффективность глушителя. Для стрельбы используются патроны калибра 9mm."
+beltDescription="Glock"
+
+[GunDetector]
+ItemName="Детектор стрельбы"
+
+[WeaponSniperRifle]
+ItemName="AI AWP"
+Description="Одна из лучших снайперских винтовок на текущий момент - круче, наверное, только русская СВЛ. Продольно-скользящий затвор и прецизионный ствол обеспечивают высочайшую точность стрельбы, а специальная конструкция позволяет использовать ее даже в самые страшные морозы. Для стрельбы используются патроны калибра 7.62mm."
+beltDescription="AWP"
+
+[WeaponSpecialKnife]
+ItemName="Боевой нож"
+Description="Нож, сделанный из высоко-карбонной нержавеющей стали. Стандартное оружие в арсенале военных."
+beltDescription="Нож"
+
+[BigTrafficLight]
+ItemName="Светофор"
+
+[Thumb]
+ItemName="Кнопка"
+
+[Minidisk]
+ItemName="Минидиск"
+
+[GameMenuScreenHUD]
+Title="Экраны"
+
+[GameMenuScreenControls]
+Title="Опции"
+
+[MenuChoice_Weather]
+HelpText="Погодные эффекты рекомендуется включать только на быстрых машинах."
+actionText="П|&огода"
+
+[NightBinoculars]
+ItemName="Бинокль"
+ItemArticle=""
+Description="Военный бинокль."
+beltDescription="Бинокль"
+
+[BigSpiderBot]
+FamiliarName="Большой паук-бот"
+UnfamiliarName="Большой паук-бот"
+
+[FolderBig]
+ItemName="Папка с документами"
+
+[WeaponThrowingKnife]
+ItemName="Метательный нож"
+Description="Метательные ножи на протяжении многих столетий были любимым оружием убийц на Востоке. Они смертоносны, когда их использует профессионал, но практически бесполезны в руках неопытного человека."
+beltDescription="Нож"
+
+[MiniSpiderBot]
+FamiliarName="Мини паук-бот"
+UnfamiliarName="Мини паук-бот"
+
+[WeaponCrossbow]
+ItemName="Мини-арбалет"
+Description="Незаменимое оружие для тайных операций и проникновения на водные объекты. Точного попадания дротиком на расстоянии до 15 метров достаточно, чтобы незмаетно убить или усыпить любого противника. Возможно использование различных видов дротиков (обычные, транквилизаторные или осветительные) в зависимости от поставленной задачи."
+beltDescription="Арбалет"
+
+[GameMenuChoice_Controls]
+actionText="|&Дополнительные настройки..."
+
+[GameMenuChoice_HUD]
+actionText="Игровые |&экраны..."
+
+[GameMenuScreenDisplay]
+Title="Графика"
+
+[GameMenuScreenSound]
+Title="Звук"
+
+[GameMenuSettings]
+ButtonNames[0]="Управление"
+ButtonNames[1]="Графика"
+ButtonNames[2]="Звук"
+ButtonNames[3]="Назад"
+Title="Настройки"
+
+[Arman]
+FamiliarName="Арман"
+UnfamiliarName="Бандит"
+
+[Headphones]
+ItemName="Наушники"
+
+[C6_MtWeather]
+imageDescription="Mt. Weather"
+
+[C5_Alien]
+imageDescription="Пришелец"
+
+[C5_Titan]
+imageDescription="Система Титан"
+
+[C5_NorthBaseSattelite]
+imageDescription="Северная База"
+
+[C5_MainRouter]
+imageDescription="Главный маршрутизатор"
+
+[C4_NorthLabs]
+imageDescription="Северные лаборатории"
+
+[C4_Ment]
+imageDescription="Офицер полиции"
+
+[C4_Panel]
+imageDescription="Электронная панель"
+
+[C4_Russia]
+imageDescription="Российская Конфедерация"
+
+[C3_Agents]
+imageDescription="Агент"
+
+[WeaponBeretta]
+ItemName="FN Forty-Nine"
+Description="Увы, патрон 5.7mm так и не стал стандартом NATO (лобби H&K оказалось сильнее), поэтому для привлечения оборонных заказов в FN Herstal наладили выпуск 9-мм версии нашумевшего пистолета Five-seveN."
+beltDescription="FN 49"
+
+[TowelRack]
+ItemName="Полотенце"
+
+[Socket]
+ItemName="Розетка"
+
+[Ruler]
+ItemName="Линейка"
+
+[Plate]
+ItemName="Тарелка"
+
+[PlantsBox]
+ItemName="Растения"
+
+[Matches]
+ItemName="Спички"
+
+[HandDry]
+ItemName="Полотенце"
+
+[ChinaLanter]
+ItemName="Бумажный фонарь"
+
+[CD]
+ItemName="Диск"
+
+[CageLamp]
+ItemName="Лампа"
+
+[F1Model]
+ItemName="Модель машины"
+
+[ScudLauncherReady]
+ItemName="Ракетный комплекс"
+
+[ScudLauncher]
+ItemName="Ракетный комплекс"
+
+[F22]
+ItemName="F-22"
+
+[BattleTank]
+ItemName="Танк"
+
+[Lanter]
+ItemName="Фонарь"
+
+[PaperBackBook]
+ItemName="Книга"
+
+[OldBook]
+ItemName="Книга"
+
+[NoteYellow]
+ItemName="Записка"
+
+[NoteRed]
+ItemName="Записка"
+
+[NoteGreen]
+ItemName="Записка"
+
+[NoteBlue]
+ItemName="Записка"
+
+[Magazine]
+ItemName="Журнал"
+
+[FolderOpen]
+ItemName="Папка с документами"
+
+[Folder]
+ItemName="Папка с документами"
+
+[OfficeBin]
+ItemName="Мусорная корзина"
+
+[P_DartPoison]
+ItemName="Усыпляющий дротик"
+
+[P_DartFlare]
+ItemName="Осветительный дротик"
+
+[GameComputerPersonal]
+ItemName="Личный компьютерный терминал"
+
+[WeaponRiotProd]
+ItemName="Электрошок"
+Description="Электрошок широко используется охранными организациями. Его оглушающий и парализующий эффект наиболее эффективен при атаке в торс или же когда противник не ожидает удара."
+beltDescription="Шокер"
+
+[MetroMap]
+ItemName="Карта метро"
+
+[Photo1]
+ItemName="Фотография"
+
+[PencilSmall]
+ItemName="Карандаш"
+
+[PhotoCard1]
+ItemName="Фотография"
+
+[PencilMed]
+ItemName="Карандаш"
+
+[PhotoCard2]
+ItemName="Фотография"
+
+[PencilBig]
+ItemName="Карандаш"
+
+[PizzaBox]
+ItemName="Коробка"
+
+[Paranoid]
+FamiliarName="Параноик"
+UnfamiliarName="Параноик"
+
+[Police]
+ItemName="Полиция"
+
+[PaperCrate_Seat]
+ItemName="Картонная коробка"
+
+[PaperCrate]
+ItemName="Картонная коробка"
+
+[PaperBox_Seat]
+ItemName="Картонная коробка"
+
+[PaperBox]
+ItemName="Картонная коробка"
+
+[Palm]
+ItemName="Карманный компьютер"
+
+[PalaceTop]
+ItemName="Купол"
+
+[OlegPavlov]
+FamiliarName="Олег Павлов"
+UnfamiliarName="Олег Павлов"
+
+[NumberTitle]
+ItemName="Номер"
+
+[NumberParis]
+ItemName="Номер"
+
+[HugeCrate]
+ItemName="Железный ящик"
+
+[RadioStation]
+ItemName="Радиостанция"
+
+[RedStar]
+ItemName="Звезда"
+
+[Rose]
+ItemName="Цветок"
+
+[RoverJeep]
+ItemName="Джип"
+
+[Number]
+ItemName="Номер"
+
+[MJ12Troop_1]
+FamiliarName="Солдат MJ12"
+UnfamiliarName="Солдат MJ12"
+
+[MJ12Troop_3]
+FamiliarName="Солдат MJ12"
+UnfamiliarName="Солдат MJ12"
+
+[RoverJeepModel]
+ItemName="Модель машины"
+
+[RubberBoat]
+ItemName="Моторная лодка"
+
+[MJ12Troop_2]
+FamiliarName="Солдат MJ12"
+UnfamiliarName="Солдат MJ12"
+
+[MJ12Officer]
+NameArticle=""
+FamiliarName="Офицер MJ12"
+UnfamiliarName="Офицер MJ12"
+
+[MilitaryTruck]
+ItemName="Военный грузовик"
+
+[MiddleClass]
+FamiliarName="Мужчина"
+UnfamiliarName="Мужчина"
+
+[MetroSign]
+ItemName="Указатель"
+
+[MetroPilot]
+FamiliarName="Уборщик"
+UnfamiliarName="Уборщик"
+
+[MetroLamp]
+ItemName="Лампа"
+
+[Lion]
+ItemName="Лев"
+
+[LanterHead2]
+ItemName="Лампа"
+
+[LanterHead]
+ItemName="Лампа"
+
+[Lamp4]
+ItemName="Светильник"
+
+[Knight]
+ItemName="Доспехи"
+
+[Sedan]
+ItemName="Автомобиль"
+
+[Italian]
+FamiliarName="Итальянец"
+UnfamiliarName="Итальянец"
+
+[IronFile]
+ItemName="Напильник"
+
+[Sink1]
+ItemName="Раковина"
+
+[Sink2]
+ItemName="Раковина"
+
+[SmugglersLeader]
+FamiliarName="Марсель"
+UnfamiliarName="Лидер Теневого Легиона"
+
+[Hitman]
+FamiliarName="Киллер"
+UnfamiliarName="Киллер"
+
+[Helmet]
+ItemName="Каска"
+
+[SportCar]
+ItemName="Спортивная машина"
+
+[SportCarModel]
+ItemName="Модель машины"
+
+[Stalker]
+FamiliarName="Проводник"
+UnfamiliarName="Проводник"
+
+[Hacker2]
+FamiliarName="Валера"
+UnfamiliarName="Хакер"
+
+[SWAT]
+FamiliarName="Американский спецназ"
+UnfamiliarName="Американский спецназ"
+
+[Hacker]
+FamiliarName="Денис"
+UnfamiliarName="Хакер"
+
+[GunDealer]
+FamiliarName="Эрик"
+UnfamiliarName="Мужчина"
+
+[GoldCross]
+ItemName="Крест"
+
+[GlassWindow]
+ItemName="Стекло"
+
+[GlassJar3]
+ItemName="Бокал"
+
+[GlassJar2]
+ItemName="Бокал"
+
+[GlassJar]
+ItemName="Стакан"
+
+[SWAT_2]
+FamiliarName="Американский спецназ"
+UnfamiliarName="Американский спецназ"
+
+[GenericMale3]
+FamiliarName="Мужчина"
+UnfamiliarName="Мужчина"
+
+[GenericMale2]
+FamiliarName="Мужчина"
+UnfamiliarName="Мужчина"
+
+[GenericMale1]
+FamiliarName="Мужчина"
+UnfamiliarName="Мужчина"
+
+[SWAT_3]
+FamiliarName="Американский спецназ"
+UnfamiliarName="Американский спецназ"
+
+[GameMenuScreenOptions]
+Title="Опции игры"
+
+[Taxi]
+ItemName="Такси"
+
+[TaxiModel]
+ItemName="Модель машины"
+
+[Thanatos]
+ItemName="Танатос"
+
+[ThanLamp]
+ItemName="Лампа"
+
+[ThanPower]
+ItemName="Энергия"
+
+[ThanServerWire]
+ItemName="Оптико-волокно"
+
+[WeaponFireThrower]
+ItemName="Огнемет"
+Description="Портативный огнемет, работающий на баллонах со сжатым газом. Очень эффективен против живой силы противника на близком расстоянии. Из-за своей громоздкой конструкции неопытные агенты могут испытывать трудности при передвижении."
+beltDescription="Огнемет"
+
+[WeaponGlock]
+ItemName="MR Desert Falcon"
+Description="9мм модификация легендарного 'Пустынного Орла'. Новейшие технологии позволили выжать все из штатного патрона NATO-вского патрона 9mm, вплотную приблизившись к образцам под патроны 'Магнум' - однако это отрицательно сказалось на отдаче и скорострельности. Выбор настоящего 'крутого парня'. Для стрельбы используются патроны калибра 9mm."
+beltDescription="Falcon"
+
+[WeaponRiotBaton]
+ItemName="Полицейская дубинка"
+Description="Складная полицейская дубинка, используемая для подавления сопротивления или огушения противника."
+beltDescription="Дубинка"
+
+[Flask2]
+ItemName="Пробирка"
+
+[FBI]
+FamiliarName="Агент Human Horizon"
+UnfamiliarName="Агент Human Horizon"
+
+[Fakel]
+ItemName="Факел"
+
+[EquipmentSmuggler]
+FamiliarName="Контрабандист"
+UnfamiliarName="Контрабандист"
+
+[Thug1]
+FamiliarName="Милитарист"
+UnfamiliarName="Милитарист"
+
+[Eagle]
+ItemName="Орел"
+
+[MP40]
+ItemName="MP40"
+
+[DrunkMale]
+FamiliarName="Пьяница"
+UnfamiliarName="Пьяница"
+
+[DeBeersLucius]
+FamiliarName="Люциус ДеБирс"
+UnfamiliarName="Люциус ДеБирс"
+
+[Thug2]
+FamiliarName="Милитарист"
+UnfamiliarName="Милитарист"
+
+[CookingWood]
+ItemName="Кухонная доска"
+
+[ComputerDish]
+ItemName="Спутниковая тарелка"
+
+[ToiletPaper]
+ItemName="Туалетная бумага"
+
+[CoffeeCup]
+ItemName="Кружка"
+
+[ClubThug]
+FamiliarName="Мужчина"
+UnfamiliarName="Мужчина"
+
+[ClubMale]
+FamiliarName="Мужчина"
+UnfamiliarName="Мужчина"
+
+[Clipboard2]
+ItemName="Папка"
+
+[Clipboard]
+ItemName="Папка"
+
+[CigaretteOld]
+ItemName="Сигарета"
+
+[Cigarette]
+ItemName="Сигарета"
+
+[ChurchTop2]
+ItemName="Купол"
+
+[ChurchTop]
+ItemName="Купол"
+
+[ChineseThug]
+FamiliarName="Охрана"
+UnfamiliarName="Охрана"
+
+[ChineseMan]
+FamiliarName="Хозяин ресторана"
+UnfamiliarName="Хозяин ресторана"
+
+[Truck]
+ItemName="Грузовик"
+
+[ChineseChef]
+FamiliarName="Шеф-повар"
+UnfamiliarName="Шеф-повар"
+
+[ChinaStick]
+ItemName="Палочка"
+
+[TrueAugmentationManager]
+AugLocationFull="Вы не можете добавить приращение в эту часть!"
+NoAugInSlot="В этой части нет приращения!"
+
+[UmbrellaStick]
+ItemName="Зонт"
+
+[UmbrellaTop]
+ItemName="Зонт"
+
+[VDNHRocket]
+ItemName="Ракета"
+
+[ChandeilerBig]
+ItemName="Люстра"
+
+[CandleRed]
+ItemName="Свечка"
+
+[CandleOld]
+ItemName="Свеча"
+
+[Candle]
+ItemName="Свечка"
+
+[C4_Area51Rus]
+imageDescription="Карта Groom Lake"
+
+[C4_Area51]
+imageDescription="Зона 51"
+
+[Buddha]
+ItemName="Будда"
+
+[WeaponAntiTank]
+ItemName="Легкое противотанковое оружие (LAW)"
+Description="Переносная ракетная система LAW состоит на вооружении у американской армии уже более 40 лет. Она является очень эффективным оружием уничтожения тяжелой бронированной техники. Система может быть использована лишь один раз, после чего она становится непригодной."
+beltDescription="LAW"
+
+[Broom]
+ItemName="Метла"
+
+[BoardBoxSmall]
+ItemName="Коробка"
+
+[BlackGangMember3]
+FamiliarName="Юдицианец"
+UnfamiliarName="Юдицианец"
+
+[BlackGangMember2]
+FamiliarName="Юдицианец"
+UnfamiliarName="Юдицианец"
+
+[BlackGangMember]
+FamiliarName="Юдицианец"
+UnfamiliarName="Юдицианец"
+
+[BlackGandLeader]
+FamiliarName="Даррелл"
+UnfamiliarName="Лидер Юдицианцев"
+
+[WoodCrate]
+ItemName="Ящик"
+
+[WoodBarrel]
+ItemName="Бочка"
+
+[WhiteJeepModel]
+ItemName="Модель машины"
+
+[WhiteJeep]
+ItemName="Белый джип"
+
+[WhiteGangMember2]
+FamiliarName="Контрабандист"
+UnfamiliarName="Контрабандист"
+
+[WhiteGangMember1]
+FamiliarName="Контрабандист"
+UnfamiliarName="Контрабандист"
+
+[WhiteGandLeader]
+FamiliarName="Жак Монье"
+UnfamiliarName="Контрабандист"
+
+[AmmunitionSmuggler]
+FamiliarName="Контрабандист"
+UnfamiliarName="Контрабандист"
+
+[WeaponSmuggler]
+FamiliarName="Контрабандист"
+UnfamiliarName="Контрабандист"
+
+[Airtank]
+ItemName="Баллоны"
+
+[WeaponMP40]
+ItemName="MP-40"
+beltDescription="MP-40"
+
+[WeaponMace]
+ItemName="Перцовый баллончик"
+Description="Обычный перцовый баллончик, используемый гражданскими для самообороны. На несколько секунд ослепляет противника, тем самым давая время чтобы убежать или же нанести удар."
+beltDescription="Перец"
+
+[RussianMent]
+FamiliarName="Капитан полиции"
+UnfamiliarName="Капитан полиции"
+
+[MJ12Trooper]
+FamiliarName="Подразделение MJ12"
+UnfamiliarName="Подразделение MJ12"
+
+[VendMachine]
+msgDispensed="2 кредита снято с вашего счета"
+msgNoCredits="Стоит 2 кредита..."
+msgEmpty="Пусто"
+ItemName="Торговый автомат"
+
+[VladimirsColt]
+ItemName="M1911"
+Description="Настоящий раритет. Кто-то установил на него глушитель, но, похоже, что он уже больше никогда не выстрелит..."
+beltDescription="M1911"
+ItemArticle=""
+
+[GameMenuScreenBrightness]
+HelpMessage="Установите регулятор так, чтобы цветные полоски постепенно и плавно к низу переходили в черный цвет."
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_OK)"
+Title="Настройка яркости"
+
+[GameMenuScreenDisplay]
+Title="Экран"
+
+[GameMenuChoice_Brightness]
+actionText="Настройка |&яркости..."

@@ -1,0 +1,6 @@
+<P>Here, use this code:
+<P>
+<P>pficsFunc pFunc = (pficsFunc)GetProcAddress
+<P>hLibHandle,"CallFunction2")
+<P>if ( pFunc )
+<P>(*pFunc)(Edit1->Text.c_str())

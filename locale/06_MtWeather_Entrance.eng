@@ -1,0 +1,17 @@
+[GameComputerSecurity0]
+Views[0]="(titleString="Security",CameraTag=BlockPostCamera,Turrettag=BlockPostTurret)"
+
+[SpecialEvent0]
+Message="Launch Aborted"
+
+[GameComputerSecurity2]
+specialOptions[0]="(Text="Initiate Launching Sequence",TriggerText="Launch Sequence Initialized",TriggerEvent=ProcessLaunch,bTriggerOnceOnly=True)"
+
+[DeusExLevelInfo0]
+MissionLocation="Mt. Weather - Surface"
+startupMessage[0]="West Virginia, USA"
+startupMessage[1]="Mount Weather"
+
+[NanoKey1]
+Description="Elevator to Mt. Weather"
+

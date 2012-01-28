@@ -1,0 +1,14 @@
+<P>To be, or not to be: that is the question:
+<P>Whether 'tis nobler in the mind to suffer
+<P>The slings and arrows of outrageous fortune,
+<P>Or to take arms against a sea of troubles,
+<P>And by opposing end them? To die: to sleep;
+<P>No more; and by a sleep to say we end
+<P>The heart-ache and the thousand natural shocks
+<P>That flesh is heir to, 'tis a consummation
+<P>Devoutly to be wish'd. To die, to sleep;
+<P>To sleep: perchance to dream: ay, there's the rub;
+<P>For in that sleep of death what dreams may come
+<P>When we have shuffled off this mortal coil,
+<P>Must give us pause: there's the respect
+<P>That makes calamity of so long life;

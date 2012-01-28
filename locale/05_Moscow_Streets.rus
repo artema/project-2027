@@ -1,0 +1,22 @@
+[DeusExLevelInfo0]
+MissionLocation="Москва - Яузский бульвар"
+startupMessage[0]="Российская Конфедерация, Москва"
+startupMessage[1]="Яузский бульвар"
+startupMessage[2]="20 октября, утро"
+
+[SpecialEvent1]
+Message="Зенит вырывается вперед!"
+
+[BumMale1]
+FamiliarName="Геннадий"
+UnfamiliarName="Бомж"
+
+[Janitor0]
+FamiliarName="Антон"
+
+[BolshevikWarrior1]
+FamiliarName="Максим"
+UnfamiliarName="Лидер воинов Асуров"
+
+[Nikolay0]
+UnfamiliarName="Николай"

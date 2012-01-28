@@ -1,0 +1,14 @@
+[GameComputerSecurity0]
+Views[0]="(titleString="Камера у вертолета",CameraTag=HeliCam1,Turrettag=HeliGun1)"
+Views[1]="(titleString="Боковая камера",CameraTag=HeliCam2)"
+specialOptions[0]="(Text="Отменить патрулирование",TriggerText="Бот отключен",TriggerEvent=DisableHeliBot,bTriggerOnceOnly=True)"
+
+[NanoKey0]
+Description="Дверь от склада"
+
+[GameComputerSecurity1]
+Views[0]="(titleString="Снаружи",CameraTag=Camera1,Turrettag=Turret1)"
+specialOptions[0]="(Text="Отключить антены",TriggerText="Спутниковые антены отключены",TriggerEvent=CompleteTask,bTriggerOnceOnly=True)"
+
+[DeusExLevelInfo0]
+MissionLocation="Москва - Крыша"

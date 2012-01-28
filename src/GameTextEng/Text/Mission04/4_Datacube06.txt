@@ -1,0 +1,2 @@
+<COMMENT>Датакуб с паролем от консоли управления антеннами на крыше</COMMENT>
+<P>I've temporarily changed the access rights to the satellite transmitter control system number 666. You can use account Control:Satellite if you need an access.

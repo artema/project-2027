@@ -1,0 +1,13 @@
+[GameComputerSecurity1]
+specialOptions[0]="(Text="Open Blast Doors",TriggerText="Blast Doors Opened",TriggerEvent=TitanComplexBlastDoors,bTriggerOnceOnly=True)"
+specialOptions[1]="(Text="Sabotage Crane",TriggerText="Crane Sabotaged",TriggerEvent=SabotateCargo,bTriggerOnceOnly=True)"
+
+[GameComputerPersonal0]
+specialOptions[0]="(Text="Reanimate Titan",TriggerText="Titan is Reanimated",TriggerEvent=UploadTitanInfo,bTriggerOnceOnly=True)"
+
+[DeusExLevelInfo0]
+MissionLocation="North Labs - Main Complex"
+startupMessage[0]="North Labs, Main Complex"
+
+[NanoKey0]
+Description="Medical Area"

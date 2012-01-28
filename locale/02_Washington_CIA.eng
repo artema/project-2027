@@ -1,0 +1,14 @@
+[DeusExLevelInfo0]
+MissionLocation="Washington - Human Horizon"
+startupMessage[0]="Year 2025"
+startupMessage[1]="Washington D.C., USA"
+startupMessage[2]="Human Horizon Lab"
+
+[GameComputerPersonal0]
+specialOptions[0]="(Text="Download the data",TriggerText="Data downloaded",TriggerEvent=GetMJ12ArchiveDatalink,bTriggerOnceOnly=True)"
+
+[NanoKey0]
+Description="Computer Chamber"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=FatTrooper,KeyID=key_HHArmory,Description="HH Armory")"

@@ -1,0 +1,17 @@
+[Female0]
+FamiliarName="Lena"
+UnfamiliarName="Young Woman"
+
+[OlegPavlov0]
+UnfamiliarName="Businessman"
+
+[LowerClassMale2]
+FamiliarName="Pavel"
+UnfamiliarName="Student"
+
+[DeusExLevelInfo0]
+MissionLocation="Moscow - Cafe"
+
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=OlegPavlov,KeyID=Key_MoscowApartment,Description="Moscow Apartment")"

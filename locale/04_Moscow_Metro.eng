@@ -1,0 +1,39 @@
+[GameComputerSecurity6]
+Views[0]="(titleString="Escalator",CameraTag=EscalatorCamera)"
+Views[1]="(titleString="Train",CameraTag=TrainCamera)"
+Views[2]="(titleString="Waiting Room",CameraTag=WaitRoomCamera)"
+
+[GameComputerSecurity5]
+Views[0]="(titleString="Escalator",CameraTag=EscalatorCamera)"
+Views[1]="(titleString="Train",CameraTag=TrainCamera)"
+Views[2]="(titleString="Waiting Room",CameraTag=WaitRoomCamera)"
+
+[NanoKey0]
+Description="Moscow Metro Booking Office"
+
+[GameComputerSecurity2]
+Views[0]="(CameraTag=omarCamera1,Turrettag=AutoGun)"
+Views[1]="(CameraTag=omarCamera2)"
+Views[2]="(CameraTag=omarCamera3)"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=OmarTrader,KeyID=key_OmarTraderSafe,Description="Omar's Safe")"
+
+[DeusExLevelInfo0]
+MissionLocation="Moscow - Metro"
+
+[GuardBotMini3]
+FamiliarName="Omar's Bot"
+UnfamiliarName="Omar's Bot"
+
+[TAD0]
+FamiliarName="Driver"
+UnfamiliarName="Intercom"
+
+[TAD2]
+FamiliarName="Driver"
+UnfamiliarName="Intercom"
+
+[TAD1]
+FamiliarName="Driver"
+UnfamiliarName="Intercom"

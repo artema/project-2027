@@ -1,0 +1,6 @@
+<P><JC>Upgrade logs</JC>
+<P>
+<P>First phase of the system upgrade is completed.
+<P>98% of the internal data highways have been localized in the central dogma of the Titan system.
+<P>Second phase of the system upgrade is planned for the end of this year. By that time the connection of the external data highway and the main channel routing must be completed.
+<P>Additional upgrade of the AI system blocks is planned for the nearest future. It will allow for the 15% boost of the general system performance. The additional upgrade will be competed in the end of the year.

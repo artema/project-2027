@@ -1,0 +1,163 @@
+<project 
+	name="2027" 
+	xmlns:ac="antlib:net.sf.antcontrib" 
+> 
+	<property file="build.properties" />
+	
+	<property name="DIR_ANT" value="${SOURCE_PATH}/ant" />
+	<property name="DIR_LOCALE" value="${SOURCE_PATH}/locale" />
+	<property name="DIR_SRC" value="${SOURCE_PATH}/src" />
+	<property name="DIR_UTILS" value="${SOURCE_PATH}/utils" />
+	<property name="DIR_TEMP" value="${WORK_PATH}/temp" />
+	
+	<path id="antlibs.classpath">
+		<fileset dir="${DIR_ANT}">
+			<include name="*.jar" />
+		</fileset>
+	</path>
+	<typedef uri="antlib:net.sf.antcontrib" classpathref="antlibs.classpath" />	
+	<taskdef resource="net/sf/antcontrib/antcontrib.properties" classpathref="antlibs.classpath" />
+	
+	<!-- Build package ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+		<target name="UpdatePackage" description="Update package">
+			<input 
+				message="Package name:" 
+				addproperty="UCC_PACKAGE"
+				validargs="Game,GameSFX,SupportBots,DeusEx"
+				defaultvalue="Game" />
+			<ucc package="${UCC_PACKAGE}" />
+			<copy file="${WORK_PATH}/System/${UCC_PACKAGE}.u" tofile="${WORK_PATH}/2027/System/${UCC_PACKAGE}.u" />
+		</target>
+
+	<!-- Build game texts ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+		<target name="UpdateTexts" description="Update texts">
+			<!-- Build texts -->
+			
+			<ucc package="GameTextRus" />
+			<copy file="${WORK_PATH}/System/GameTextRus.u" tofile="${WORK_PATH}/2027/System/GameText.rus_u" />
+			<ucc package="GameTextEng" />
+			<copy file="${WORK_PATH}/System/GameTextEng.u" tofile="${WORK_PATH}/2027/System/GameText.eng_u" />
+			
+			<!-- Build conversations -->
+			<delete>
+				<fileset dir="${WORK_PATH}/System">
+					<include name="GameConversations*" />
+				</fileset>
+			</delete>
+			<delete>
+				<fileset dir="${WORK_PATH}/2027/System">
+					<include name="GameConversations*" />
+				</fileset>
+			</delete>
+			
+			<ucc package="GameConversationsRus" />
+			<copy todir="${DIR_TEMP}">
+				<fileset dir="${WORK_PATH}/System">
+					<include name="GameConversationsRus*" />
+				</fileset>
+			</copy>
+			<move file="${DIR_TEMP}/GameConversationsRus.u" tofile="${WORK_PATH}/2027/System/GameConversations.rus_u"/>		
+			<move file="${DIR_TEMP}/GameConversationsRusText.u" tofile="${WORK_PATH}/2027/System/GameConversationsText.rus_u"/>
+			
+			<ucc package="GameConversationsEng" />
+			<copy todir="${DIR_TEMP}">
+				<fileset dir="${WORK_PATH}/System">
+					<include name="GameConversationsEng*" />
+				</fileset>
+			</copy>
+			<move file="${DIR_TEMP}/GameConversationsEng.u" tofile="${WORK_PATH}/2027/System/GameConversations.eng_u"/>
+			<move file="${DIR_TEMP}/GameConversationsEngText.u" tofile="${WORK_PATH}/2027/System/GameConversationsText.eng_u"/>
+			
+			<move file="${DIR_TEMP}/GameConversationsEngAudioChapter1.u" tofile="${WORK_PATH}/2027/System/GameConversationsAudioChapter1.u"/>
+			<move file="${DIR_TEMP}/GameConversationsEngAudioChapter2.u" tofile="${WORK_PATH}/2027/System/GameConversationsAudioChapter2.u"/>
+			<move file="${DIR_TEMP}/GameConversationsEngAudioChapter3.u" tofile="${WORK_PATH}/2027/System/GameConversationsAudioChapter3.u"/>
+			<move file="${DIR_TEMP}/GameConversationsEngAudioChapter4.u" tofile="${WORK_PATH}/2027/System/GameConversationsAudioChapter4.u"/>
+			<move file="${DIR_TEMP}/GameConversationsEngAudioChapter5.u" tofile="${WORK_PATH}/2027/System/GameConversationsAudioChapter5.u"/>
+			<move file="${DIR_TEMP}/GameConversationsEngAudioChapter6.u" tofile="${WORK_PATH}/2027/System/GameConversationsAudioChapter6.u"/>		
+			<move file="${DIR_TEMP}/GameConversationsEngAudioCutScenes.u" tofile="${WORK_PATH}/2027/System/GameConversationsAudioCutScenes.u"/>
+			<move file="${DIR_TEMP}/GameConversationsEngAudioNPCBarks.u" tofile="${WORK_PATH}/2027/System/GameConversationsAudioNPCBarks.u"/>
+			
+			<!-- Localization -->
+			<delete>
+				<fileset dir="${DIR_TEMP}">
+					<include name="*.rus" />
+					<include name="*.eng" />
+				</fileset>
+			</delete>
+			<copy todir="${DIR_TEMP}" overwrite="true">
+				<fileset dir="${DIR_LOCALE}">
+					<include name="**/*" />
+				</fileset>
+			</copy>
+			<iconv dir="${DIR_TEMP}" locale="rus" />
+			<iconv dir="${DIR_TEMP}" locale="eng" />
+			<copy todir="${WORK_PATH}/System" preservelastmodified="true" failonerror="false" verbose="true">
+				<fileset dir="${DIR_TEMP}">
+					<include name="*.rus" />
+					<include name="*.eng" />
+				</fileset>
+			</copy>
+			
+			<delete>
+				<fileset dir="${WORK_PATH}/System">
+					<include name="GameConversations*" />					
+					<include name="GameText*" />
+				</fileset>
+			</delete>
+			<delete>
+				<fileset dir="${DIR_TEMP}">
+					<include name="GameConversations*" />					
+				</fileset>
+			</delete>
+			<delete>
+				<fileset dir="${DIR_TEMP}">
+					<include name="*.rus" />
+					<include name="*.eng" />
+				</fileset>
+			</delete>
+		</target>
+
+	<!-- Macroses ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+	
+	<macrodef name="iconv">
+		<attribute name="dir" />
+		<attribute name="locale" />
+		<sequential>
+			<delete file="${DIR_TEMP}/locale.temp" failonerror="false" />
+			<ac:for param="file">
+				<fileset dir="@{dir}">
+					<include name="*.@{locale}" />
+				</fileset>
+				<sequential>
+					<exec executable="${DIR_UTILS}/iconv.exe" output="${DIR_TEMP}/locale.temp" failonerror="true">
+						<arg line='-f UTF-8'/>
+						<arg line='-t CP1251'/>
+						<arg line='-c'/>
+						<arg line='"@{file}"'/>
+					</exec>
+					<copy tofile="@{file}" file="${DIR_TEMP}/locale.temp" />
+					<delete file="${DIR_TEMP}/locale.temp" failonerror="false" />
+				</sequential>
+			</ac:for>
+		</sequential>
+	</macrodef>	
+	
+	<macrodef name="ucc">
+		<attribute name="package"/>
+		<sequential>
+			<echo message="Building package @{package}.u" />
+			<copy todir="${WORK_PATH}" preservelastmodified="true">
+				<fileset dir="${DIR_SRC}">
+					<include name="**/*" />
+				</fileset>
+			</copy>
+			<delete file="${WORK_PATH}/System/@{package}.u" includeemptydirs="true" />
+			<delete file="${WORK_PATH}/2027/System/@{package}.u" includeemptydirs="true" />
+			<exec executable="${WORK_PATH}/System/ucc.exe" failonerror="false">
+				<arg line='make'/>
+			</exec>
+		</sequential>
+	</macrodef>
+</project>

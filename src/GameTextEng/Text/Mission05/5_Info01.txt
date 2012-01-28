@@ -1,0 +1,9 @@
+<DC=200,0,0>
+<P><JC>Titan project</JC>
+<P><JC>Overview</JC>
+<P>
+<P>The Titan project is the most successful AI prototype available today. Titan system consists of three separate analytical blocks; each of them processes the information in accordance with its own algorithms. This provides maximum flexibility and allows for choosing of the best decision-making pattern in any given situation. The resulting answer represents the average for the answers for the challenge given by each of the three blocks. 
+<P>Read the details for each block below.
+<P>Hyperion is the heart of the system. Hyperion gives Titan something that irreplaceable for his status as an AI: mind. The block plans ahead basing on the accuracy and the wisdom of its previous decisions. Hyperion can solve the hardest of the task with the minimal losses for the both sides. This block was the first to be installed. Hyperion rarely solves the tasks given to it with the advantage to one or another side. This makes it the part of Titan that is easiest to control.
+<P>Chronos. This block makes its decisions basing on the analysis of the possible consequences for any task given. In other words, Chronos' task is to find out what consequences will follow the decisions made by Titan. This block was installed after Hyperion.
+<P>Criy. The thought process of this block is based on the maximum self-interest decision analysis (or otherwise on the mutual benefit to Titan and his confidant object). Criy block was installed after other two because nobody was able to foretell how the instruction of the self-interest factor would influence Titan consciousness. This block would base it decisions on the anticipation what actions are the best for Titan and his aspirations.

@@ -1,0 +1,6 @@
+<COMMENT>E-mail в компьютерах персонала</COMMENT>
+
+<P>Admin Notice: There's been a sudden jump in rates of client side failures. Never seen anything like it before. Live diagnostics haven't shown anything yet and I'm beginning to worry it may be a new virus. The inter-departmental HH intranet will be down for a few hours, while I attempt to pinpoint the problem. Please be patient, and if you know anything that may help us resolve the issue, please contact us through the IT Department Hot-Line.
+<P>
+<P>-- admin
+<P>PS: If I find out it was because someone was accessing #chan for porn again (and if it was, I will), there will be serious company-wide repercussions. DO NOT use company technology for anything other than work!

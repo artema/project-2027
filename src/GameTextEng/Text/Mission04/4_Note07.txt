@@ -1,0 +1,9 @@
+<P>?My1stApp::InitInstance(){
+<P>//init...
+<P>}
+<P>
+<P>CMy1stApp::SmthThatRunsEveryTimeWeHaveNothingToDo(){
+<P>if (ReadFile(port,buff,....)){
+<P>...
+<P>}else sleep(10);
+<P>}

@@ -1,0 +1,34 @@
+<COMMENT>Datacube with the diver in the laboratory</COMMENT>
+
+<P>01/531.143.09
+
+<P>Okay, there's the entrance. Hurry up, the air supply will expire in an hour.
+
+<P>01/531.144.28
+
+<P>We're in. Good God, the SMELL!
+
+<P>01/531.145.16
+
+<P>I'll take the left wing. Thorr, the right is yours.
+
+<P>Find the security terminal... it'll be grey.
+
+<P>Login, HH
+
+<P>Password, thedepths
+
+<P>01/531.145.16
+
+<P>I've located the door. Coordinates confirmed... Set your watch, we'll meet here in five minutes. I'm gonna check the warehouse. What is with that smell?
+
+<P>01/531.145.20
+
+<P>I'm in the warehouse, ran into a few spiders, shut them down. Be careful, though, there could be more.
+<P>01/531.146.05
+
+<P>What the fuck! Thorr, you've got both EMP, get your ass back here NOW! Thorr, for fuck's sake! Thorr! Respond!
+
+<P>01/531.146.09
+
+<P>*end of the record*

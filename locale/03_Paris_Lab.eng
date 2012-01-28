@@ -1,0 +1,7 @@
+[DeusExLevelInfo2]
+MissionLocation="Paris - Lab"
+startupMessage[0]="Abandoned Human Horizon Lab"
+
+[GameComputerSecurity0]
+specialOptions[0]="(Text="Open laboratories emergency door",TriggerText="Emergency door opened",TriggerEvent=OpenLabDoor,bTriggerOnceOnly=True)"
+

@@ -1,0 +1,14 @@
+[GameComputerSecurity0]
+Views[0]="(titleString="Helipad Camera",CameraTag=HeliCam1,Turrettag=HeliGun1)"
+Views[1]="(titleString="Side Camera",CameraTag=HeliCam2)"
+specialOptions[0]="(Text="Disable Bot Patrol",TriggerText="Bot Patrol Disabled",TriggerEvent=DisableHeliBot,bTriggerOnceOnly=True)"
+
+[NanoKey0]
+Description="Warehouse Door"
+
+[GameComputerSecurity1]
+Views[0]="(titleString="Outdoor",CameraTag=Camera1,Turrettag=Turret1)"
+specialOptions[0]="(Text="Disable Antennas",TriggerText="Satellite Antennas Disabled",TriggerEvent=CompleteTask,bTriggerOnceOnly=True)"
+
+[DeusExLevelInfo0]
+MissionLocation="Moscow - Rooftop"

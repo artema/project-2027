@@ -1,0 +1,39 @@
+[PickupDistributor1]
+NanoKeyData[0]="(ScriptedPawnTag=SmugglersLeader,KeyID=Key_Paris_Shaft,Description="Телекоммуникационная шахта")"
+
+[PickupDistributor2]
+NanoKeyData[0]="(ScriptedPawnTag=EquipmentSmuggler,KeyID=LegionArmory,Description="Тайник Теневого легиона")"
+
+[ThugMale3]
+FamiliarName="Легионер"
+UnfamiliarName="Легионер"
+
+[EquipmentSmuggler0]
+FamiliarName="Себастьян"
+UnfamiliarName="Заведующий"
+
+[WeaponSmuggler0]
+FamiliarName="Николя"
+UnfamiliarName="Торговец"
+
+[ThugMale5]
+FamiliarName="Легионер"
+UnfamiliarName="Легионер"
+
+[ThugMale4]
+FamiliarName="Легионер"
+UnfamiliarName="Легионер"
+
+[ThugMale1]
+FamiliarName="Легионер"
+UnfamiliarName="Легионер"
+
+[ThugMale2]
+FamiliarName="Легионер"
+UnfamiliarName="Легионер"
+
+[DeusExLevelInfo0]
+MissionLocation="Париж - Логово"
+
+[Arman0]
+UnfamiliarName="Арман"

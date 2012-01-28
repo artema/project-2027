@@ -1,0 +1,1287 @@
+[ChapterEndgame1]
+EndgameQuote[0]="We will destroy this world of violence down to the foundations, and then we will build our new world. He who was nothing will become everything!"
+EndgameQuote[1]="  -- 'The Internationale'"
+
+[ChapterEndgame2]
+EndgameQuote[0]="Do you still not understand that the end and perfection of our victories is to avoid the vices and infirmities of those whom we subdue?"
+EndgameQuote[1]="  -- Alexander the Great"
+
+[ChapterEndgame3]
+EndgameQuote[0]="Taking to pieces is the trade of those who cannot construct."
+EndgameQuote[1]="  -- Ralph Waldo Emerson"
+
+[Chapter3]
+AutosaveName="Paris"
+
+[Chapter4]
+AutosaveName="Moscow"
+RedOmarName="Mikhail"
+
+[Chapter5]
+AutosaveName="North labs"
+
+[Chapter6]
+AutosaveName="Mount Weather"
+
+[Minidisk]
+EmptyMsg="There's nothing interesting to read."
+
+[VendingMachineWindow]
+title="Vending machine"
+priceString="Price: %s"
+hackString="Hacked"
+moneyString="Credits: %s"
+
+[TruePlayer]
+msgBloodCritical="Blood loss!"
+msgEnergy="Your power level is over 9000"
+msgCheatsActivated="-== Cheats activated ==-"
+msgDieworld="NPCs are annihilated"
+msgTimeFast="Time flows faster"
+msgTimeSlow="Time flows slower"
+msgTimeNormal="Time flow restored"
+msgSubmarineOn="Submarine mode activated"
+msgSubmarineOff="Submarine mode deactivated"
+msgGodOn="God mode activated"
+msgGodOff="God mode deactivated"
+msgInvisibleOn="Invisibility mode activated"
+msgInvisibleOff="Invisibility mode deactivated"
+msgGhost="Ghost mode activated"
+msgGhostOff="Ghost mode deactivated"
+msgFly="Fly mode activated"
+msgFlyOff="Fly mode deactivated"
+msgFirstView="First person view selected"
+msgThirdView="Third person view selected"
+msgHasAllAmmo="Ammunition acquired"
+AddedNanoKey="%s added to Nano Key Ring"
+msgHeroLevelAward="New perk point acquired!"
+labelAutosave="Autosave: %s"
+FamiliarName="Daniel"
+UnfamiliarName="Daniel"
+DefaultTruePlayerName="Daniel"
+
+[SupportBotContainerRussian]
+ShortBotName="R.E.S.S.I.E."
+FullBotName="R.E.S.S.I.E."
+ItemName="R.E.S.S.I.E."
+Description="An experimental prototype, RESSIE functions as a mobile support bot for field agents. Equipped with an electroshock generator, RESSIE fires electrodes at enemies up to a few meters distant. For combat engagements involving large groups or armored hostiles, RESSIE is outfitted with the experimental weapon system the 'Typhoon'."
+beltDescription="RESSIE"
+
+[SupportBotContainerMJ12]
+ShortBotName="Majestic"
+FullBotName="Majestic"
+ItemName="Majestic"
+Description="First generation personal mobile bot prototype.|nMilitary model comes equipped with tear gas. Neutralizes enemies with tranquilizer darts."
+beltDescription="Majestic"
+
+[GameConsole]
+LoadingMessage=""
+SavingMessage=""
+PausedMessage="PAUSE"
+
+[GameWeapon]
+msgNone=""
+msgInfoHumanDamage="Damage to humans:"
+
+[BolshevikWarrior]
+FamiliarName="Asura Warrior"
+UnfamiliarName="Asura Warrior"
+
+[Christoph]
+FamiliarName="Christoph"
+UnfamiliarName="Christoph"
+
+[Andre]
+FamiliarName="Andre"
+UnfamiliarName="Bartender"
+
+[BiotechAgent]
+FamiliarName="Agent"
+UnfamiliarName="Agent"
+
+[MJ12CommandoTroop]
+FamiliarName="MJ12 Commando"
+UnfamiliarName="MJ12 Commando"
+
+[SupportBot]
+msgDestroyed="%c destroyed"
+msgEMPed="%c discharged"
+msgCharged="Recharged %d points"
+msgChargedMax="Bot's energy is at max level"
+msgChargedMin="Not enough energy"
+msgWait1="Bot is recharging, wait for %d more seconds"
+msgWait="Bot is recharging, wait for %d more seconds"
+FamiliarName="Bot"
+UnfamiliarName="Bot"
+
+[SupportBotContainer]
+HealthRemainingLabel="Health: "
+HealthEMPRemainingLabel="Energy: "
+PointsLabel="points"
+StatInfoLabel="Status:"
+DescInfoLabel="Description:"
+FuncInfoLabel="Abilities:"
+FuncDesc="Features."
+EnergyInfo="Energy rate (per minute): "
+EnergyNormal="Default mode: "
+EnergyFunc="Advanced mode: "
+ShortBotName="Bot"
+FullBotName="Robot"
+ChargePlacedLabel="Placed charge:"
+ItemName="Personal bot"
+Description="Description."
+beltDescription="Bot"
+msgNeedItem="You need a %c"
+
+[SupportBotControl]
+msgSBPatrol="'%c' order: Patrolling"
+msgSBSupporting="'%c' order: Supporting"
+msgSBDeactivated="'%c' disabled"
+msgSBChanged="Current bot: %c"
+msgSBNoBot="none"
+msgSBFuncOn="'%c': advanced mode"
+msgSBFuncOff="'%c': default mode"
+ItemName="Remote console"
+Description="Universal remote for personal bots and drones."
+beltDescription="Console"
+
+[SpyDroneContainer]
+M_Activated=""
+ItemName="Drone"
+Description="Remote spy drone."
+beltDescription="Drone"
+msgNeedItem="You need a %c"
+HealthEMPRemainingLabel="Energy: "
+PointsLabel="points"
+ChargePlacedLabel="Placed charge:"
+StatInfoLabel="Status:"
+DescInfoLabel="Description:"
+EnergyInfo="Energy rate (per minute): "
+
+[SpyDroneFlying]
+ItemName="Drone"
+msgDestroyed="Drone destroyed"
+msgDeactivated="Drone discharged"
+
+[SpyDronePickup]
+FamiliarName="Drone"
+UnfamiliarName="Drone"
+msgDestroyed="Drone destroyed"
+
+[MilitaryHelicopter]
+ItemName="Military Helicopter"
+FamiliarName="Xander"
+UnfamiliarName="Xander"
+
+[RussianArmy]
+FamiliarName="Russian Soldier"
+UnfamiliarName="Russian Soldier"
+
+[MagnusAthers]
+FamiliarName="Magnus"
+UnfamiliarName="Magnus"
+
+[MagnusAthersJr]
+FamiliarName="Magnus"
+UnfamiliarName="Magnus"
+
+[GameMenuScreenCustomizeKeys]
+FunctionText[0]="Fire Weapon/Use item"
+FunctionText[1]="Use object in world"
+FunctionText[2]="Drop/Throw Item"
+FunctionText[3]="Move Forward"
+FunctionText[4]="Move Backward"
+FunctionText[5]="Strafe Left"
+FunctionText[6]="Strafe Right"
+FunctionText[7]="Lean Left"
+FunctionText[8]="Lean Right"
+FunctionText[9]="Jump"
+FunctionText[10]="Crouch"
+FunctionText[11]="Walk/Run"
+FunctionText[12]="Select Next Belt Item"
+FunctionText[13]="Select Previous Belt Item"
+FunctionText[14]="Zoom In"
+FunctionText[15]="Zoom Out"
+FunctionText[16]="Reload Weapon"
+FunctionText[17]="Deactivate All Augmentations"
+FunctionText[18]="Change Ammo"
+FunctionText[19]="Show Inventory Screen"
+FunctionText[20]="Show Health Screen"
+FunctionText[21]="Show Augmentations Screen"
+FunctionText[22]="Show Skills Screen"
+FunctionText[23]="Show Goals/Notes Screen"
+FunctionText[24]="Show Conversations Screen"
+FunctionText[25]="Show Images Screen"
+FunctionText[26]="Show Logs Screen"
+FunctionText[27]="Quick Save"
+FunctionText[28]="Quick Load"
+FunctionText[29]="Take Screenshot"
+FunctionText[30]="F3"
+FunctionText[31]="F4"
+FunctionText[32]="F5"
+FunctionText[33]="F6"
+FunctionText[34]="F7"
+FunctionText[35]="F8"
+FunctionText[36]="F9"
+FunctionText[37]="F10"
+FunctionText[38]="F11"
+FunctionText[39]="F12"
+strHeaderActionLabel="Action"
+strHeaderAssignedLabel="Assigned Key/Button"
+WaitingHelpText="Select the function you wish to remap and then press [Enter] or Double-Click. Press [Delete] to remove key bindings."
+InputHelpText="Please press the key or button you wish to assign to this function. Press [ESC] to cancel."
+ReassignedFromLabel="'%s' reassigned from '%s'"
+Title="Keyboard/Mouse Settings"
+
+[DanielDouble]
+FamiliarName="Daniel"
+UnfamiliarName="Daniel"
+
+[GameMenuScreenNewGame]
+ButtonUpgradeLabel="Upg|&rade"
+ButtonDowngradeLabel="|&Downgrade"
+HeaderNameLabel="Real Name"
+HeaderCodeNameLabel="Code Name"
+HeaderAppearanceLabel="Appearance"
+HeaderSkillsLabel="Skills"
+HeaderSkillPointsLabel="Skill Points"
+HeaderSkillLevelLabel="Skill Level"
+HeaderPointsNeededLabel="Price"
+NameBlankTitle="Name Blank!"
+NameBlankPrompt="The Real Name cannot be blank, please enter a name."
+actionButtons[1]="(Align=HALIGN_Right,Action=AB_Other,Text="|&Start Game",Key="START")"
+Title="Start New Game"
+
+[GasCan]
+ItemName="Gas Canister"
+
+[Bandit]
+FamiliarName="Bandit"
+UnfamiliarName="Bandit"
+
+[WeaponKnife]
+ItemArticle="a"
+ItemName="Combat Knife"
+Description="An ultra-high carbon stainless steel knife."
+beltDescription="Knife"
+
+[Ashtray]
+ItemName="Ashtray"
+
+[FireHydrant]
+ItemName="Fire Hydrant"
+
+[WeaponGuidGun]
+ItemArticle="a"
+msgTrackActive="GEP: guided mode"
+msgTrackPassive="GEP: default mode"
+ShortName="GEP"
+ItemName="GEP Gun"
+Description="The GEP (Guided Explosive Projectile) gun is a relatively recent invention in the field of armaments: a portable, shoulder-mounted launcher that can fire rockets and laser guide them to their target with pinpoint accuracy. While suitable for high-threat combat situations, it can be bulky for those agents who have not grown familiar with it."
+beltDescription="GEP"
+
+[Bandit2]
+FamiliarName="Bandit"
+UnfamiliarName="Bandit"
+
+[Boris]
+NameArticle=""
+FamiliarName="Boris"
+UnfamiliarName="Boris"
+
+[TextTrigger]
+NoteAdded="Note Received - Check DataVault For Details"
+
+[P_LAM]
+ItemName="Lightweight Attack Munition (LAM)"
+
+[Outforcer]
+ItemName="Emitter"
+
+[DataVaultTrigger]
+msgImageAdded="Image Received - Check DataVault For Details"
+
+[P_NapalmGrenade]
+ItemName="Napalm Grenade"
+
+[WeaponLAMGrenade]
+ItemArticle="a"
+ItemName="LAM"
+Description="A multi-functional explosive with electronic priming system that can either be thrown or attached to any surface with its polyhesive backing and used as a proximity mine."
+beltDescription="LAM"
+
+[Evgeny]
+NameArticle=""
+FamiliarName="Evgeny"
+UnfamiliarName="Evgeny"
+
+[RussianArmy_2]
+FamiliarName="Russian Soldier"
+UnfamiliarName="Russian Soldier"
+
+[WeaponShotGun]
+ItemArticle="a"
+ItemName="Shotgun"
+Description="Your standard pump shotgun; likely a Mossberg, Winchester, Remington, Benelli, or IzhMach - the pump construction has become so mainstream even a specialist would have trouble determining the model. Small shot with wide spread make this weapon useless at long range, but deadly in close combat, where one pump is roughly equivalent to a full burst of submachine gun fire. Uses 12 caliber shot."
+beltDescription="Shotgun"
+
+[WeaponIronCrowbar]
+ItemArticle="a"
+ItemName="Crowbar"
+Description="A crowbar. Hit someone or something with it. Repeat."
+beltDescription="Crowbar"
+
+[CombatBot]
+FamiliarName="Military Bot"
+UnfamiliarName="Military Bot"
+
+[MJ12Troop_Aug]
+FamiliarName="MJ12 Troop"
+UnfamiliarName="MJ12 Troop"
+
+[AdvLightSwitch]
+ItemName="Switch"
+
+[VladimirGrigoryev]
+FamiliarName="Vladimir"
+UnfamiliarName="Vladimir"
+
+[MJ12Cyborg]
+FamiliarName="MJ12 Cyborg"
+UnfamiliarName="MJ12 Cyborg"
+
+[WeaponToolRepair]
+ItemArticle="an"
+ItemName="Utility Kit"
+Description="Universal tool kit provides everything an agent needs to make reparis or modifications in the field. Knowledge not included. Effective use requires technical skill."
+beltDescription="Utilities"
+
+[P_EMP]
+ItemName="EMP Grenade"
+
+[P_RiotGrenade]
+ItemName="Gas Grenade"
+
+[P_RadioGrenade]
+ItemName="Scramble Grenade"
+
+[WeaponPulseGrenade]
+ItemArticle="an"
+ItemName="EMP Grenade"
+Description="The EMP grenade creates a localized pulse that will temporarily disable all electronics within its area of effect, including cameras and security grids."
+beltDescription="EMP"
+
+[GameMenuMain]
+ButtonNames[0]="New Game"
+ButtonNames[1]="Save Game"
+ButtonNames[2]="Load Game"
+ButtonNames[3]="Settings"
+ButtonNames[4]="Credits"
+ButtonNames[5]="Back to Game"
+ButtonNames[6]="Exit"
+Title="2027"
+
+[RussianMilitia]
+FamiliarName="Russian Police"
+UnfamiliarName="Russian Police"
+
+[WeaponAK74]
+ItemArticle="an"
+ItemName="AK-101"
+Description="Another modification of the legendary "Kalashnikov" assault rifle. Initially meant to be exclusively an export variant of the AK-74M, the AK-101 slowly became the standard service rifle of the Confederation after Russia joined the "Partnership for Peace". Although out-of-date since the release of the 200 series, the reliable AK-101 is still found in use all over the world. Uses 5.56mm cartridges."
+beltDescription="AK-101"
+
+[WeaponSpecialAK47]
+ItemArticle="a"
+ItemName="Vladimir's AK-101"
+Description="A rather rare and remarkable modification of the standard AK-101. Comes equipped with scope and silencer. Uses NATO standard 5.56mm bullets."
+beltDescription="AK-101+"
+
+[WeaponChinaSword]
+ItemArticle="a"
+ItemName="Sword"
+Description="A sword. Ancient weapon. Reliable. All else fails? Chop off their head. Modern variants maintain razor sharp edges with minimal servicing."
+beltDescription="Sword"
+
+[GuardBot]
+FamiliarName="Security Bot"
+UnfamiliarName="Security Bot"
+
+[P_Dart]
+ItemName="Dart"
+
+[GameMenuChoice_DetailTextures]
+helpText="Disabling Detail Textures may improve performance on slower machines"
+actionText="Detail T|&extures"
+
+[GuardBotMini2]
+FamiliarName="Security Bot"
+UnfamiliarName="Security Bot"
+
+[GuardBotMini]
+FamiliarName="Security Bot"
+UnfamiliarName="Security Bot"
+
+[BigBioelectricCell]
+ItemName="Bioelectric Cell"
+Description="This bioelectric cell contains several technological improvements over the standard, with a significantly larger energy capacity."
+beltDescription="Cell"
+
+[AdvSwitch1]
+ItemName="Switch"
+
+[AdvSwitch2]
+ItemName="Switch"
+
+[AdvValve]
+ItemName="Valve"
+
+[NightVision]
+ItemArticle="some"
+ExpireMessage="Tech goggles power supply used up"
+ItemName="Tech Goggles"
+Description="Tech goggles are used by many special ops forces throughout the world under a number of different brand names, but they all provide some form of portable light amplification in a disposable package."
+beltDescription="Goggles"
+
+[Screwdriver]
+ItemName="Screwdriver"
+
+[UtilityCart]
+ItemName="Utility Push-Cart"
+
+[Thug3]
+FamiliarName="Militarist"
+UnfamiliarName="Militarist"
+
+[P_Fireball]
+ItemName="Fireball"
+
+[P_ThrowingKnife]
+ItemName="Throwing Knife"
+
+[TruckWheel]
+ItemName="Wheel"
+
+[Pylon]
+ItemName="Pylon"
+
+[Pizza]
+ItemName="Pizza"
+
+[CardReader]
+msgNoKey="Your NanoKey Ring doesn't have the right code"
+msgUseKey="Use your NanoKey Ring"
+ItemName="NanoKey Lock"
+
+[MenuChoice_Resurrection]
+RestartTitle="Resurrection"
+RestartMessage="This change will not take effect until you restart 2027."
+enumText[0]="On"
+enumText[1]="Off"
+HelpText="Advanced effects, textures and models."
+actionText="Re|&surrection"
+
+[WeaponMP5]
+ItemArticle="a"
+ItemName="H&K MP9A3"
+Description="An old Russian axiom goes 'Everything new is a well-forgotten old'. The new German submachine gun, the MP9A3, certainly fits this bill, being the well-forgotten MP5A5 under a new name and with a special bullet -- the 4.7mm HK. This venerable submachine gun with a fresh coat of paint maintains certain advantages over newer models, such as a higher ammo capacity, a ligher frame, time-tested reliability, and superior comfort... and of course its classic appearance. Uses 4.7mm bullets."
+beltDescription="MP9A3"
+
+[Nikolay]
+FamiliarName="Nikolay"
+UnfamiliarName="Exhausted Guy"
+
+[PencilCan]
+ItemName="Pencils"
+
+[RingBell]
+ItemName="Bell"
+
+[Omar2]
+FamiliarName="Omar"
+UnfamiliarName="Omar"
+
+[Omar1]
+FamiliarName="Omar"
+UnfamiliarName="Omar"
+
+[OmarCyclope]
+FamiliarName="Cyclops"
+UnfamiliarName="Omar"
+
+[MechClubOwner]
+FamiliarName="Dmitri"
+UnfamiliarName="Cyborg"
+
+[WeaponRadioGrenade]
+ItemArticle="a"
+ItemName="Scramble Grenade"
+Description="The detonation of a GUARDIAN scramble grenade broadcasts a short-range, polymorphic broadband assault on the command frequencies used by almost all bots manufactured since 2023. Bots within the AOE indiscriminately attack other bots until command control can be re-established. Like a LAM, scramble grenades can be attached to any surface as proximity mines."
+beltDescription="AI"
+
+[WeaponAutoShotgun]
+ItemArticle="an"
+ItemName="Izhmash Saiga-12К"
+Description="A reliable semi-automatic shotgun with a high rate of fire, based on the standard AK series model. The modular Izhmash Saiga is easy to alter according to user's tastes, as several American weapon dealers proved when making their name on various Saiga modifications. Uses 12 caliber rounds."
+beltDescription="Saiga"
+
+[GameSetDifficulty]
+Title="Select Combat Difficulty"
+ButtonNames[0]="Easy"
+ButtonNames[1]="Medium"
+ButtonNames[2]="Hard"
+ButtonNames[3]="Realistic"
+ButtonNames[4]="Previous Menu"
+
+[WeaponAug]
+ItemArticle="a"
+ItemName="M16"
+beltDescription="M16"
+
+[WeaponColtCommando]
+ItemArticle="a"
+ItemName="Colt M4A1"
+Description="An American assault carbine model descended from the famous M16. Since the M16's adoption in 1962, the model has stepped through several modifications which have slowly improved its reliability, though some would claim it is still inferior to the Kalashnikov. Features highly precise fire. Uses 5.56mm rounds."
+beltDescription="M4A1"
+
+[WeaponSpecialColtCommando]
+ItemArticle="a"
+ItemName="Special M4A1"
+Description="Extremely rare and rather remarkable modification of the M4A1 by an underground weapons specialist. Features the ability to install a silencer. Utilizes 5.56mm rounds."
+beltDescription="M4A1-S"
+
+[Xander]
+FamiliarName="Xander"
+UnfamiliarName="Xander"
+
+[WeaponRiotGrenade]
+ItemArticle="a"
+ItemName="Gas Grenade"
+Description="Upon detonation, the gas grenade releases a large amount of CS (a military-grade 'tear gas' agent) over its area of effect. CS will cause irritation to all exposed mucous membranes leading to temporary blindness and uncontrolled coughing. Like a LAM, gas grenades can be attached to any surface as proximity mines."
+beltDescription="Gas"
+
+[WeaponM23]
+ItemArticle="a"
+ItemName="H&K MP9K"
+Description="A shortened-barrel version of the stock MP9. Convenient for concealment under a cloak or in an attache. A favorite among bodyguards and undercover agents. Uses 4.7mm rounds."
+beltDescription="MP9K"
+
+[WeaponSpecialM23]
+ItemArticle="a"
+ItemName="Silenced MAC-14"
+Description="A handcrafted Russian copy of a Chinese clone of an American submachine gun. The original model was the third incarnation of the MAC-10 submachine gun, one of the first basic implementations of 'spray and pray' mentality: low precision, a high rate of fire, and a roomy clip. Preferred by skirmishing gangsters and other untrained fighters. Utilizes 4.7mm rounds."
+beltDescription="MAC-14"
+
+[WeaponSilencedPistol]
+ItemArticle="a"
+ItemName="Glock-17SD"
+Description="A rare and rather remarkable modification of the Glock-17 featuring an integrated silencer. Excellent weapon for special operations, when noise would attract unwanted attention. |n|n<WARNING: WPN-345> JHP-type hollow point bullets lower silencer effectiveness. Utilizes 9mm bullets."
+beltDescription="Glock"
+
+[GunDetector]
+ItemName="Gunfire Acoustic Sensor"
+
+[WeaponSniperRifle]
+ItemArticle="an"
+ItemName="AI AWP"
+Description="Top of the line sniper rifle rivaling if not surpassing the Russian SVL. Longitudinally-sliding bolt-action combined with a nano-formatted barrel provide superior accuracy and precision over extreme ranges. Cutting edge material and construction alignment means the weapon fuctions perfectly even in extreme hot/cold environments. Utilizes 7.62mm rounds."
+beltDescription="AWP"
+
+[BigTrafficLight]
+ItemName="Traffic Light"
+
+[Thumb]
+ItemName="Pin"
+
+[Minidisk]
+ItemName="MiniDisc"
+
+[GameMenuScreenHUD]
+Title="HUD"
+
+[GameMenuScreenControls]
+Title="Controls"
+
+[MenuChoice_Weather]
+HelpText="Weather effects."
+actionText="W|&eather"
+
+[NightBinoculars]
+ItemName="Binoculars"
+ItemArticle="some"
+Description="A pair of military binoculars."
+beltDescription="Binoculars"
+
+[BigSpiderBot]
+FamiliarName="SpiderBot"
+UnfamiliarName="SpiderBot"
+
+[FolderBig]
+ItemName="Folder"
+
+[WeaponThrowingKnife]
+ItemName="Throwing Knives"
+ItemArticle="some"
+Description="A favorite weapon of assassins in the Far East for centuries, throwing knives can be deadly when wielded by a master but are more generally used when it becomes desirable to send a message. The message is usually 'Your death is coming on swift feet.'"
+beltDescription="Knives"
+
+[MiniSpiderBot]
+FamiliarName="Mini-SpiderBot"
+UnfamiliarName="Mini-SpiderBot"
+
+[WeaponCrossbow]
+ItemArticle="a"
+ItemName="Mini-Crossbow"
+Description="A wrist mounted silent projectile launcher specifically developed for espionage work. Accepts a range of standard dart types, including tranquilizer and flare, which can be swapped out in the field depending on mission objectives."
+beltDescription="X-Bow"
+
+[GameMenuChoice_Controls]
+actionText="|&Special options..."
+
+[GameMenuChoice_HUD]
+actionText="HUD |&screens..."
+
+[GameMenuScreenDisplay]
+Title="Display Settings"
+
+[GameMenuScreenSound]
+Title="Sound Settings"
+
+[GameMenuSettings]
+ButtonNames[0]="Controls"
+ButtonNames[1]="Display"
+ButtonNames[2]="Sound"
+ButtonNames[3]="Previous Menu"
+Title="Settings"
+
+[Arman]
+FamiliarName="Arman"
+UnfamiliarName="Thug"
+
+[Headphones]
+ItemName="Headphones"
+
+[C6_MtWeather]
+imageDescription="Mt. Weather"
+
+[C5_Alien]
+imageDescription="Alien"
+
+[C5_Titan]
+imageDescription="Titan"
+
+[C5_NorthBaseSattelite]
+imageDescription="Satellite Image"
+
+[C5_MainRouter]
+imageDescription="Main Router"
+
+[C4_NorthLabs]
+imageDescription="North Labs"
+
+[C4_Ment]
+imageDescription="Police Officer"
+
+[C4_Panel]
+imageDescription="Electronic Panel"
+
+[C4_Russia]
+imageDescription="Russian Confederation"
+
+[C3_Agents]
+imageDescription="Agent"
+
+[WeaponBeretta]
+ItemArticle="a"
+ItemName="FN Forty-Nine"
+Description="A 9mm version of FN Herstal's sensation Five-seveN pistol, was developed to increase the rotation of goods following NATO's rejection of a 5.7mm standard due to H&K's stronger lobbying."
+beltDescription="FN 49"
+
+[TowelRack]
+ItemName="Towel"
+
+[Socket]
+ItemName="Socket"
+
+[Ruler]
+ItemName="Ruler"
+
+[Plate]
+ItemName="Plate"
+
+[PlantsBox]
+ItemName="Plants"
+
+[Matches]
+ItemName="Matches"
+
+[HandDry]
+ItemName="Towel"
+
+[ChinaLanter]
+ItemName="Lantern"
+
+[CD]
+ItemName="Disc"
+
+[CageLamp]
+ItemName="Lamp"
+
+[F1Model]
+ItemName="Scale Model"
+
+[ScudLauncherReady]
+ItemName="Missle Launcher"
+
+[ScudLauncher]
+ItemName="Missle Launcher"
+
+[F22]
+ItemName="F-22"
+
+[BattleTank]
+ItemName="Tank"
+
+[Lanter]
+ItemName="Lantern"
+
+[PaperBackBook]
+ItemName="Book"
+
+[OldBook]
+ItemName="Book"
+
+[NoteYellow]
+ItemName="Note"
+
+[NoteRed]
+ItemName="Note"
+
+[NoteGreen]
+ItemName="Note"
+
+[NoteBlue]
+ItemName="Note"
+
+[Magazine]
+ItemName="Magazine"
+
+[FolderOpen]
+ItemName="Folder"
+
+[Folder]
+ItemName="Folder"
+
+[OfficeBin]
+ItemName="Trash Bin"
+
+[P_DartPoison]
+ItemName="Tranquilizer Dart"
+
+[P_DartFlare]
+ItemName="Flare Dart"
+
+[GameComputerPersonal]
+ItemName="Personal Computer Terminal"
+
+[WeaponRiotProd]
+ItemArticle="a"
+ItemName="Riot Prod"
+Description="A short range tetanizing electric touch weapon. Adopted by security forces for non-lethal neutralization of potentially dangerous targets. Most effective when applied to the torso or when the subject is taken by surprise."
+beltDescription="Prod"
+
+[MetroMap]
+ItemName="Metro Map"
+
+[Photo1]
+ItemName="Photo"
+
+[PencilSmall]
+ItemName="Pencil"
+
+[PhotoCard1]
+ItemName="Photo"
+
+[PencilMed]
+ItemName="Pencil"
+
+[PhotoCard2]
+ItemName="Photo"
+
+[PencilBig]
+ItemName="Pencil"
+
+[PizzaBox]
+ItemName="Box"
+
+[Paranoid]
+FamiliarName="Paranoid"
+UnfamiliarName="Paranoid"
+
+[Police]
+ItemName="Police"
+
+[PaperCrate_Seat]
+ItemName="Box"
+
+[PaperCrate]
+ItemName="Box"
+
+[PaperBox_Seat]
+ItemName="Box"
+
+[PaperBox]
+ItemName="Box"
+
+[Palm]
+ItemName="PDA"
+
+[PalaceTop]
+ItemName="Big Top"
+
+[OlegPavlov]
+FamiliarName="Oleg Pavlov"
+UnfamiliarName="Oleg Pavlov"
+
+[NumberTitle]
+ItemName="Number"
+
+[NumberParis]
+ItemName="Number"
+
+[HugeCrate]
+ItemName="Crate"
+
+[RadioStation]
+ItemName="Radio"
+
+[RedStar]
+ItemName="Star"
+
+[Rose]
+ItemName="Flower"
+
+[RoverJeep]
+ItemName="Off-Road Vehicle"
+
+[Number]
+ItemName="Number"
+
+[MJ12Troop_1]
+FamiliarName="MJ12 Troop"
+UnfamiliarName="MJ12 Troop"
+
+[MJ12Troop_3]
+FamiliarName="MJ12 Troop"
+UnfamiliarName="MJ12 Troop"
+
+[RoverJeepModel]
+ItemName="Scale Model"
+
+[RubberBoat]
+ItemName="Boat"
+
+[MJ12Troop_2]
+FamiliarName="MJ12 Troop"
+UnfamiliarName="MJ12 Troop"
+
+[MJ12Officer]
+NameArticle=""
+FamiliarName="MJ12 Officer"
+UnfamiliarName="MJ12 Officer"
+
+[MilitaryTruck]
+ItemName="Truck"
+
+[MiddleClass]
+FamiliarName="Man"
+UnfamiliarName="Man"
+
+[MetroSign]
+ItemName="Sign"
+
+[MetroPilot]
+FamiliarName="Janitor"
+UnfamiliarName="Janitor"
+
+[MetroLamp]
+ItemName="Lamp"
+
+[Lion]
+ItemName="Lion"
+
+[LanterHead2]
+ItemName="Lamp"
+
+[LanterHead]
+ItemName="Lamp"
+
+[Lamp4]
+ItemName="Lamp"
+
+[Knight]
+ItemName="Armour"
+
+[Sedan]
+ItemName="Car"
+
+[Italian]
+FamiliarName="Italian"
+UnfamiliarName="Italian"
+
+[IronFile]
+ItemName="File"
+
+[Sink1]
+ItemName="Sink"
+
+[Sink2]
+ItemName="Sink"
+
+[SmugglersLeader]
+FamiliarName="Marseille"
+UnfamiliarName="Shadow Legion Leader"
+
+[Hitman]
+FamiliarName="Killer"
+UnfamiliarName="Killer"
+
+[Helmet]
+ItemName="Helmet"
+
+[SportCar]
+ItemName="Sport Car"
+
+[SportCarModel]
+ItemName="Scale Model"
+
+[Stalker]
+FamiliarName="Stalker"
+UnfamiliarName="Stalker"
+
+[Hacker2]
+FamiliarName="Valera"
+UnfamiliarName="Hacker"
+
+[SWAT]
+FamiliarName="SWAT"
+UnfamiliarName="SWAT"
+
+[Hacker]
+FamiliarName="Denis"
+UnfamiliarName="Hacker"
+
+[GunDealer]
+FamiliarName="Eric"
+UnfamiliarName="Man"
+
+[GoldCross]
+ItemName="Cross"
+
+[GlassWindow]
+ItemName="Glass"
+
+[GlassJar3]
+ItemName="Glass"
+
+[GlassJar2]
+ItemName="Glass"
+
+[GlassJar]
+ItemName="Glass"
+
+[SWAT_2]
+FamiliarName="SWAT"
+UnfamiliarName="SWAT"
+
+[GenericMale3]
+FamiliarName="Man"
+UnfamiliarName="Man"
+
+[GenericMale2]
+FamiliarName="Man"
+UnfamiliarName="Man"
+
+[GenericMale1]
+FamiliarName="Man"
+UnfamiliarName="Man"
+
+[SWAT_3]
+FamiliarName="SWAT"
+UnfamiliarName="SWAT"
+
+[GameMenuScreenOptions]
+Title="Game Options"
+
+[Taxi]
+ItemName="Taxi"
+
+[TaxiModel]
+ItemName="Scale Model"
+
+[Thanatos]
+ItemName="Thanatos"
+
+[ThanLamp]
+ItemName="Lamp"
+
+[ThanPower]
+ItemName="Emitter"
+
+[ThanServerWire]
+ItemName="Wire"
+
+[WeaponFireThrower]
+ItemArticle="a"
+ItemName="Flamethrower"
+Description="A portable flamethrower that discards the old and highly dangerous backpack fuel delivery system in favor of pressurized canisters of napalm. Inexperienced agents will find that a flamethrower can be difficult to maneuver, however."
+beltDescription="Flame"
+
+[WeaponGlock]
+ItemArticle="a"
+ItemName="MR Desert Falcon"
+Description="A 9mm take on the legendary 'Desert Eagle'. Cutting-edge technologies allowed engineers to drive a regular NATO 9mm bullet harder, bringing it closer to true 'Magnum' stopping power, but at the cost of greater recoil and a slower rate of fire. The primary choice of cool guys and cowboys. Utilizes standard NATO 9mm rounds."
+beltDescription="Falcon"
+
+[WeaponRiotBaton]
+ItemArticle="a"
+ItemName="Baton"
+Description="A hefty looking baton, typically used by riot police and national security forces to discourage civilian resistance."
+beltDescription="Baton"
+
+[Flask2]
+ItemName="Test Tube"
+
+[FBI]
+FamiliarName="Human Horizon Agent"
+UnfamiliarName="Human Horizon Agent"
+
+[Fakel]
+ItemName="Torch"
+
+[EquipmentSmuggler]
+FamiliarName="Contraband Smuggler"
+UnfamiliarName="Contraband Smuggler"
+
+[Thug1]
+FamiliarName="Militarist"
+UnfamiliarName="Militarist"
+
+[Eagle]
+ItemName="Eagle"
+
+[MP40]
+ItemName="MP40"
+
+[DrunkMale]
+FamiliarName="Drunkard"
+UnfamiliarName="Drunkard"
+
+[DeBeersLucius]
+FamiliarName="Lucius De Beers"
+UnfamiliarName="Lucius De Beers"
+
+[Thug2]
+FamiliarName="Militarist"
+UnfamiliarName="Militarist"
+
+[CookingWood]
+ItemName="Breadboard"
+
+[ComputerDish]
+ItemName="Satellite Dish"
+
+[ToiletPaper]
+ItemName="Toilet Paper"
+
+[CoffeeCup]
+ItemName="Cup"
+
+[ClubThug]
+FamiliarName="Man"
+UnfamiliarName="Man"
+
+[ClubMale]
+FamiliarName="Man"
+UnfamiliarName="Man"
+
+[Clipboard2]
+ItemName="Folder"
+
+[Clipboard]
+ItemName="Folder"
+
+[CigaretteOld]
+ItemName="Cigarette"
+
+[Cigarette]
+ItemName="Cigarette"
+
+[ChurchTop2]
+ItemName="Big Top"
+
+[ChurchTop]
+ItemName="Big Top"
+
+[ChineseThug]
+FamiliarName="Security Officer"
+UnfamiliarName="Security Officer"
+
+[ChineseMan]
+FamiliarName="Boss"
+UnfamiliarName="Boss"
+
+[Truck]
+ItemName="Truck"
+
+[ChineseChef]
+FamiliarName="Chef"
+UnfamiliarName="Chef"
+
+[ChinaStick]
+ItemName="Food Stick"
+
+[TrueAugmentationManager]
+AugLocationFull="You can't add any more augmentations in that slot!"
+NoAugInSlot="There is no augmentation in that slot."
+
+[UmbrellaStick]
+ItemName="Umbrella"
+
+[UmbrellaTop]
+ItemName="Umbrella"
+
+[VDNHRocket]
+ItemName="Rocket"
+
+[ChandeilerBig]
+ItemName="Lamp"
+
+[CandleRed]
+ItemName="Candle"
+
+[CandleOld]
+ItemName="Candle"
+
+[Candle]
+ItemName="Candle"
+
+[C4_Area51Rus]
+imageDescription="Groom Lake Map"
+
+[C4_Area51]
+imageDescription="Area 51"
+
+[Buddha]
+ItemName="Buddha"
+
+[WeaponAntiTank]
+ItemArticle="a"
+ItemName="Light Anti-Tank Weapon (LAW)"
+Description="The LAW provides cheap, dependable anti-armor capability in the form of an integrated one-shot rocket and delivery system, though at the expense of any laser guidance. Like other heavy weapons, the LAW can slow agents who have not trained with it extensively."
+beltDescription="LAW"
+
+[Broom]
+ItemName="Broom"
+
+[BoardBoxSmall]
+ItemName="Box"
+
+[BlackGangMember3]
+FamiliarName="Judician"
+UnfamiliarName="Judician"
+
+[BlackGangMember2]
+FamiliarName="Judician"
+UnfamiliarName="Judician"
+
+[BlackGangMember]
+FamiliarName="Judician"
+UnfamiliarName="Judician"
+
+[BlackGandLeader]
+FamiliarName="Darrell"
+UnfamiliarName="Judicians Leader"
+
+[WoodCrate]
+ItemName="Box"
+
+[WoodBarrel]
+ItemName="Barrel"
+
+[WhiteJeepModel]
+ItemName="Scale model"
+
+[WhiteJeep]
+ItemName="Car"
+
+[WhiteGangMember2]
+FamiliarName="Smuggler"
+UnfamiliarName="Smuggler"
+
+[WhiteGangMember1]
+FamiliarName="Smuggler"
+UnfamiliarName="Smuggler"
+
+[WhiteGandLeader]
+FamiliarName="Smuggler"
+UnfamiliarName="Smuggler"
+
+[AmmunitionSmuggler]
+FamiliarName="Smuggler"
+UnfamiliarName="Smuggler"
+
+[WeaponSmuggler]
+FamiliarName="Smuggler"
+UnfamiliarName="Smuggler"
+
+[Airtank]
+ItemName="Air Tank"
+
+[WeaponMP40]
+ItemArticle="a"
+ItemName="MP-40"
+beltDescription="MP-40"
+
+[WeaponMace]
+ItemArticle="a"
+ItemName="Pepper Gun"
+Description="The pepper gun will accept a number of commercially available riot control agents in cartridge form and disperse them as a fine aerosol mist that can cause blindness or blistering at short-range."
+beltDescription="Pepper"
+
+[RussianMent]
+FamiliarName="Police Officer"
+UnfamiliarName="Police Officer"
+
+[MJ12Trooper]
+FamiliarName="MJ12 Troop"
+UnfamiliarName="MJ12 Troop"
+
+[VendMachine]
+msgDispensed="2 credits deducted from your account"
+msgNoCredits="Costs 2 credits..."
+msgEmpty="It's empty"
+ItemName="Vending Machine"
+
+[VladimirsColt]
+ItemName="M1911"
+Description="Real rarity... Somebody has installed a silencer on it, but it seems that this gun will never shoot again..."
+beltDescription="M1911"
+ItemArticle=""
+
+[GameMenuScreenBrightness]
+HelpMessage="Adjust the slider so the color bars fade smoothly to pure black at the bottom of the bars."
+Title="Adjust Brightness"
+actionButtons[0]="(Align=HALIGN_Right,Action=AB_OK)"
+
+[GameMenuScreenDisplay]
+Title="Display Settings"
+
+[GameMenuChoice_Brightness]
+actionText="Adjust |&Brightness..."
+
+[WeaponNapalmGrenade]
+ItemArticle="a"
+ItemName="Napalm Grenade"
+Description="Specially designed grenade for use in closed quarters. Upon detonation a cloud of particularized white phosphorus is expelled that ignites immediately upon contact with the air, literally 'setting the air on fire'. Extremely dangerous due to grenade's wide area of effect. Excellent for clearing bunkers and rooms. Like the LAM, the Napalm Grenade can be attached to any surface as a proximity mine.|n|n<NTOE WPN-902> Virtually useless against non-organic and fully armored units."
+beltDescription="Napalm"

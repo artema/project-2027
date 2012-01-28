@@ -1,0 +1,40 @@
+[BlackGangMember1]
+FamiliarName="Gerard"
+
+[ClubThug0]
+FamiliarName="Club Security"
+UnfamiliarName="Club Security"
+
+[DeusExLevelInfo0]
+MissionLocation="Paris - Club"
+startupMessage[0]="'Le Chavalier Noir' club"
+
+[Hooker0]
+FamiliarName="Woman"
+UnfamiliarName="Woman"
+
+[BlackGandLeader0]
+FamiliarName="Darrell"
+UnfamiliarName="Darrell"
+
+[PickupDistributor3]
+NanoKeyData[0]="(ScriptedPawnTag=Gerard,KeyID=key_ParisClubVIP,Description="'Le Chavalier Noir' club VIP zone",SkinColor=SC_Level2)"
+
+[Businessman2]
+FamiliarName="Man"
+UnfamiliarName="Man"
+
+[Hooker1]
+FamiliarName="Woman"
+UnfamiliarName="Woman"
+
+[PickupDistributor1]
+NanoKeyData[0]="(ScriptedPawnTag=Arman,KeyID=SmugglersBasementKey,Description="Legionaries key")"
+
+[Businessman1]
+FamiliarName="Man"
+UnfamiliarName="Man"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=ClubThug,KeyID=key_ParisClub_Main,Description="'Le Chavalier noir' club")"
+NanoKeyData[1]="(ScriptedPawnTag=BlackGandLeader,KeyID=OldQuarterApartaments,Description="David's apartments")"

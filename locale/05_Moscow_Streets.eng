@@ -1,0 +1,22 @@
+[DeusExLevelInfo0]
+MissionLocation="Moscow - Yauza Boulevard"
+startupMessage[0]="Moscow, Russian Confederation"
+startupMessage[1]="Yauza Boulevard"
+startupMessage[2]="October 20th, Morning"
+
+[SpecialEvent1]
+Message="Zenit leads the match!"
+
+[BumMale1]
+FamiliarName="Genadiy"
+UnfamiliarName="Bum"
+
+[Janitor0]
+FamiliarName="Anton"
+
+[BolshevikWarrior1]
+FamiliarName="Maksim"
+UnfamiliarName="Asura Warriors' Leader"
+
+[Nikolay0]
+UnfamiliarName="Nickolay"

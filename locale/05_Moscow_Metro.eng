@@ -1,0 +1,17 @@
+[GameComputerSecurity2]
+Views[0]="(CameraTag=omarCamera1,Turrettag=AutoGun)"
+Views[1]="(CameraTag=omarCamera2)"
+Views[2]="(CameraTag=omarCamera3)"
+
+[GameComputerSecurity6]
+Views[0]="(titleString="Escalator",CameraTag=EscalatorCamera)"
+Views[1]="(titleString="Train",CameraTag=TrainCamera)"
+Views[2]="(titleString="Waiting room",CameraTag=WaitRoomCamera)"
+
+[GameComputerSecurity5]
+Views[0]="(titleString="Escalator",CameraTag=EscalatorCamera)"
+Views[1]="(titleString="Train",CameraTag=TrainCamera)"
+Views[2]="(titleString="Waiting room",CameraTag=WaitRoomCamera)"
+
+[DeusExLevelInfo0]
+MissionLocation="Moscow - Metro"

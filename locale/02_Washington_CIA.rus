@@ -1,0 +1,14 @@
+[DeusExLevelInfo0]
+MissionLocation="Вашингтон - Human Horizon"
+startupMessage[0]="2025 год"
+startupMessage[1]="Вашингтон, США"
+startupMessage[2]="Лаборатория Human Horizon"
+
+[GameComputerPersonal0]
+specialOptions[0]="(Text="Загрузить данные напрямую",TriggerText="Данные загружены",TriggerEvent=GetMJ12ArchiveDatalink,bTriggerOnceOnly=True)"
+
+[NanoKey0]
+Description="Компьютерный зал"
+
+[PickupDistributor0]
+NanoKeyData[0]="(ScriptedPawnTag=FatTrooper,KeyID=key_HHArmory,Description="Оружейная HH")"

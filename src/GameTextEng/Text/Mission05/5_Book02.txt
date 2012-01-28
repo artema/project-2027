@@ -1,0 +1,25 @@
+<P><JC>Job record</JC>
+<P>
+<P>11th of October 2027, Monday.
+<P>No malfunctions were detected.
+<P>
+<P>12th of October 2027, Tuesday
+<P>Strange activity in the network detected. Investigating.
+<P>
+<P>13th of October2027, Wednesday
+<P>Investigation continued, no results so far.
+<P>
+<P>14th of October 2027, Thursday
+<P>The first results was acquired.
+<P>
+<P>15th of October 2027, Friday
+<P>Apparently, the strange behavior of the network was caused by a computer virus. Disinfection is in the schedule.
+<P>
+<P>16th of October 2027, Saturday
+<P>The traces of virus activity have been eliminated.
+<P>
+<P>17th of October 2027, Sunday
+<P>Security network has been fixed and functions normally.
+<P>
+<P>18th of October 2027, Monday
+<P> No malfunctions were detected.

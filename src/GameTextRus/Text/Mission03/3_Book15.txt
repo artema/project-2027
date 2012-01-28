@@ -1,0 +1,13 @@
+<COMMENT>Меню в баре клуба</COMMENT>
+<P>Ликеры
+<P>Amaretto San Giorgio..60C
+<P>...
+<P>Вина:
+<P>Chateau La Patache...120C
+<P>...
+<P>Пиво:
+<P>Super-45..............15C
+<P>...
+<P>Безалкогольные напитки:
+<P>NUKE! Orange...........10C
+<P>...

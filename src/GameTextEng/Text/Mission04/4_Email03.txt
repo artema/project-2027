@@ -1,0 +1,9 @@
+<COMMENT>Omars correspondence (par 1).</COMMENT>
+<P>Good day,
+<P>We think there is an error in the communications protocol. Fortunately, it's easy to fix - see the archive with a patch attached to this letter.
+<P>Thank you for choosing our company as your supplier.
+<P>
+<P>>Good day, mister Sun.
+<P>>I've received a new model. There is nothing wrong with the hardware, but I've found a couple of errors in the communications and / or controlling protocols.
+<P>>If I try to activate the direct control I only get the picture from the camera mounted on the model, but can't control his movements or actions.
+<P>>Apparently, we're dealing with a problem with software? I would like to ask you to send me a patch to fix the problem, or a new version of software, or, if that's impossible, I would like to return the order.
