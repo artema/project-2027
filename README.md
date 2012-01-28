@@ -4,6 +4,7 @@ Licensed under the GNU Lesser GPL.
 
 The following files are not a part of 2027 and/or are not released under the LGPL:
 
+ * Any files under the ant and utils directories.
  * Any files under the /2027/Music directory.
  * Any files under the /2027/Textures directory.
  * Any files under the /2027/Sounds directory.
