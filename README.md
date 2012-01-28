@@ -1,6 +1,7 @@
 # Licensing
 
-Code license: GNU Lesser GPL 
+Code license: GNU Lesser GPL
+
 The following files are not a part of 2027 and/or are not released under the LGPL:
 
  * Any files under the /2027/Music directory.
