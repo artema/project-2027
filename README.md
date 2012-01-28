@@ -1,6 +1,6 @@
 # Licensing
 
-Code license: GNU Lesser GPL
+Licensed under the GNU Lesser GPL.
 
 The following files are not a part of 2027 and/or are not released under the LGPL:
 
