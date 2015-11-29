@@ -1,4 +1,6 @@
-# Licensing
+# Project 2027
+
+## Licensing
 
 Licensed under the GNU Lesser GPL.
 
@@ -21,7 +23,7 @@ This repository contains only core game code and all game texts. You can easily 
 
 WARNING: You won't be able to play original Deus Ex after installing this package, so use a separate copy of the game.
 
-# How to setup this package:
+## How to setup this package:
 
  * Install the Deus Ex 1.112fm (it will be your %DeusEx% directory).
  * Install the Deus Ex SDK.
@@ -30,7 +32,7 @@ WARNING: You won't be able to play original Deus Ex after installing this packag
  * Delete %DeusEx%/System/DeusEx.u and %DeusEx%/System/DeusExUI.u
  * Copy %REPOSITORY%/DeusEx.ini to your %DeusEx%/System folder (overwrite the existing file). 
 
-# How to modify and compile game texts:
+## How to modify and compile game texts:
 
  * Modify texts from %REPOSITORY%/src or %REPOSITORY%/locale folders.
  * Use Apache Ant to run build.xml and launch the "UpdateTexts" task.
@@ -39,7 +41,7 @@ WARNING: You won't be able to play original Deus Ex after installing this packag
 
 WARNING: All files from the %REPOSITORY%/locale folder must be in UTF-8 encoding. All files from the GameTextsEng and GameTextsRus packages must be in Windows-1251 encoding. Editing these files from the Google code web interface will convert them to UTF-8 automatically.
 
-# How to modify and compile game scripts:
+## How to modify and compile game scripts:
 
  * Modify scripts from %REPOSITORY%/src folder.
  * Use Apache Ant to run build.xml and launch the "UpdatePackage" task.
@@ -47,14 +49,14 @@ WARNING: All files from the %REPOSITORY%/locale folder must be in UTF-8 encoding
  * The compiler might show some errors, but it's OK.
  * Your compiled files will be placed into %DeusEx%/2027/System folder. 
 
-# How to get and to use the Apache Ant:
+## How to get and to use the Apache Ant:
 
  * Install JDK.
  * Install Apache Ant.
  * Open the command-line pompt (press Win+R and type cmd).
  * Type ant -buildfile D:\2027SourceDirectory\build.xml UpdateTexts (where D:\2027SourceDirectory is your 2027' sources directory and UpdateTexts or UpdatePackage is a name of the task you want to execute). 
 
-# How to modify and compile game launcher:
+## How to modify and compile game launcher:
 
  * Modify Visual Studio project from %REPOSITORY%/launcher folder.
  * In project options set your %DeusEx% folder as an output directory.
